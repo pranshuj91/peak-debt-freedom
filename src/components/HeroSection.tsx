@@ -55,78 +55,46 @@ const HeroSection = () => {
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gold/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
       
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Column - Text Content */}
-          <div className="text-left">
-            <h1 className="animate-on-load text-hero text-primary-foreground mb-6 font-display">
-              Your debt doesn't define you.{' '}
-              <span className="text-gold">Your next step does.</span>
-            </h1>
-            
-            <p className="animate-on-load text-body text-primary-foreground/90 mb-8 max-w-2xl">
-              Break free from overwhelming debt with a plan that actually works. We've helped over{' '}
-              <span className="text-gold font-semibold">12,000 people</span> write off unaffordable debt 
-              and rebuild their financial future – without the stress, judgment, or impossible payments.
-            </p>
-            
-            <div className="animate-on-load flex flex-col sm:flex-row gap-4 mb-8">
-              <Button variant="hero" size="xl" className="text-lg px-8 py-4">
-                Get Your Free Debt Assessment
-              </Button>
-              <Button variant="outline-hero" size="xl" className="text-lg px-8 py-4">
-                Calculate What You Could Save
-              </Button>
-            </div>
-            
-            <div className="animate-on-load flex items-center space-x-6 text-primary-foreground/80">
-              <div className="flex items-center space-x-2">
-                <svg className="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="font-medium">Free consultation</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <svg className="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="font-medium">No upfront costs</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <svg className="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="font-medium">Real results</span>
-              </div>
-            </div>
+      <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-8 text-center">
+        <div className="flex flex-col items-center justify-center">
+          <h1 className="animate-on-load text-hero text-primary-foreground mb-6 font-display text-center max-w-4xl">
+            Your debt doesn't define you.{' '}
+            <span className="text-gold">Your next step does.</span>
+          </h1>
+          
+          <p className="animate-on-load text-body text-primary-foreground/90 mb-8 max-w-3xl text-center">
+            Break free from overwhelming debt with a plan that actually works. We've helped over{' '}
+            <span className="text-gold font-semibold">12,000 people</span> write off unaffordable debt 
+            and rebuild their financial future – without the stress, judgment, or impossible payments.
+          </p>
+          
+          <div className="animate-on-load flex flex-col sm:flex-row gap-4 mb-8 justify-center">
+            <Button variant="hero" size="xl" className="text-lg px-8 py-4">
+              Get Your Free Debt Assessment
+            </Button>
+            <Button variant="outline-hero" size="xl" className="text-lg px-8 py-4">
+              Calculate What You Could Save
+            </Button>
           </div>
           
-          {/* Right Column - Stats/Visual Element */}
-          <div className="animate-on-load">
-            <div className="glass-card p-8 rounded-3xl">
-              <div className="text-center mb-6">
-                <h3 className="text-headline text-primary-foreground mb-2 font-display">Success Stories</h3>
-                <p className="text-primary-foreground/80">Real results from real people</p>
-              </div>
-              
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-gold mb-2">12,000+</div>
-                  <div className="text-sm text-primary-foreground/80">People Helped</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-gold mb-2">£2.4M</div>
-                  <div className="text-sm text-primary-foreground/80">Debt Written Off</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-gold mb-2">95%</div>
-                  <div className="text-sm text-primary-foreground/80">Success Rate</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-gold mb-2">4.9★</div>
-                  <div className="text-sm text-primary-foreground/80">Client Rating</div>
-                </div>
-              </div>
+          <div className="animate-on-load flex flex-col sm:flex-row items-center justify-center space-y-3 sm:space-y-0 sm:space-x-8 text-primary-foreground/80">
+            <div className="flex items-center space-x-2">
+              <svg className="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              <span className="font-medium">Free consultation</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <svg className="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              <span className="font-medium">No upfront costs</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <svg className="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              <span className="font-medium">Real results</span>
             </div>
           </div>
         </div>
