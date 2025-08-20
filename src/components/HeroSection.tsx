@@ -61,7 +61,6 @@ const HeroSection = () => {
         <div className="absolute top-40 right-20 text-primary-foreground/5 text-4xl font-bold animate-float-slower">$</div>
         <div className="absolute bottom-32 left-1/3 text-primary-foreground/5 text-5xl font-bold animate-float-slow" style={{ animationDelay: '3s' }}>€</div>
         <div className="absolute top-1/2 left-20 text-primary-foreground/4 text-3xl font-bold animate-float-slower" style={{ animationDelay: '5s' }}>¥</div>
-        <div className="absolute bottom-40 right-1/3 text-primary-foreground/4 text-4xl font-bold animate-float-slow" style={{ animationDelay: '2s' }}>₹</div>
         
         {/* Credit Cards and Debt Icons */}
         <div className="absolute top-32 right-32 text-primary-foreground/3 animate-float-slow" style={{ animationDelay: '1s' }}>
