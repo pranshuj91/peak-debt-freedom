@@ -16,18 +16,25 @@ const TrustSection = () => {
         </div>
         
         <div className="grid lg:grid-cols-3 gap-12">
-          {/* Trust Point 1 */}
+          {/* Trust Point 1 - Honest Conversations */}
           <div className="animate-on-load text-center group">
             <div className="mb-8 relative">
-              <div className="w-20 h-20 bg-gradient-primary rounded-2xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-elegant">
-                <svg className="w-10 h-10 text-primary-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+              <div className="w-24 h-24 bg-gradient-primary rounded-3xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-premium relative overflow-hidden">
+                {/* Custom Honest Conversation Icon */}
+                <svg className="w-14 h-14 text-primary-foreground relative z-10" viewBox="0 0 100 100" fill="none">
+                  {/* Speech bubble with heart inside */}
+                  <path d="M20 25C20 18.3726 25.3726 13 32 13H68C74.6274 13 80 18.3726 80 25V55C80 61.6274 74.6274 67 68 67H45L32 80V67C25.3726 67 20 61.6274 20 55V25Z" 
+                        fill="currentColor" opacity="0.9"/>
+                  {/* Honest checkmark inside */}
+                  <path d="M40 42L45 47L60 32" stroke="rgba(255,215,0,0.9)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                  {/* Truth rays */}
+                  <circle cx="50" cy="40" r="2" fill="rgba(255,215,0,0.8)"/>
+                  <circle cx="45" cy="35" r="1.5" fill="rgba(255,215,0,0.6)"/>
+                  <circle cx="55" cy="35" r="1.5" fill="rgba(255,215,0,0.6)"/>
                 </svg>
-              </div>
-              <div className="absolute -top-2 -right-2 w-6 h-6 bg-gold rounded-full flex items-center justify-center">
-                <svg className="w-3 h-3 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                </svg>
+                {/* Floating elements */}
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-gold rounded-full animate-pulse"></div>
+                <div className="absolute -bottom-1 -left-1 w-2 h-2 bg-gold/60 rounded-full animate-pulse" style={{ animationDelay: '1s' }}></div>
               </div>
             </div>
             
@@ -41,18 +48,25 @@ const TrustSection = () => {
             </p>
           </div>
           
-          {/* Trust Point 2 */}
+          {/* Trust Point 2 - We Care */}
           <div className="animate-on-load text-center group" style={{ animationDelay: '0.2s' }}>
             <div className="mb-8 relative">
-              <div className="w-20 h-20 bg-gradient-accent rounded-2xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-elegant">
-                <svg className="w-10 h-10 text-accent-foreground" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+              <div className="w-24 h-24 bg-gradient-accent rounded-3xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-premium relative overflow-hidden">
+                {/* Custom Care Icon */}
+                <svg className="w-14 h-14 text-accent-foreground relative z-10" viewBox="0 0 100 100" fill="none">
+                  {/* Embracing hands forming heart */}
+                  <path d="M25 35C25 25 35 20 45 25C50 15 60 15 65 25C75 20 85 25 85 35C85 45 65 65 50 80C35 65 25 45 25 35Z" 
+                        fill="currentColor" opacity="0.9"/>
+                  {/* Inner caring glow */}
+                  <circle cx="50" cy="42" r="12" fill="rgba(255,215,0,0.3)" className="animate-pulse"/>
+                  {/* Story book pages */}
+                  <path d="M42 38L46 42L42 46M58 38L54 42L58 46" stroke="rgba(255,215,0,0.8)" strokeWidth="2" strokeLinecap="round"/>
+                  {/* Listening ear symbol */}
+                  <ellipse cx="50" cy="48" rx="3" ry="5" fill="rgba(255,215,0,0.7)"/>
                 </svg>
-              </div>
-              <div className="absolute -top-2 -right-2 w-6 h-6 bg-gold rounded-full flex items-center justify-center">
-                <svg className="w-3 h-3 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                </svg>
+                {/* Caring particles */}
+                <div className="absolute top-0 right-2 w-2 h-2 bg-gold rounded-full animate-float-slow"></div>
+                <div className="absolute bottom-2 left-0 w-1.5 h-1.5 bg-gold/70 rounded-full animate-float-slower"></div>
               </div>
             </div>
             
@@ -66,18 +80,27 @@ const TrustSection = () => {
             </p>
           </div>
           
-          {/* Trust Point 3 */}
+          {/* Trust Point 3 - Custom Solutions */}
           <div className="animate-on-load text-center group" style={{ animationDelay: '0.4s' }}>
             <div className="mb-8 relative">
-              <div className="w-20 h-20 bg-gradient-primary rounded-2xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-elegant">
-                <svg className="w-10 h-10 text-primary-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+              <div className="w-24 h-24 bg-gradient-primary rounded-3xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-premium relative overflow-hidden">
+                {/* Custom Solution Builder Icon */}
+                <svg className="w-14 h-14 text-primary-foreground relative z-10" viewBox="0 0 100 100" fill="none">
+                  {/* Puzzle pieces forming perfect fit */}
+                  <path d="M20 30H35C35 25 40 20 45 25C50 20 55 25 55 30H70V45C75 45 80 50 75 55C80 60 75 65 70 65V80H55C55 85 50 90 45 85C40 90 35 85 35 80H20V30Z" 
+                        fill="currentColor" opacity="0.9"/>
+                  {/* Life elements inside */}
+                  <circle cx="35" cy="45" r="3" fill="rgba(255,215,0,0.8)"/>
+                  <circle cx="45" cy="55" r="3" fill="rgba(255,215,0,0.8)"/>
+                  <circle cx="55" cy="45" r="3" fill="rgba(255,215,0,0.8)"/>
+                  {/* Connection lines */}
+                  <path d="M35 45L45 55M45 55L55 45M35 45L55 45" stroke="rgba(255,215,0,0.6)" strokeWidth="1.5"/>
+                  {/* Perfect fit indicator */}
+                  <circle cx="45" cy="50" r="1" fill="rgba(255,215,0,1)" className="animate-pulse"/>
                 </svg>
-              </div>
-              <div className="absolute -top-2 -right-2 w-6 h-6 bg-gold rounded-full flex items-center justify-center">
-                <svg className="w-3 h-3 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                </svg>
+                {/* Solution sparks */}
+                <div className="absolute -top-1 left-2 w-1 h-1 bg-gold rounded-full animate-ping"></div>
+                <div className="absolute top-2 -right-1 w-1 h-1 bg-gold rounded-full animate-ping" style={{ animationDelay: '0.5s' }}></div>
               </div>
             </div>
             
