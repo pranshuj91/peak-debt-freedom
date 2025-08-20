@@ -95,9 +95,9 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-8 text-center">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="animate-on-load text-primary-foreground mb-6 font-display text-center max-w-6xl text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight whitespace-nowrap">
-            Your debt doesn&apos;t define you.{' '}
-            <span className="text-gold">Your next step does.</span>
+          <h1 className="animate-on-load text-primary-foreground mb-6 font-display text-center max-w-6xl text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
+            <div className="mb-2">Your debt doesn&apos;t define you.</div>
+            <div>Your <span className="text-gold animate-pulse-glow">next step</span> does.</div>
           </h1>
           
           <p className="animate-on-load text-body text-primary-foreground/90 mb-8 max-w-3xl text-center">
