@@ -161,20 +161,8 @@ All colors MUST be HSL.
   }
 
   /* Premium Animations */
-  .animate-pulse-glow {
-    animation: pulseGlow 3s ease-in-out infinite;
-  }
-  
   .animate-float {
     animation: float 6s ease-in-out infinite;
-  }
-  
-  .animate-float-slow {
-    animation: float 8s ease-in-out infinite;
-  }
-  
-  .animate-float-slower {
-    animation: float 12s ease-in-out infinite;
   }
   
   .animate-slide-up {
@@ -263,17 +251,6 @@ All colors MUST be HSL.
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
-}
-
-@keyframes pulseGlow {
-  0%, 100% { 
-    text-shadow: 0 0 10px hsl(var(--gold) / 0.3);
-    transform: scale(1);
-  }
-  50% { 
-    text-shadow: 0 0 20px hsl(var(--gold) / 0.6), 0 0 30px hsl(var(--gold) / 0.4);
-    transform: scale(1.02);
-  }
 }
 
 @keyframes slideUp {
