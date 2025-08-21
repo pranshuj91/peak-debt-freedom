@@ -107,42 +107,125 @@ const IVASection = () => {
           </div>
         </div>
         
-        {/* Qualification Section */}
-        <div className="glass-card p-8 rounded-3xl text-center mb-12">
-          <h3 className="text-2xl font-bold text-primary mb-4 font-display">Find out if you qualify</h3>
-          <p className="text-primary/80 mb-8">
-            Minimum <span className="font-bold text-accent">£6,000 unsecured debt</span> to{' '}
-            <span className="font-bold text-accent">2+ creditors</span> required
-          </p>
+        {/* Enhanced Qualification Section */}
+        <div className="relative">
+          {/* Background Glow Effect */}
+          <div className="absolute inset-0 bg-gradient-to-r from-gold/5 via-transparent to-accent/5 rounded-3xl blur-xl"></div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-gold text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gold-light hover:shadow-premium hover:scale-[1.02] transform transition-all duration-300 shadow-elegant">
-              Check If You Qualify
-            </button>
-            <button className="border-2 border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-lg font-semibold hover:bg-primary-foreground/10 hover:border-primary-foreground hover:shadow-elegant backdrop-blur-sm transform hover:scale-[1.02] transition-all duration-300">
-              Speak to an Expert
-            </button>
-          </div>
-        </div>
-        
-        {/* Visual Debt Reduction Indicator */}
-        <div className="text-center">
-          <div className="inline-flex items-center bg-gradient-to-r from-red-500/20 to-green-500/20 rounded-2xl p-8 backdrop-blur-sm">
-            <div className="flex items-center space-x-8">
-              <div className="text-center">
-                <div className="text-4xl font-bold text-red-400 mb-2">100%</div>
-                <div className="text-primary-foreground/60 text-sm">Your Current Debt</div>
-                <div className="w-24 h-3 bg-red-500/50 rounded-full mt-2"></div>
+          <div className="glass-card p-12 rounded-3xl text-center mb-16 relative overflow-hidden">
+            {/* Decorative Elements */}
+            <div className="absolute top-0 left-0 w-32 h-32 bg-gold/10 rounded-full blur-2xl animate-pulse"></div>
+            <div className="absolute bottom-0 right-0 w-24 h-24 bg-accent/10 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+            
+            <div className="relative z-10">
+              <div className="inline-flex items-center bg-gold/20 backdrop-blur-sm rounded-full px-6 py-2 mb-6">
+                <div className="w-2 h-2 bg-gold rounded-full mr-3 animate-pulse"></div>
+                <span className="text-gold font-semibold text-sm">QUALIFICATION CHECK</span>
               </div>
               
-              <svg className="w-12 h-12 text-gold animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-              </svg>
+              <h3 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6 font-display">
+                Find out if you qualify
+              </h3>
               
-              <div className="text-center">
-                <div className="text-4xl font-bold text-green-400 mb-2">20%</div>
-                <div className="text-primary-foreground/60 text-sm">After IVA Relief</div>
-                <div className="w-24 h-3 bg-green-500/50 rounded-full mt-2"></div>
+              <div className="bg-primary-foreground/5 backdrop-blur-sm rounded-2xl p-6 mb-10 border border-primary-foreground/10">
+                <p className="text-lg text-primary-foreground/90 mb-4">Minimum requirements:</p>
+                <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-10 h-10 bg-gradient-to-r from-gold to-gold-light rounded-full flex items-center justify-center">
+                      <span className="text-primary font-bold text-lg">£</span>
+                    </div>
+                    <div>
+                      <div className="text-2xl font-bold text-gold">£6,000+</div>
+                      <div className="text-sm text-primary-foreground/70">unsecured debt</div>
+                    </div>
+                  </div>
+                  
+                  <div className="w-12 h-0.5 bg-gradient-to-r from-gold/30 to-accent/30 hidden sm:block"></div>
+                  
+                  <div className="flex items-center space-x-3">
+                    <div className="w-10 h-10 bg-gradient-to-r from-accent to-accent-light rounded-full flex items-center justify-center">
+                      <span className="text-primary font-bold text-lg">2+</span>
+                    </div>
+                    <div>
+                      <div className="text-2xl font-bold text-accent">2+ creditors</div>
+                      <div className="text-sm text-primary-foreground/70">required</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
+                <button className="group relative bg-gradient-to-r from-gold to-gold-light text-primary px-10 py-5 rounded-2xl font-bold text-lg hover:shadow-2xl hover:shadow-gold/25 transform hover:scale-[1.02] transition-all duration-300 overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <span className="relative z-10">Check If You Qualify</span>
+                </button>
+                
+                <button className="group relative border-2 border-primary-foreground/30 text-primary-foreground px-10 py-5 rounded-2xl font-bold text-lg hover:bg-primary-foreground/10 hover:border-primary-foreground/60 backdrop-blur-sm transform hover:scale-[1.02] transition-all duration-300 overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-r from-primary-foreground/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <span className="relative z-10">Speak to an Expert</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          {/* Enhanced Visual Debt Transformation */}
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 via-transparent to-green-500/10 rounded-3xl blur-2xl"></div>
+            
+            <div className="glass-card p-8 rounded-3xl relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-500 via-gold to-green-500"></div>
+              
+              <div className="text-center mb-8">
+                <h4 className="text-2xl font-bold text-primary-foreground mb-2 font-display">Debt Transformation</h4>
+                <p className="text-primary-foreground/70">See how an IVA could reduce your burden</p>
+              </div>
+              
+              <div className="grid md:grid-cols-3 gap-8 items-center">
+                {/* Current Debt */}
+                <div className="text-center group">
+                  <div className="relative mb-6">
+                    <div className="w-32 h-32 mx-auto bg-gradient-to-br from-red-500/20 to-red-600/30 rounded-full flex items-center justify-center backdrop-blur-sm border border-red-500/20 group-hover:scale-110 transition-transform duration-300">
+                      <div className="text-center">
+                        <div className="text-4xl font-bold text-red-400 animate-pulse">100%</div>
+                      </div>
+                    </div>
+                    <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-2 bg-red-500/50 rounded-full"></div>
+                  </div>
+                  <div className="text-lg font-semibold text-primary-foreground">Your Current Debt</div>
+                  <div className="text-sm text-primary-foreground/60">Full amount owed</div>
+                </div>
+                
+                {/* Arrow */}
+                <div className="flex justify-center">
+                  <div className="relative">
+                    <svg className="w-16 h-16 text-gold animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                    </svg>
+                    <div className="absolute inset-0 bg-gold/20 rounded-full blur-xl animate-pulse"></div>
+                  </div>
+                </div>
+                
+                {/* After IVA */}
+                <div className="text-center group">
+                  <div className="relative mb-6">
+                    <div className="w-32 h-32 mx-auto bg-gradient-to-br from-green-500/20 to-emerald-600/30 rounded-full flex items-center justify-center backdrop-blur-sm border border-green-500/20 group-hover:scale-110 transition-transform duration-300">
+                      <div className="text-center">
+                        <div className="text-4xl font-bold text-green-400 animate-pulse">20%</div>
+                      </div>
+                    </div>
+                    <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-2 bg-green-500/50 rounded-full"></div>
+                  </div>
+                  <div className="text-lg font-semibold text-primary-foreground">After IVA Relief</div>
+                  <div className="text-sm text-primary-foreground/60">Potentially 80% reduction</div>
+                </div>
+              </div>
+              
+              {/* Savings Highlight */}
+              <div className="mt-10 text-center">
+                <div className="inline-flex items-center bg-gradient-to-r from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-2xl px-8 py-4 border border-green-500/20">
+                  <div className="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
+                  <span className="text-green-400 font-bold text-lg">Potential savings: Up to 80% of your debt</span>
+                </div>
               </div>
             </div>
           </div>
