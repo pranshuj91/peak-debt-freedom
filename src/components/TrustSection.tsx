@@ -20,10 +20,6 @@ const TrustSection = () => {
           <div className="animate-on-load text-center group">
             <div className="mb-8 relative">
               <div className="w-24 h-24 bg-gradient-primary rounded-3xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-premium relative overflow-hidden">
-                {/* Number Badge */}
-                <div className="absolute -top-2 -left-2 w-8 h-8 bg-gold rounded-full flex items-center justify-center text-primary font-bold text-sm">
-                  01
-                </div>
                 {/* Custom Honest Conversation Icon */}
                 <svg className="w-14 h-14 text-primary-foreground relative z-10" viewBox="0 0 100 100" fill="none">
                   {/* Speech bubble with heart inside */}
@@ -55,10 +51,6 @@ const TrustSection = () => {
           <div className="animate-on-load text-center group" style={{ animationDelay: '0.2s' }}>
             <div className="mb-8 relative">
               <div className="w-24 h-24 bg-gradient-accent rounded-3xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-premium relative overflow-hidden">
-                {/* Number Badge */}
-                <div className="absolute -top-2 -left-2 w-8 h-8 bg-gold rounded-full flex items-center justify-center text-primary font-bold text-sm">
-                  02
-                </div>
                 {/* Custom Care Icon */}
                 <svg className="w-14 h-14 text-accent-foreground relative z-10" viewBox="0 0 100 100" fill="none">
                   {/* Embracing hands forming heart */}
@@ -90,10 +82,6 @@ const TrustSection = () => {
           <div className="animate-on-load text-center group" style={{ animationDelay: '0.4s' }}>
             <div className="mb-8 relative">
               <div className="w-24 h-24 bg-gradient-primary rounded-3xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-premium relative overflow-hidden">
-                {/* Number Badge */}
-                <div className="absolute -top-2 -left-2 w-8 h-8 bg-gold rounded-full flex items-center justify-center text-primary font-bold text-sm">
-                  03
-                </div>
                 {/* Custom Solution Builder Icon */}
                 <svg className="w-14 h-14 text-primary-foreground relative z-10" viewBox="0 0 100 100" fill="none">
                   {/* Puzzle pieces forming perfect fit */}
