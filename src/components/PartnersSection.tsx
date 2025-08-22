@@ -1,25 +1,35 @@
-import { Shield, Star, Heart, FileCheck } from 'lucide-react';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import moneyHelperLogo from "@/assets/moneyhelper-logo.png";
+import trustpilotLogo from "@/assets/trustpilot-logo.png";
+import mindLogo from "@/assets/mind-logo.png";
+import checkMyFileLogo from "@/assets/checkmyfile-logo.png";
 
 const PartnersSection = () => {
   const partners = [
     {
       name: "MoneyHelper",
-      icon: Shield,
+      logo: moneyHelperLogo,
       description: "Government-backed financial guidance"
     },
     {
       name: "Trustpilot",
-      icon: Star,
+      logo: trustpilotLogo,
       description: "Trusted customer reviews"
     },
     {
       name: "Mind",
-      icon: Heart,
+      logo: mindLogo,
       description: "Mental health support partner"
     },
     {
       name: "CheckMyFile",
-      icon: FileCheck,
+      logo: checkMyFileLogo,
       description: "Credit reference services"
     }
   ];
@@ -35,27 +45,38 @@ const PartnersSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {partners.map((partner, index) => {
-            const IconComponent = partner.icon;
-            return (
-              <div
-                key={partner.name}
-                className="group glass-card p-8 rounded-2xl text-center hover:shadow-premium transition-all duration-500 animate-scale-in"
-                style={{ animationDelay: `${index * 150}ms` }}
-              >
-                <div className="w-16 h-16 bg-gradient-accent rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <IconComponent className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-300">
-                  {partner.name}
-                </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  {partner.description}
-                </p>
-              </div>
-            );
-          })}
+        <div className="relative max-w-5xl mx-auto animate-fade-in">
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="w-full"
+          >
+            <CarouselContent className="-ml-2 md:-ml-4">
+              {partners.map((partner, index) => (
+                <CarouselItem key={partner.name} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
+                  <div className="group glass-card p-8 rounded-2xl text-center hover:shadow-premium transition-all duration-500 animate-scale-in h-full">
+                    <div className="w-32 h-20 bg-white/90 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:scale-105 transition-transform duration-300 p-4">
+                      <img 
+                        src={partner.logo} 
+                        alt={`${partner.name} logo`}
+                        className="w-full h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                      />
+                    </div>
+                    <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-300">
+                      {partner.name}
+                    </h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      {partner.description}
+                    </p>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden md:flex -left-12 bg-white/10 border-white/20 hover:bg-white/20 text-white" />
+            <CarouselNext className="hidden md:flex -right-12 bg-white/10 border-white/20 hover:bg-white/20 text-white" />
+          </Carousel>
         </div>
       </div>
     </section>
