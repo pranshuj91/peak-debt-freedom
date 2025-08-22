@@ -20,6 +20,10 @@ const TrustSection = () => {
           <div className="animate-on-load text-center group">
             <div className="mb-8 relative">
               <div className="w-24 h-24 bg-gradient-primary rounded-3xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-premium relative overflow-hidden">
+                {/* Number Badge */}
+                <div className="absolute -top-2 -left-2 w-8 h-8 bg-gold rounded-full flex items-center justify-center text-primary font-bold text-sm">
+                  01
+                </div>
                 {/* Custom Honest Conversation Icon */}
                 <svg className="w-14 h-14 text-primary-foreground relative z-10" viewBox="0 0 100 100" fill="none">
                   {/* Speech bubble with heart inside */}
@@ -39,12 +43,11 @@ const TrustSection = () => {
             </div>
             
             <h3 className="text-xl font-bold text-primary mb-4 font-display">
-              Honest conversations, no sales pressure
+              Honesty
             </h3>
             
             <p className="text-body text-foreground/80 leading-relaxed">
-              We tell you the truth about your options – even if it means we don&apos;t make money. 
-              Your debt advisor will never use confusing jargon or pressure you into a solution that doesn&apos;t fit.
+              Delivering honest and clear advice to educate you without any jargon. Your assigned debt advisor will always be completely honest with you.
             </p>
           </div>
           
@@ -52,6 +55,10 @@ const TrustSection = () => {
           <div className="animate-on-load text-center group" style={{ animationDelay: '0.2s' }}>
             <div className="mb-8 relative">
               <div className="w-24 h-24 bg-gradient-accent rounded-3xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-premium relative overflow-hidden">
+                {/* Number Badge */}
+                <div className="absolute -top-2 -left-2 w-8 h-8 bg-gold rounded-full flex items-center justify-center text-primary font-bold text-sm">
+                  02
+                </div>
                 {/* Custom Care Icon */}
                 <svg className="w-14 h-14 text-accent-foreground relative z-10" viewBox="0 0 100 100" fill="none">
                   {/* Embracing hands forming heart */}
@@ -71,12 +78,11 @@ const TrustSection = () => {
             </div>
             
             <h3 className="text-xl font-bold text-primary mb-4 font-display">
-              We actually care about your story
+              Empathy
             </h3>
             
             <p className="text-body text-foreground/80 leading-relaxed">
-              Your financial stress is real, and so is our commitment to helping you through it. 
-              Every conversation starts with understanding what you&apos;re going through, not what we want to sell you.
+              Sharing your situation and feelings can be difficult but we will show you respect and genuine empathy. We believe that a problem shared is a problem half solved.
             </p>
           </div>
           
@@ -84,6 +90,10 @@ const TrustSection = () => {
           <div className="animate-on-load text-center group" style={{ animationDelay: '0.4s' }}>
             <div className="mb-8 relative">
               <div className="w-24 h-24 bg-gradient-primary rounded-3xl mx-auto flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-premium relative overflow-hidden">
+                {/* Number Badge */}
+                <div className="absolute -top-2 -left-2 w-8 h-8 bg-gold rounded-full flex items-center justify-center text-primary font-bold text-sm">
+                  03
+                </div>
                 {/* Custom Solution Builder Icon */}
                 <svg className="w-14 h-14 text-primary-foreground relative z-10" viewBox="0 0 100 100" fill="none">
                   {/* Puzzle pieces forming perfect fit */}
@@ -105,12 +115,11 @@ const TrustSection = () => {
             </div>
             
             <h3 className="text-xl font-bold text-primary mb-4 font-display">
-              Solutions built around your life
+              Understanding
             </h3>
             
             <p className="text-body text-foreground/80 leading-relaxed">
-              Your circumstances are unique, so your debt solution should be too. 
-              We take time to understand your income, expenses, and goals before recommending anything.
+              Unlike other companies, we focus on YOU, the customer. Every call will start with understanding your situation, concerns and preferences. Once we know that, we're half way there.
             </p>
           </div>
         </div>
