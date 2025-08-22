@@ -145,15 +145,22 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-8 text-center">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="animate-on-load text-primary-foreground mb-6 font-display text-center max-w-6xl text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
-            <div className="mb-2">Your debt doesn&apos;t define you.</div>
-            <div>Your <span className="text-gold animate-pulse-glow">next step</span> does.</div>
+          <h1 className="animate-on-load text-primary-foreground mb-4 font-display text-center max-w-6xl text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
+            Welcome to the <span className="text-gold">Peak Insolvency</span>
           </h1>
           
+          <div className="animate-on-load text-primary-foreground/90 mb-6 text-center">
+            <div className="text-2xl md:text-3xl font-semibold tracking-wider">
+              HONESTY - EMPATHY - UNDERSTANDING
+            </div>
+          </div>
+          
+          <div className="animate-on-load text-primary-foreground mb-4 text-xl md:text-2xl font-medium text-center">
+            Here to support you at every step.
+          </div>
+          
           <p className="animate-on-load text-body text-primary-foreground/90 mb-8 max-w-3xl text-center">
-            Break free from overwhelming debt with a plan that actually works. We've helped over{' '}
-            <span className="text-gold font-semibold">12,000 people</span> write off unaffordable debt 
-            and rebuild their financial future – without the stress, judgment, or impossible payments.
+            At The Insolvency Guidance Group, we believe it should be simple and affordable for you to become debt free. That's why we're here to support you at every step of your journey.
           </p>
           
           <div className="animate-on-load flex flex-col sm:flex-row gap-4 mb-8 justify-center">
