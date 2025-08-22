@@ -18,6 +18,26 @@ const Footer = () => {
                 </p>
               </div>
               
+              {/* Address */}
+              <div className="mb-8">
+                <h4 className="text-lg font-semibold text-gold mb-4">Our Office</h4>
+                <div className="flex items-start space-x-3">
+                  <div className="w-5 h-5 rounded-full bg-gold/20 flex items-center justify-center mt-1">
+                    <svg className="w-3 h-3 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <div className="text-primary-foreground/80 leading-relaxed">
+                    <div>Suite 138 Peel House</div>
+                    <div>30 The Downs</div>
+                    <div>Altrincham</div>
+                    <div>Cheshire</div>
+                    <div>WA14 2PX</div>
+                  </div>
+                </div>
+              </div>
+
               {/* Contact Info */}
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
@@ -56,11 +76,12 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold text-gold mb-6">Resources</h4>
               <ul className="space-y-3">
-                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">Debt Calculator</a></li>
-                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">Frequently Asked Questions</a></li>
-                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">Debt Guides</a></li>
-                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">Customer Reviews</a></li>
-                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">Contact Us</a></li>
+                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">Creditors Guide to Fees (England & Wales)</a></li>
+                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">Is a Voluntary Arrangement Right For Me?</a></li>
+                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">IVA Protocol 2021</a></li>
+                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">Guidance on Personal Debt Relief Options, Company Liquidations, Investigation & Enforcement</a></li>
+                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">IVA Protocol Standard Terms 2021 Version</a></li>
+                <li><a href="#" className="text-primary-foreground/80 hover:text-gold transition-colors duration-300">Creditors Guide to Individual Voluntary Arrangements (IVA)</a></li>
               </ul>
             </div>
           </div>
