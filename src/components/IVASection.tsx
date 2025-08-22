@@ -42,12 +42,12 @@ const IVASection = () => {
             
             <div className="space-y-4">
               {[
-                { title: "Slash your total debt", desc: "Write off a significant portion of what you owe" },
-                { title: "Stop interest and charges", desc: "Your debt stops growing from day one" },
-                { title: "End creditor calls and letters", desc: "Legal protection from harassment" },
-                { title: "Keep your home", desc: "Protect your property and important assets" },
-                { title: "One affordable payment", desc: "Replace multiple debt payments with one manageable amount" },
-                { title: "Clear end date", desc: "Know exactly when you'll be debt-free" }
+                { title: "Write off a % of unaffordable debt", desc: "Reduce the total amount you need to pay back" },
+                { title: "No upfront fees", desc: "Start your IVA without paying any initial costs" },
+                { title: "Offers creditor protection", desc: "Legal protection from creditor harassment and legal action" },
+                { title: "Freezes interest and charges on your debts", desc: "Stop additional costs being added to what you owe" },
+                { title: "Allows you to keep your home and other assets", desc: "Protect your property while getting debt relief" },
+                { title: "Helps you avoid bankruptcy", desc: "Alternative solution that prevents bankruptcy proceedings" }
               ].map((benefit, index) => (
                 <div 
                   key={index}
@@ -81,11 +81,12 @@ const IVASection = () => {
             
             <div className="space-y-4">
               {[
-                { title: "Budget restrictions", desc: "You'll live on a carefully managed budget" },
-                { title: "Credit score impact", desc: "Your credit rating will be affected for 6 years" },
-                { title: "Public record", desc: "IVAs are recorded on a searchable public database" },
-                { title: "Payment commitment", desc: "Missing payments could lead to bankruptcy" },
-                { title: "Not all debts included", desc: "Some types of debt can't be included" }
+                { title: "Places you under a strict budget", desc: "You'll need to follow a carefully managed spending plan" },
+                { title: "Doesn't cover all debt types", desc: "Some debts like mortgages and student loans are excluded" },
+                { title: "Will be recorded on a public register", desc: "Your IVA details will be publicly accessible" },
+                { title: "Will impact your credit rating", desc: "Your credit score will be affected for 6 years" },
+                { title: "Missed payments can cause your IVA to fail", desc: "Failing to keep up with payments risks the agreement" },
+                { title: "If your IVA fails, you could be made bankrupt", desc: "Unsuccessful IVAs may lead to bankruptcy proceedings" }
               ].map((consideration, index) => (
                 <div 
                   key={index}
