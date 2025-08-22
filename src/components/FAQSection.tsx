@@ -54,12 +54,12 @@ const FAQSection = () => {
             <AccordionItem 
               key={index} 
               value={`item-${index}`}
-              className="bg-background border border-border/50 rounded-lg px-6 shadow-sm"
+              className="bg-background border border-border/50 rounded-lg px-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 hover:border-primary/30 hover:scale-[1.02] group"
             >
-              <AccordionTrigger className="text-left text-foreground hover:text-primary font-semibold">
+              <AccordionTrigger className="text-left text-foreground hover:text-primary font-semibold transition-all duration-200 group-hover:translate-x-1">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground leading-relaxed whitespace-pre-line">
+              <AccordionContent className="text-muted-foreground leading-relaxed whitespace-pre-line animate-fade-in">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>
