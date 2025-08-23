@@ -1,20 +1,31 @@
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import { FileText, Shield, Scale, AlertCircle, Users, Mail } from 'lucide-react'
 
 const TermsOfUse = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-secondary/5">
       <Navigation />
       <div className="pt-20 pb-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-card rounded-2xl shadow-elegant p-8 lg:p-12">
-            <h1 className="text-4xl font-bold text-foreground mb-8 font-display">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Hero Section */}
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-full mb-6">
+              <FileText className="h-8 w-8 text-white" />
+            </div>
+            <h1 className="text-5xl font-bold text-foreground mb-4 font-display bg-gradient-primary bg-clip-text text-transparent">
               Terms of Use
             </h1>
-            
-            <div className="prose prose-gray dark:prose-invert max-w-none">
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">Introduction</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Please read these terms and conditions carefully before using our website and services
+            </p>
+          </div>
+
+          <div className="bg-card/80 backdrop-blur-sm rounded-3xl shadow-elegant border border-border/50 overflow-hidden">
+            <div className="p-8 lg:p-12">
+              <div className="prose prose-lg max-w-none [&>section]:mb-12 [&>section>h2]:text-2xl [&>section>h2]:font-semibold [&>section>h2]:text-foreground [&>section>h2]:mb-6 [&>section>h2]:flex [&>section>h2]:items-center [&>section>h2]:gap-3 [&>section>p]:text-muted-foreground [&>section>p]:leading-relaxed [&>section>p]:mb-4 [&>section>ul]:text-muted-foreground [&>section>ul]:space-y-2 [&>section>ul>li]:pl-2">
+              <section>
+                <h2><FileText className="h-6 w-6 text-primary" />Introduction</h2>
                 <p className="text-muted-foreground mb-4">
                   Please read these terms and conditions before using this website
                 </p>
@@ -23,8 +34,8 @@ const TermsOfUse = () => {
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">Copyright</h2>
+              <section>
+                <h2><Shield className="h-6 w-6 text-primary" />Copyright</h2>
                 <p className="text-muted-foreground mb-4">
                   All information on the Website is protected by copyright. Users may view Website pages on screen and may print or download extracts for personal use or for use by others within their organisations. Users may supply a copy of any such extract to any third party provided that:
                 </p>
@@ -39,15 +50,15 @@ const TermsOfUse = () => {
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">Service Levels</h2>
+              <section>
+                <h2><Users className="h-6 w-6 text-primary" />Service Levels</h2>
                 <p className="text-muted-foreground mb-4">
                   The Insolvency Guidance Group will use its reasonable endeavours to provide users with a prompt and continuing service. The Insolvency Guidance Group does not, however, warrant that the service it provides will continue uninterrupted or without delay or that it will remain unchanged. The Insolvency Guidance Group reserves the right to remove access to the Website as and when necessary for the purposes of maintenance and/or amendment of content.
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">Accuracy of Information</h2>
+              <section>
+                <h2><AlertCircle className="h-6 w-6 text-primary" />Accuracy of Information</h2>
                 <p className="text-muted-foreground mb-4">
                   Whilst The Insolvency Guidance Group will use its reasonable endeavours to ensure that the information contained on the Website is correct and reliable, no warranty, either express or implied, is given as to the accuracy or completeness of the information.
                 </p>
@@ -59,15 +70,15 @@ const TermsOfUse = () => {
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">Links to External Sites</h2>
+              <section>
+                <h2><FileText className="h-6 w-6 text-primary" />Links to External Sites</h2>
                 <p className="text-muted-foreground mb-4">
                   The Website may from time to time contain hypertext links to several websites owned, operated, and controlled by third parties. The Insolvency Guidance Group has no control over or proprietary interest in any of these websites and, as such, makes no warranties about the quality, security, accuracy, or any other aspect of such sites, and excludes all liability arising from use of the same.
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">Data Protection</h2>
+              <section>
+                <h2><Shield className="h-6 w-6 text-primary" />Data Protection</h2>
                 <p className="text-muted-foreground mb-4">
                   The Insolvency Guidance Group takes the protection of users' personal data very seriously. The Insolvency Guidance Group does not collect any personal data through the Website without the user's consent. Where users of the Website provide personal information The Insolvency Guidance Group shall always process and utilise such personal information in accordance with the Data Protection Act 2018 and the General Data Protection Regulations. Only authorised employees, under appropriate confidentiality obligations will have access to user's personal information.
                 </p>
@@ -79,15 +90,15 @@ const TermsOfUse = () => {
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">Enquiries</h2>
+              <section>
+                <h2><Mail className="h-6 w-6 text-primary" />Enquiries</h2>
                 <p className="text-muted-foreground mb-4">
                   Whilst every effort is made to ensure that any enquiries submitted are dealt with promptly, The Insolvency Guidance Group cannot guarantee that queries will always be dealt with within the timescale users may require. The Insolvency Guidance Group cannot always guarantee complete confidentiality for data transmitted via the internet or other electronic communications and would therefore recommend that users carefully consider sending sensitive information in this way.
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">Disclaimer</h2>
+              <section>
+                <h2><AlertCircle className="h-6 w-6 text-primary" />Disclaimer</h2>
                 <p className="text-muted-foreground mb-4">
                   The Insolvency Guidance Group shall not be liable for any third-party claims or losses of any nature, including, but not limited to, loss of profits, indirect or consequential loss or loss due to circumstances beyond its reasonable control. The Insolvency Guidance Group does not accept any liability for any acts or omissions resulting from users' decisions or opinions formed based on use of the Website. The Insolvency Guidance Group may, at any time, change, modify, add to, or remove, part or all these terms and conditions. Users should therefore check these terms and conditions and the Website content periodically to see if any information has changed.
                 </p>
@@ -96,19 +107,20 @@ const TermsOfUse = () => {
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">General</h2>
+              <section>
+                <h2><Scale className="h-6 w-6 text-primary" />General</h2>
                 <p className="text-muted-foreground mb-4">
                   These Terms and Conditions are governed by and shall be construed in accordance with English law. Disputes in connection with the Website shall be subject to the jurisdiction of English Courts.
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold text-foreground mb-4">Feedback</h2>
+              <section>
+                <h2><Mail className="h-6 w-6 text-primary" />Feedback</h2>
                 <p className="text-muted-foreground mb-4">
                   We hope that users will find the Website informative and easy to use. We should be grateful to receive any comments or queries concerning the Website, or any suggestions as to how it could be improved. Please e-mail us at compliance@theinsolvencyguidancegroup.co.uk.
                 </p>
               </section>
+              </div>
             </div>
           </div>
         </div>
@@ -117,5 +129,4 @@ const TermsOfUse = () => {
     </div>
   )
 }
-
 export default TermsOfUse
