@@ -4,7 +4,7 @@ import { FileText, Shield, Scale, AlertCircle, Users, Mail } from 'lucide-react'
 
 const TermsOfUse = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-background to-secondary/5 pt-5">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-secondary/5 pt-10">
       <Navigation />
       <div className="pt-20 pb-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
