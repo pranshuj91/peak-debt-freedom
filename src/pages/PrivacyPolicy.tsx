@@ -1,274 +1,313 @@
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
+import { ArrowLeft, Shield, Lock, Eye, Users, FileText, Database, Globe, Phone, Mail, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-      <main className="container mx-auto px-4 py-28 max-w-4xl">
-        <div className="prose prose-gray dark:prose-invert max-w-none">
-          <h1 className="text-4xl font-bold text-foreground mb-8">Privacy Policy</h1>
-          
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Introduction</h2>
-            <p className="text-muted-foreground mb-4">
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-br from-primary via-primary-glow to-primary-light py-12 sm:py-16 lg:py-20 px-4">
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="relative max-w-4xl mx-auto text-center">
+          <Link 
+            to="/" 
+            className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground mb-6 transition-colors text-sm sm:text-base"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
+          </Link>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-foreground mb-4 leading-tight">
+            Privacy Policy
+          </h1>
+          <p className="text-lg sm:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
+            Understanding how we protect and use your personal information
+          </p>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-6 sm:space-y-8">
+        
+        {/* Introduction */}
+        <Card className="backdrop-blur-sm bg-card/50 border-border/50">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-3 text-xl sm:text-2xl">
+              <Shield className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              Introduction
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4 text-muted-foreground leading-relaxed text-sm sm:text-base">
+            <p>
               The Insolvency Guidance Group is committed to preserving and respecting your privacy.
             </p>
-            <p className="text-muted-foreground mb-4">
+            <p>
               The following policy to understand how we use and protect the information that you provide to us.
             </p>
-            <p className="text-muted-foreground mb-4">
+            <p>
               This privacy policy will apply to you if you provide your personal information to us, even if you subsequently decide not to proceed. It is also used by all companies within The Insolvency Guidance Group group and our affiliate companies with whom we may share information (see below for further details). This privacy policy sets out how we will use your personal data to provide our services to you.
             </p>
-            <p className="text-muted-foreground">
+            <p>
               On the basis that you been advised that we have a privacy and data policy and that you have the option not to proceed with our services, you consent to the collection, use and transfer of your information under the terms of this policy.
             </p>
-          </section>
+          </CardContent>
+        </Card>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Our Privacy Promise</h2>
-            <p className="text-muted-foreground mb-4">We promise:</p>
-            <ul className="list-disc list-inside text-muted-foreground space-y-2">
-              <li>To keep your data safe and private</li>
-              <li>Not to sell your data</li>
-              <li>To give you ways to manage and review your information at any time.</li>
-            </ul>
-          </section>
+        {/* Privacy Promise */}
+        <Card className="backdrop-blur-sm bg-card/50 border-border/50">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-3 text-xl sm:text-2xl">
+              <Lock className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              Our Privacy Promise
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-muted-foreground mb-4 text-sm sm:text-base">We promise:</p>
+            <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="flex items-start gap-3 p-4 rounded-lg bg-primary/5">
+                <Lock className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold mb-1 text-sm sm:text-base">Keep Data Safe</h4>
+                  <p className="text-xs sm:text-sm text-muted-foreground">To keep your data safe and private</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3 p-4 rounded-lg bg-primary/5">
+                <Shield className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold mb-1 text-sm sm:text-base">No Data Sales</h4>
+                  <p className="text-xs sm:text-sm text-muted-foreground">Not to sell your data</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3 p-4 rounded-lg bg-primary/5">
+                <Eye className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold mb-1 text-sm sm:text-base">Full Control</h4>
+                  <p className="text-xs sm:text-sm text-muted-foreground">To give you ways to manage and review your information at any time</p>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">What Personal Information We Collect</h2>
-            <p className="text-muted-foreground mb-4">
+        {/* Information We Collect */}
+        <Card className="backdrop-blur-sm bg-card/50 border-border/50">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-3 text-xl sm:text-2xl">
+              <Database className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              What Personal Information We Collect
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <p className="text-muted-foreground text-sm sm:text-base">
               We will only collect information that we need, or where we are required to collect the information to enable us to perform our legal, regulatory, or contractual obligations necessary to provide you with the products or services, or where we have your permission.
             </p>
-            <p className="text-muted-foreground mb-4">
+            <p className="text-muted-foreground mb-4 text-sm sm:text-base">
               The type of information that we may collect will probably include the collection of some or all the following:
             </p>
-            <ul className="list-disc list-inside text-muted-foreground space-y-2">
-              <li>Your personal details such as name and date of birth</li>
-              <li>Your address</li>
-              <li>Contact details such as phone number and email address</li>
-              <li>Special personal information such as health information including mental as well as physical health</li>
-              <li>Details about your family unit and some of their details</li>
-              <li>Financial information such as details of your income and expenditure, assets, and liabilities</li>
-              <li>Employment information</li>
-              <li>Information about your creditors</li>
-              <li>Information on how you use our website(s) and products and services</li>
-            </ul>
-          </section>
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-3">
+              {[
+                'Your personal details such as name and date of birth',
+                'Your address',
+                'Contact details such as phone number and email address',
+                'Special personal information such as health information',
+                'Details about your family unit and some of their details',
+                'Financial information such as details of your income and expenditure',
+                'Employment information',
+                'Information about your creditors',
+                'Information on how you use our website(s) and products and services'
+              ].map((item, index) => (
+                <div key={index} className="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span className="text-xs sm:text-sm text-muted-foreground">{item}</span>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Special Personal Information</h2>
-            <p className="text-muted-foreground mb-4">
-              Data protection law defines some personal information as "special categories of data". This includes information about physical or mental health, sexual life, religious beliefs, race or ethnic origin, political opinions, trade union membership or biometric data. Some of this information may be necessary to collect when understanding the reason for your financial circumstances, or where it may help us to provide a better service to you and obtain a better understanding of your financial situation. For example, a period of ill health could have caused you to fall behind with your regular payments to your creditors.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              Where we need to collect and process this type of data about you, by providing this information to us you give your explicit consent for us and any other third party to process this special data as set out in this privacy policy, unless we have a legal obligation to process this type of data.
-            </p>
-            <p className="text-muted-foreground">
-              Any personal information about you relating to criminal convictions or offences may only be used by us when authorised by law.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Information About Other People</h2>
-            <p className="text-muted-foreground mb-4">
-              If you provide personal information about someone else, for example when a joint application is made, or you provide details about a member of your family unit, you must do so with the permission of the other person. If you enter a service jointly with another person (for example, an interlocking Individual Voluntary Arrangement "IVA"), your personal information and any information about the service provided to you will be shared with the other person.
-            </p>
-            <p className="text-muted-foreground">
-              We will use the personal information about the other person in the ways as described in this policy.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">How We Collect Your Personal Information</h2>
-            <p className="text-muted-foreground mb-4">We may obtain personal information from you in several ways:</p>
-            <ul className="list-disc list-inside text-muted-foreground space-y-2">
-              <li>When you make an application or enquiry to us either by email, phone, via our website, by a third party or by any other means</li>
-              <li>By adding reviews or interacting with us using social media such as Twitter or Facebook</li>
-              <li>When we may need to obtain up to date information about you to meet our legal or regulatory obligations</li>
-              <li>Information received from a third party, for example a creditor providing information about an account you hold with them, or where you have previously agreed for your information to be shared with us</li>
-              <li>When you participate in market research</li>
-              <li>Where you have given permission for your information to be provided to us</li>
-            </ul>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">How We Use Your Personal Information</h2>
-            <p className="text-muted-foreground mb-4">
+        {/* How We Use Information */}
+        <Card className="backdrop-blur-sm bg-card/50 border-border/50">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-3 text-xl sm:text-2xl">
+              <Users className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              How We Use Your Personal Information
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            <p className="text-muted-foreground text-sm sm:text-base">
               We can only use your personal information where it falls into one or more of the following categories:
             </p>
-            <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-6">
-              <li>It is necessary to enter or fulfil a contract we have with you</li>
-              <li>You have provided your consent</li>
-              <li>We have a legal or regulatory obligation to do so</li>
-              <li>It is necessary to carry out a task that is in the public interest</li>
-              <li>It is in our legitimate interest to do so, and it is not against your rights</li>
-            </ul>
+            <div className="space-y-3">
+              {[
+                'It is necessary to enter or fulfil a contract we have with you',
+                'You have provided your consent',
+                'We have a legal or regulatory obligation to do so',
+                'It is necessary to carry out a task that is in the public interest',
+                'It is in our legitimate interest to do so, and it is not against your rights'
+              ].map((item, index) => (
+                <div key={index} className="flex items-start gap-3 p-3 rounded-lg bg-muted/20">
+                  <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center mt-0.5">
+                    <span className="text-primary font-bold text-xs">{index + 1}</span>
+                  </div>
+                  <span className="text-xs sm:text-sm text-muted-foreground">{item}</span>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
 
-            <h3 className="text-xl font-medium text-foreground mb-3">Initial Application</h3>
-            <p className="text-muted-foreground mb-4">
-              Where you make an application or enquiry for one of our products or services, we will use your information to provide you with appropriate information to recommend a suitable debt solution. If you cannot provide this information, we may not be able to progress with your application or enquiry.
+        {/* Data Sharing */}
+        <Card className="backdrop-blur-sm bg-card/50 border-border/50">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-3 text-xl sm:text-2xl">
+              <Globe className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              Who We Share Your Information With
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <p className="text-muted-foreground mb-4 text-sm sm:text-base">
+              We may share your information with our Debt Solution Providers/partners. We will only share your information with them if they have agreed to keep it confidential.
             </p>
-            <p className="text-muted-foreground mb-6">
-              We may also use this information to contact you about and process your application, for example, sending you an email, text message or letter to welcome you to our services.
-            </p>
+            <div className="space-y-3">
+              {[
+                { title: 'Your Creditors', desc: 'Your personal data will be shared with your creditors, their agents, debt collectors, bailiffs and solicitors dealing with the debts.' },
+                { title: 'Our Regulators', desc: 'The Information Commissioner\'s Office, or any other regulatory body or authority may request certain information.' },
+                { title: 'The Insolvency Service', desc: 'If your IVA is accepted, details will be recorded on the Insolvency Register which is accessible by the public.' },
+                { title: 'Credit Reference Agencies', desc: 'To obtain information about your financial history or your credit commitments.' },
+                { title: 'Legal Partners', desc: 'Solicitors to assist with the administration of your IVA or legal obligations.' },
+                { title: 'Technology Partners', desc: 'Third-party software companies to help manage your data securely.' }
+              ].map((item, index) => (
+                <div key={index} className="p-4 rounded-lg bg-muted/20 border-l-4 border-primary/20">
+                  <h4 className="font-semibold mb-2 text-sm sm:text-base">{item.title}</h4>
+                  <p className="text-xs sm:text-sm text-muted-foreground">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
 
-            <h3 className="text-xl font-medium text-foreground mb-3">Debt Solution Information</h3>
-            <p className="text-muted-foreground mb-4">
-              Where we give you information on a debt solution, we will process your personal information to administer the service we provide. This may include contacting you where we may need further information or sending you updates on the progress of the service that we provide to you.
-            </p>
-            <p className="text-muted-foreground">
-              When providing you with information on a debt solution we collect and use your personal information under the lawful basis of our legitimate interest as it is necessary to enable us to provide you with the best advice possible.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">What Personal Data We Need to Collect</h2>
-            <p className="text-muted-foreground mb-4">
-              To be able to provide you with information on a debt solution we need to collect certain categories of personal data. This will include:
-            </p>
-            <div className="space-y-4">
-              <div>
-                <h4 className="font-medium text-foreground mb-2">Contact details</h4>
-                <p className="text-muted-foreground text-sm mb-2">This is so we can contact you about and process your enquiry</p>
-                <ul className="list-disc list-inside text-muted-foreground text-sm space-y-1">
-                  <li>Your full name</li>
-                  <li>Address</li>
-                  <li>Contact number</li>
-                  <li>E-mail address</li>
-                </ul>
+        {/* Data Storage */}
+        <Card className="backdrop-blur-sm bg-card/50 border-border/50">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-3 text-xl sm:text-2xl">
+              <Database className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              How Long We Store Your Data
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="p-4 rounded-lg bg-primary/5">
+                <h4 className="font-semibold mb-2 text-sm sm:text-base">If You Become Our Customer</h4>
+                <p className="text-xs sm:text-sm text-muted-foreground mb-2">
+                  We keep your information for at least 6 years from when we stop providing services to you.
+                </p>
+                <p className="text-xs sm:text-sm text-muted-foreground">
+                  Telephone calls are retained for at least 6 years from the date made.
+                </p>
               </div>
-              
-              <div>
-                <h4 className="font-medium text-foreground mb-2">Personal and financial details</h4>
-                <p className="text-muted-foreground text-sm mb-2">We need this so that we can decide whether an IVA is appropriate for you and so that we can draft and send a proposal to your creditors.</p>
-                <ul className="list-disc list-inside text-muted-foreground text-sm space-y-1">
-                  <li>Your date of birth</li>
-                  <li>Gender</li>
-                  <li>Any previous names that you were known by</li>
-                  <li>Your living arrangements</li>
-                  <li>Employment details</li>
-                  <li>Details of any dependants</li>
-                  <li>Details of any assets you hold</li>
-                  <li>Your payment information</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h4 className="font-medium text-foreground mb-2">The people you owe money to</h4>
-                <p className="text-muted-foreground text-sm">Creditor details (including the names of your creditors, reference numbers and balances). This is so we fully understand your financial situation and give you personalised advice that's tailored to you</p>
-              </div>
-              
-              <div>
-                <h4 className="font-medium text-foreground mb-2">Your income and expenditure</h4>
-                <p className="text-muted-foreground text-sm">Details of your financial position including all sources of income and your household expenditure. This is so we can accurately work out what you can afford to pay towards your debts and make sure the solution we recommend is the right one for you</p>
-              </div>
-              
-              <div>
-                <h4 className="font-medium text-foreground mb-2">Call Recordings, Chat Logs and E-mails</h4>
-                <p className="text-muted-foreground text-sm">When you contact us by telephone, your call may be recorded for training and monitoring purposes. We also keep any e-mail correspondence and online chat logs to help us to manage your IVA.</p>
-              </div>
-              
-              <div>
-                <h4 className="font-medium text-foreground mb-2">Special personal information</h4>
-                <p className="text-muted-foreground text-sm">Only with your permission and where this is relevant to your financial situation and how a debt solution needs to work for you, or where we have a legal right to do so. With your permission, we may use information from your credit file to confirm certain information, including about your lenders, balances, account numbers, your account, address and insolvency history and details of any County Court Judgments. We will also use this information to confirm your identity and to comply with Anti-Money Laundering legislation.</p>
+              <div className="p-4 rounded-lg bg-primary/5">
+                <h4 className="font-semibold mb-2 text-sm sm:text-base">If You Don't Proceed</h4>
+                <p className="text-xs sm:text-sm text-muted-foreground mb-2">
+                  Your information is normally deleted after 2 years (except recorded calls).
+                </p>
+                <p className="text-xs sm:text-sm text-muted-foreground">
+                  Unless you've consented to receive marketing communications.
+                </p>
               </div>
             </div>
-          </section>
+          </CardContent>
+        </Card>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Who Will the Data Be Shared With?</h2>
-            <p className="text-muted-foreground mb-4">
-              We may share your information with our Debt Solution Providers/partners. This includes other companies who provide and/or administer the financial solutions plans on our behalf. We will only share your information with them if they have agreed to keep it confidential.
-            </p>
-            <p className="text-muted-foreground mb-4">In addition, your information may be shared with:</p>
-            <ul className="list-disc list-inside text-muted-foreground space-y-2">
-              <li><strong>Your Creditors and their representatives.</strong> Your personal data will be shared with your creditors, their agents, debt collectors, bailiffs and solicitors dealing with the debts.</li>
-              <li><strong>Our regulators,</strong> the Information Commissioner's Office, or any other regulatory body or authority may request certain information as part of their role in regulating and monitoring us.</li>
-              <li><strong>The Insolvency Service.</strong> If your IVA is accepted, then details about you and your IVA will be recorded on the Insolvency Register which is accessible by the public.</li>
-              <li><strong>Credit reference agencies</strong> to obtain information about your financial history or your credit commitments.</li>
-              <li><strong>Solicitors</strong> to assist with the administration of your IVA or to assist us with legal, regulatory, and contractual obligations.</li>
-              <li><strong>Third-party software companies</strong> to help manage your data, including case management systems, payment processors, telephony companies, and printing companies.</li>
-            </ul>
-          </section>
+        {/* Your Rights */}
+        <Card className="backdrop-blur-sm bg-card/50 border-border/50">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-3 text-xl sm:text-2xl">
+              <FileText className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              Your Rights
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-4">
+              {[
+                { title: 'Access Your Information', desc: 'Request a copy of personal information we hold about you (Data Subject Access Request)' },
+                { title: 'Correct Your Information', desc: 'Request that we correct any incorrect personal information we hold' },
+                { title: 'Limit Processing', desc: 'Request deletion or ask us to stop processing your information' },
+                { title: 'Data Portability', desc: 'Request your information in an electronic format for you or another company' }
+              ].map((item, index) => (
+                <div key={index} className="p-4 rounded-lg bg-muted/20 hover:bg-muted/30 transition-colors">
+                  <h4 className="font-semibold mb-2 text-sm sm:text-base">{item.title}</h4>
+                  <p className="text-xs sm:text-sm text-muted-foreground">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">How Long Will Your Data Be Stored For?</h2>
-            <p className="text-muted-foreground mb-4">
-              If you continue to be our customer and we give you advice, we will keep a record of your personal information to ensure that we provide you with the best service possible and where we are required to keep your data to meet our legal and regulatory obligations. This will normally be kept for at least six years, starting from the date when we are no longer providing you with a service. Telephone calls will be retained for at least six years from the date the call was made.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              If you do not go ahead with any product or service offered by us, your personal information will normally be deleted after two years (except for any recorded telephone calls) unless we have another reason to keep your personal information, for example, if you have given your consent to receive marketing or promotional messages from us.
-            </p>
-            <p className="text-muted-foreground">
-              After this time, we will delete the information or anonymise the data so that it cannot be linked back to you.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Your Rights</h2>
-            
-            <h3 className="text-xl font-medium text-foreground mb-3">Access To Your Personal Information</h3>
-            <p className="text-muted-foreground mb-4">
-              You have the right to request from us a copy of the personal information that we may hold about you. This is often called a "Data Subject Access Request". You can request this information by contacting us as set out below. We won't charge you to provide you with this information.
-            </p>
-
-            <h3 className="text-xl font-medium text-foreground mb-3">Right To Have Your Personal Information Corrected</h3>
-            <p className="text-muted-foreground mb-4">
-              If the personal information we hold about you is incorrect you have the right to request that we correct this.
-            </p>
-
-            <h3 className="text-xl font-medium text-foreground mb-3">Right To Stop or Limit the Processing of the Data We Carry Out</h3>
-            <p className="text-muted-foreground mb-4">
-              You may request that your personal information is deleted or that we stop processing the information if we are no longer entitled to process it. There may be occasions where we are unable to delete the data due to our legal or regulatory obligations. We will however discuss this with you if you request for your information to be deleted.
-            </p>
-
-            <h3 className="text-xl font-medium text-foreground mb-3">Portability</h3>
-            <p className="text-muted-foreground">
-              In some cases, you may be able to request for your information to be provided to you or to another company in a format that can be processed electronically by you or the other company. If you want to request this, you will need to contact us.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Contact Us</h2>
-            <p className="text-muted-foreground mb-4">
+        {/* Contact Information */}
+        <Card className="backdrop-blur-sm bg-card/50 border-border/50">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-3 text-xl sm:text-2xl">
+              <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              Contact Us
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-muted-foreground mb-6 text-sm sm:text-base">
               If you have any questions or queries about how we use your personal information you can contact us using the address below:
             </p>
-            <div className="bg-muted p-6 rounded-lg">
-              <p className="text-foreground font-medium mb-2">Compliance Department</p>
-              <p className="text-muted-foreground">The Insolvency Guidance Group</p>
-              <p className="text-muted-foreground">Suite 138 Peel House</p>
-              <p className="text-muted-foreground">30 The Downs</p>
-              <p className="text-muted-foreground">Altrincham</p>
-              <p className="text-muted-foreground">Cheshire</p>
-              <p className="text-muted-foreground">WA14 2PX</p>
+            <div className="p-6 rounded-lg bg-muted/30 border border-border/50">
+              <h4 className="font-semibold mb-4 text-sm sm:text-base">Compliance Department</h4>
+              <div className="space-y-2 text-xs sm:text-sm text-muted-foreground">
+                <div>The Insolvency Guidance Group</div>
+                <div>Suite 138 Peel House</div>
+                <div>30 The Downs</div>
+                <div>Altrincham</div>
+                <div>Cheshire</div>
+                <div className="font-semibold">WA14 2PX</div>
+              </div>
             </div>
-          </section>
+          </CardContent>
+        </Card>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Cookies</h2>
-            
-            <h3 className="text-xl font-medium text-foreground mb-3">What Are Cookies?</h3>
-            <p className="text-muted-foreground mb-4">
-              Cookies are small text files that are placed in your computer or mobile device when you visit a website. These are small text files that facilitate the processing of your data and enable us to analyse how the website is being used.
-            </p>
+        {/* Cookies Section */}
+        <Card className="backdrop-blur-sm bg-card/50 border-border/50">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-3 text-xl sm:text-2xl">
+              <Globe className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              Cookies
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div className="space-y-4 text-sm sm:text-base text-muted-foreground">
+              <p>
+                Cookies are small text files that are placed in your computer or mobile device when you visit a website. These facilitate the processing of your data and enable us to analyse how the website is being used.
+              </p>
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="p-4 rounded-lg bg-primary/5">
+                  <h4 className="font-semibold mb-2 text-sm sm:text-base">Temporary Cookies</h4>
+                  <p className="text-xs sm:text-sm text-muted-foreground">Form part of the security process and expire when you close your web browser</p>
+                </div>
+                <div className="p-4 rounded-lg bg-primary/5">
+                  <h4 className="font-semibold mb-2 text-sm sm:text-base">Permanent Cookies</h4>
+                  <p className="text-xs sm:text-sm text-muted-foreground">Stay in your device for a longer period or until you manually delete them</p>
+                </div>
+              </div>
+              <p className="text-xs sm:text-sm">
+                You can accept or decline cookies by modifying the settings on your browser. Further information on managing cookies can be found at allaboutcookies.org.
+              </p>
+            </div>
+          </CardContent>
+        </Card>
 
-            <h3 className="text-xl font-medium text-foreground mb-3">Why Are Cookies Used?</h3>
-            <p className="text-muted-foreground mb-4">
-              They help visitors to a website. Cookies allow sites to do things like provide personalised content and remember their log-in details and settings. You can turn them off at any time. This will not stop a website from working, but it might mean it will not work as well as it could, or that you must do the same thing more than once.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              They also help website owners. Cookies tell website owners things like, what search engine a visitor used to find the website, how often they have visited it, how long they have spent on it, and so on. Except for essential cookies, all cookies will expire after 10 years.
-            </p>
-
-            <h3 className="text-xl font-medium text-foreground mb-3">Disabling/Enabling Cookies</h3>
-            <p className="text-muted-foreground">
-              You can accept or decline cookies by modifying the settings on your browser. Please remember though that disabling certain cookies may affect the functionality of our website. Further information on the use of and managing cookies can be found at allaboutcookies.org.
-            </p>
-          </section>
+        {/* Call to Action */}
+        <div className="text-center py-8">
+          <Button asChild size="lg" className="bg-primary hover:bg-primary-glow">
+            <Link to="/">
+              Return to Homepage
+            </Link>
+          </Button>
         </div>
-      </main>
-      <Footer />
+      </div>
     </div>
   );
 };

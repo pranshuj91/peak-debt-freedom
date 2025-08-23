@@ -1,29 +1,38 @@
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import { FileText, Shield, Scale, AlertCircle, Users, Mail } from 'lucide-react'
+import { FileText, Shield, Scale, AlertCircle, Users, Mail, ArrowLeft } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Button } from '@/components/ui/button'
 
 const TermsOfUse = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-background to-secondary/5 pt-10">
+    <div className="min-h-screen bg-background">
       <Navigation />
-      <div className="pt-20 pb-16">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Hero Section */}
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-full mb-6">
-              <FileText className="h-8 w-8 text-white" />
-            </div>
-            <h1 className="text-5xl font-bold text-foreground mb-4 font-display bg-gradient-primary bg-clip-text text-white pt-10 pb-10">
-              Terms of Use
-            </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Please read these terms and conditions carefully before using our website and services
-            </p>
-          </div>
+      
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-br from-primary via-primary-glow to-primary-light py-12 sm:py-16 lg:py-20 px-4">
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="relative max-w-4xl mx-auto text-center">
+          <Link 
+            to="/" 
+            className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground mb-6 transition-colors text-sm sm:text-base"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
+          </Link>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-foreground mb-4 leading-tight">
+            Terms of Use
+          </h1>
+          <p className="text-lg sm:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
+            Please read these terms and conditions carefully before using our website and services
+          </p>
+        </div>
+      </section>
 
-          <div className="bg-card/80 backdrop-blur-sm rounded-3xl shadow-elegant border border-border/50 overflow-hidden">
-            <div className="p-8 lg:p-12">
-              <div className="prose prose-lg max-w-none [&>section]:mb-12 [&>section>h2]:text-2xl [&>section>h2]:font-semibold [&>section>h2]:text-foreground [&>section>h2]:mb-6 [&>section>h2]:flex [&>section>h2]:items-center [&>section>h2]:gap-3 [&>section>p]:text-muted-foreground [&>section>p]:leading-relaxed [&>section>p]:mb-4 [&>section>ul]:text-muted-foreground [&>section>ul]:space-y-2 [&>section>ul>li]:pl-2">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div className="bg-card/80 backdrop-blur-sm rounded-3xl shadow-elegant border border-border/50 overflow-hidden">
+          <div className="p-6 sm:p-8 lg:p-12">
+            <div className="prose prose-lg max-w-none [&>section]:mb-8 sm:[&>section]:mb-12 [&>section>h2]:text-xl sm:[&>section>h2]:text-2xl [&>section>h2]:font-semibold [&>section>h2]:text-foreground [&>section>h2]:mb-4 sm:[&>section>h2]:mb-6 [&>section>h2]:flex [&>section>h2]:items-center [&>section>h2]:gap-3 [&>section>p]:text-muted-foreground [&>section>p]:leading-relaxed [&>section>p]:mb-4 [&>section>p]:text-sm sm:[&>section>p]:text-base [&>section>ul]:text-muted-foreground [&>section>ul]:space-y-2 [&>section>ul>li]:pl-2 [&>section>ul>li]:text-sm sm:[&>section>ul>li]:text-base">
               <section>
                 <h2><FileText className="h-6 w-6 text-primary" />Introduction</h2>
                 <p className="text-muted-foreground mb-4">
@@ -120,9 +129,17 @@ const TermsOfUse = () => {
                   We hope that users will find the Website informative and easy to use. We should be grateful to receive any comments or queries concerning the Website, or any suggestions as to how it could be improved. Please e-mail us at compliance@theinsolvencyguidancegroup.co.uk.
                 </p>
               </section>
-              </div>
             </div>
           </div>
+        </div>
+        
+        {/* Call to Action */}
+        <div className="text-center py-8">
+          <Button asChild size="lg" className="bg-primary hover:bg-primary-glow">
+            <Link to="/">
+              Return to Homepage
+            </Link>
+          </Button>
         </div>
       </div>
       <Footer />

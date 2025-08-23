@@ -7,24 +7,27 @@ const ComplaintsPolicy = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary via-primary-glow to-primary-light py-16 px-4">
+      <section className="relative bg-gradient-to-br from-primary via-primary-glow to-primary-light py-12 sm:py-16 lg:py-20 px-4">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-4xl mx-auto text-center">
-          <Link to="/" className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground mb-6 transition-colors">
+          <Link 
+            to="/" 
+            className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground mb-6 transition-colors text-sm sm:text-base"
+          >
             <ArrowLeft className="w-4 h-4" />
             Back to Home
           </Link>
-          <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-foreground mb-4 leading-tight">
             Complaints Policy
           </h1>
-          <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
             We're committed to providing excellent service and resolving any issues quickly and fairly
           </p>
         </div>
       </section>
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto px-4 py-12 space-y-8">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-6 sm:space-y-8">
         
         {/* Introduction */}
         <Card className="backdrop-blur-sm bg-card/50 border-border/50">
@@ -60,25 +63,25 @@ const ComplaintsPolicy = () => {
             <p className="text-muted-foreground mb-6">
               Whichever way you choose to contact us, we will start our investigations right away. Our contact details are:
             </p>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="flex items-start gap-4 p-4 rounded-lg bg-muted/50">
+            <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
+              <div className="flex items-start gap-4 p-4 sm:p-6 rounded-lg bg-muted/50">
                 <Mail className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold mb-1">By Email</h4>
+                  <h4 className="font-semibold mb-1 text-sm sm:text-base">By Email</h4>
                   <a 
                     href="mailto:info@theinsolvencyguidancegroup.co.uk" 
-                    className="text-primary hover:text-primary-glow transition-colors"
+                    className="text-primary hover:text-primary-glow transition-colors text-sm sm:text-base break-all"
                   >
                     info@theinsolvencyguidancegroup.co.uk
                   </a>
                 </div>
               </div>
               
-              <div className="flex items-start gap-4 p-4 rounded-lg bg-muted/50">
+              <div className="flex items-start gap-4 p-4 sm:p-6 rounded-lg bg-muted/50">
                 <MapPin className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold mb-1">In Writing</h4>
-                  <address className="text-muted-foreground not-italic text-sm leading-relaxed">
+                  <h4 className="font-semibold mb-1 text-sm sm:text-base">In Writing</h4>
+                  <address className="text-muted-foreground not-italic text-xs sm:text-sm leading-relaxed">
                     The Complaints Officer<br />
                     The Insolvency Guidance Group<br />
                     Suite 138, Peel House<br />
@@ -101,29 +104,29 @@ const ComplaintsPolicy = () => {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
-            <div className="grid md:grid-cols-3 gap-4">
-              <div className="text-center p-4 rounded-lg bg-primary/5">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <span className="text-primary font-bold">3</span>
+            <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+              <div className="text-center p-4 sm:p-6 rounded-lg bg-primary/5">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <span className="text-primary font-bold text-sm sm:text-base">3</span>
                 </div>
-                <h4 className="font-semibold mb-1">Initial Response</h4>
-                <p className="text-sm text-muted-foreground">Working days for resolution</p>
+                <h4 className="font-semibold mb-1 text-sm sm:text-base">Initial Response</h4>
+                <p className="text-xs sm:text-sm text-muted-foreground">Working days for resolution</p>
               </div>
               
-              <div className="text-center p-4 rounded-lg bg-primary/5">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <span className="text-primary font-bold">4</span>
+              <div className="text-center p-4 sm:p-6 rounded-lg bg-primary/5">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <span className="text-primary font-bold text-sm sm:text-base">4</span>
                 </div>
-                <h4 className="font-semibold mb-1">Update Timeline</h4>
-                <p className="text-sm text-muted-foreground">Weeks for progress update</p>
+                <h4 className="font-semibold mb-1 text-sm sm:text-base">Update Timeline</h4>
+                <p className="text-xs sm:text-sm text-muted-foreground">Weeks for progress update</p>
               </div>
               
-              <div className="text-center p-4 rounded-lg bg-primary/5">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <span className="text-primary font-bold">8</span>
+              <div className="text-center p-4 sm:p-6 rounded-lg bg-primary/5">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <span className="text-primary font-bold text-sm sm:text-base">8</span>
                 </div>
-                <h4 className="font-semibold mb-1">Final Response</h4>
-                <p className="text-sm text-muted-foreground">Weeks maximum timeline</p>
+                <h4 className="font-semibold mb-1 text-sm sm:text-base">Final Response</h4>
+                <p className="text-xs sm:text-sm text-muted-foreground">Weeks maximum timeline</p>
               </div>
             </div>
             
@@ -161,7 +164,7 @@ const ComplaintsPolicy = () => {
             <p className="text-muted-foreground mb-4">
               To properly deal with the complaint, we will need you to provide the following:
             </p>
-            <div className="grid md:grid-cols-2 gap-3">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
               {[
                 'Your full name',
                 'Your address and contact telephone number',
@@ -170,9 +173,9 @@ const ComplaintsPolicy = () => {
                 'Other details of what you would like us to investigate',
                 'Any further evidence that you feel is relevant'
               ].map((item, index) => (
-                <div key={index} className="flex items-center gap-3 p-3 rounded-lg bg-muted/30">
+                <div key={index} className="flex items-center gap-3 p-3 sm:p-4 rounded-lg bg-muted/30">
                   <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
-                  <span className="text-sm">{item}</span>
+                  <span className="text-xs sm:text-sm">{item}</span>
                 </div>
               ))}
             </div>
