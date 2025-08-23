@@ -99,6 +99,24 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
+        
+        {/* Disclaimer Section */}
+        <div className="mt-16 pt-8 border-t border-border/20">
+          <div className="glass-card p-6 rounded-2xl">
+            <h4 className="text-lg font-semibold text-primary mb-4 font-display">Important Information</h4>
+            <div className="space-y-4 text-sm text-foreground/70 leading-relaxed">
+              <p>
+                The Insolvency Guidance Group will not charge you a fee for initial information and signposting. If you were to proceed and implement a recommended debt solution where fees are applicable, full details will be provided before setting up. The Insolvency Guidance Group proposes and administers Individual Voluntary Arrangements (IVAs). Advice is provided on the basis that there is reasonable contemplation of an insolvency appointment, once it is apparent that an IVA is likely to be the most appropriate debt solution. The debt solutions offered by The Insolvency Guidance Group only apply to residents of England, and Wales.
+              </p>
+              <p>
+                To qualify for an IVA with The Insolvency Guidance Group, you must have a minimum of £6,000 of qualifying unsecured debt owed to two or more creditors.
+              </p>
+              <p>
+                There is potentially a debt write off in some IVAs. However, the amount of debt written off differs for each customer depending upon their individual financial circumstances and is subject to the approval of their creditors.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
