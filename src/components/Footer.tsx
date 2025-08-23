@@ -109,37 +109,37 @@ const Footer = () => {
               <h4 className="text-xl font-semibold text-gold mb-8 border-b border-gold/20 pb-3">Resources</h4>
               <ul className="space-y-4">
                 <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a href="https://irp.cdn-website.com/5564f8d3/files/uploaded/creditors-guide-to-fees.pdf" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
+                  <a href="https://irp.cdn-website.com/5564f8d3/files/uploaded/creditors-guide-to-fees.pdf" target="_blank" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
                     <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300 flex-shrink-0 mt-1"></div>
                     Creditors Guide to Fees (England & Wales)
                   </a>
                 </li>
                 <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a href="https://irp.cdn-website.com/5564f8d3/files/uploaded/Is%20a%20Voluntary%20Arrangement%20Right%20For%20Me.pdf" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
+                  <a href="https://irp.cdn-website.com/5564f8d3/files/uploaded/Is%20a%20Voluntary%20Arrangement%20Right%20For%20Me.pdf" target="_blank" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
                     <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300 flex-shrink-0 mt-1"></div>
                     Is a Voluntary Arrangement Right For Me?
                   </a>
                 </li>
                 <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a href="https://www.gov.uk/government/publications/individual-voluntary-arrangement-iva-protocol/iva-protocol-2021#the-consumer-iva-protocol" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
+                  <a href="https://www.gov.uk/government/publications/individual-voluntary-arrangement-iva-protocol/iva-protocol-2021#the-consumer-iva-protocol" target="_blank" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
                     <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300 flex-shrink-0 mt-1"></div>
                     IVA Protocol 2021
                   </a>
                 </li>
                 <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a href="https://www.gov.uk/guidance/guidance-on-personal-debt-relief-options-company-liquidation-investigation-and-enforcement#debt-relief-options" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
+                  <a href="https://www.gov.uk/guidance/guidance-on-personal-debt-relief-options-company-liquidation-investigation-and-enforcement#debt-relief-options" target="_blank" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
                     <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300 flex-shrink-0 mt-1"></div>
                     Guidance on Personal Debt Relief Options, Company Liquidations, Investigation & Enforcement
                   </a>
                 </li>
                 <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a href="https://www.gov.uk/government/publications/individual-voluntary-arrangement-iva-protocol/iva-protocol-2021-annex-1-standard-terms-and-conditions" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
+                  <a href="https://www.gov.uk/government/publications/individual-voluntary-arrangement-iva-protocol/iva-protocol-2021-annex-1-standard-terms-and-conditions" target="_blank" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
                     <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300 flex-shrink-0 mt-1"></div>
                     IVA Protocol Standard Terms 2021 Version
                   </a>
                 </li>
                 <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a href="https://irp.cdn-website.com/5564f8d3/files/uploaded/A_creditors_guide_to_Individual_Voluntary_Arrangement__IVA__FINAL.v1%20(1).pdf" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
+                  <a href="https://irp.cdn-website.com/5564f8d3/files/uploaded/A_creditors_guide_to_Individual_Voluntary_Arrangement__IVA__FINAL.v1%20(1).pdf" target="_blank" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
                     <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300 flex-shrink-0 mt-1"></div>
                     Creditors Guide to Individual Voluntary Arrangements (IVA)
                   </a>
