@@ -58,6 +58,12 @@ const Navigation = () => {
               >
                 Contact Us
               </a>
+              <a 
+                href="/privacy-policy" 
+                className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
+              >
+                Privacy Policy
+              </a>
               <Button variant="premium" size="lg" className="ml-4">
                 Free Consultation
               </Button>
@@ -108,6 +114,13 @@ const Navigation = () => {
                 onClick={closeMobileMenu}
               >
                 Contact Us
+              </a>
+              <a 
+                href="/privacy-policy" 
+                className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
+                onClick={closeMobileMenu}
+              >
+                Privacy Policy
               </a>
               <div className="pt-4">
                 <Button variant="premium" size="lg" className="w-full" onClick={closeMobileMenu}>

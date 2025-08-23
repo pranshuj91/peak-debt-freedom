@@ -162,7 +162,7 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center space-x-8">
-              <a href="#" className="text-primary-foreground/80 hover:text-gold text-sm font-medium transition-all duration-300 relative group">
+              <a href="/privacy-policy" className="text-primary-foreground/80 hover:text-gold text-sm font-medium transition-all duration-300 relative group">
                 Privacy Policy
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold transition-all duration-300 group-hover:w-full"></div>
               </a>
