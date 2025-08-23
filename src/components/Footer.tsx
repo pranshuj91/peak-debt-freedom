@@ -17,8 +17,9 @@ const Footer = () => {
                   Peak Insolvency
                 </h3>
                 <p className="text-primary-foreground/90 leading-relaxed text-sm mb-6">
-                  We believe it should be simple and affordable for you to become debt free. 
-                  That's why we're here to support you at every step of your journey.
+                  Data Protection Act Registration Number – ZA774616.
+                  To find out more about managing your money and getting free advice, visit Money Helper, 
+                  an independent service set up to help people manage their money.
                 </p>
               </div>
               
