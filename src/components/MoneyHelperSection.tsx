@@ -45,7 +45,7 @@ const MoneyHelperSection = () => {
                     href="https://www.moneyhelper.org.uk"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-[#eb8a30] hover:bg-[#eb8a30] text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 group"
+                    className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                   >
                     Visit MoneyHelper
                     <ExternalLink className="w-4 h-4 group-hover:rotate-12 transition-transform duration-300" />
