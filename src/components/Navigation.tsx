@@ -124,6 +124,13 @@ const Navigation = () => {
               >
                 Terms of Use
               </a>
+              <a 
+                href="/complaints-policy" 
+                className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
+                onClick={closeMobileMenu}
+              >
+                Complaints Policy
+              </a>
               <div className="pt-4">
                 <Button variant="premium" size="lg" className="w-full" onClick={closeMobileMenu}>
                   Free Consultation

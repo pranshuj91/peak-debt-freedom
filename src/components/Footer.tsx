@@ -170,7 +170,7 @@ const Footer = () => {
                 Terms of Use
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold transition-all duration-300 group-hover:w-full"></div>
               </a>
-              <a href="#" className="text-primary-foreground/80 hover:text-gold text-sm font-medium transition-all duration-300 relative group">
+              <a href="/complaints-policy" className="text-primary-foreground/80 hover:text-gold text-sm font-medium transition-all duration-300 relative group">
                 Complaints Policy
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold transition-all duration-300 group-hover:w-full"></div>
               </a>
