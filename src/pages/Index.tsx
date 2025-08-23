@@ -1,7 +1,6 @@
 import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import MoneyHelperSection from '@/components/MoneyHelperSection';
-import SupportSection from '@/components/SupportSection';
 import AboutSection from '@/components/AboutSection';
 import TrustSection from '@/components/TrustSection';
 import PartnersSection from '@/components/PartnersSection';
