@@ -1,4 +1,4 @@
-import moneyhelperLogo from "@/assets/moneyhelper-logo.png";
+import moneyhelperLogo from "@/assets/money-helper-scaled-1920w (1).png";
 import trustpilotLogo from "@/assets/trustpilot-logo.png";
 import mindLogo from "@/assets/mind-logo.png";
 import checkmyfileLogo from "@/assets/checkmyfile-logo.png";
@@ -7,7 +7,7 @@ const PartnersSection = () => {
   const partners = [
     {
       name: "MoneyHelper",
-      logo: moneyhelperLogo,
+      logo: money-helper-scaled-1920w (1),
     },
     {
       name: "Trustpilot",
@@ -36,7 +36,7 @@ const PartnersSection = () => {
             <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
             Trusted by Industry Leaders
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold font-display text-foreground mb-4 bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text">
             Our Trusted Partners
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full mb-6"></div>
