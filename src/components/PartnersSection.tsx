@@ -1,4 +1,4 @@
-import moneyhelperLogo from "@/assets/money-helper-scaled-1920w (1).png";
+import moneyhelperLogo from "@/assets/moneyhelper-logo.png";
 import trustpilotLogo from "@/assets/trustpilot-logo.png";
 import mindLogo from "@/assets/mind-logo.png";
 import checkmyfileLogo from "@/assets/checkmyfile-logo.png";
@@ -7,7 +7,7 @@ const PartnersSection = () => {
   const partners = [
     {
       name: "MoneyHelper",
-      logo: money-helper-scaled-1920w (1),
+      logo: moneyhelperLogo,
     },
     {
       name: "Trustpilot",
