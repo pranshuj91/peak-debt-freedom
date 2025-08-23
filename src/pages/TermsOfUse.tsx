@@ -13,7 +13,7 @@ const TermsOfUse = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-full mb-6">
               <FileText className="h-8 w-8 text-white" />
             </div>
-            <h1 className="text-5xl font-bold text-foreground mb-4 font-display bg-gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-5xl font-bold text-foreground mb-4 font-display bg-gradient-primary bg-clip-text text-white">
               Terms of Use
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
