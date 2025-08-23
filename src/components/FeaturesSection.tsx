@@ -23,7 +23,9 @@ const FeaturesSection = () => {
     <section className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-20 animate-fade-in">
-          <h2 className="text-display text-foreground mb-6">Take Control of Your Finances</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-foreground mb-6">
+            Take Control of Your Finances Today
+          </h2>
           <p className="text-body text-muted-foreground max-w-3xl mx-auto">
             Our comprehensive tools and services help you manage your debt effectively and rebuild your financial future.
           </p>

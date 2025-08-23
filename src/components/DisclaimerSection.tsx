@@ -20,7 +20,7 @@ const DisclaimerSection = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl mb-6 shadow-lg">
             <Shield className="w-8 h-8 text-white" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold font-display text-foreground mb-4">
             Important Information
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

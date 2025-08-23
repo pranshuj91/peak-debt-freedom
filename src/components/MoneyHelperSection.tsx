@@ -30,7 +30,7 @@ const MoneyHelperSection = () => {
                     <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                     Free Financial Guidance
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4 leading-tight">
+                  <h2 className="text-2xl md:text-3xl font-bold font-display text-foreground mb-4 leading-tight">
                     Get Expert Money Management Advice
                   </h2>
                 </div>
