@@ -96,7 +96,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a href="#" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link">
+                  <a href="#" target="_blank" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link">
                     <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300"></div>
                     Bankruptcy Guidance
                   </a>
