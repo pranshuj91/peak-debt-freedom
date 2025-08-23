@@ -9,6 +9,7 @@ import IVASection from '@/components/IVASection';
 import FeaturesSection from '@/components/FeaturesSection';
 import StatisticsSection from '@/components/StatisticsSection';
 import FAQSection from '@/components/FAQSection';
+import DisclaimerSection from '@/components/DisclaimerSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -24,6 +25,7 @@ const Index = () => {
       <FeaturesSection />
       <StatisticsSection />
       <FAQSection />
+      <DisclaimerSection />
       <Footer />
     </div>
   );
