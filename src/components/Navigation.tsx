@@ -117,6 +117,13 @@ const Navigation = () => {
               >
                 Privacy Policy
               </a>
+              <a 
+                href="/terms-of-use" 
+                className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
+                onClick={closeMobileMenu}
+              >
+                Terms of Use
+              </a>
               <div className="pt-4">
                 <Button variant="premium" size="lg" className="w-full" onClick={closeMobileMenu}>
                   Free Consultation
