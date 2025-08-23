@@ -58,12 +58,7 @@ const Navigation = () => {
               >
                 Contact Us
               </a>
-              <a 
-                href="/privacy-policy" 
-                className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
-              >
-                Privacy Policy
-              </a>
+              
               <Button variant="premium" size="lg" className="ml-4">
                 Free Consultation
               </Button>
