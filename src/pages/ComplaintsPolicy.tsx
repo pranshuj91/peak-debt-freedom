@@ -36,7 +36,7 @@ const ComplaintsPolicy = () => {
           </CardHeader>
           <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Here at The Insolvency Guidance Group, it is important to us that our customers receive a high level of service. 
+              Here at Peak Insolvency, it is important to us that our customers receive a high level of service. 
               However, we do understand that sometimes things can go wrong, we welcome your feedback and the opportunity to put 
               things right, so we aim to resolve any issues as soon as possible.
             </p>
@@ -80,7 +80,7 @@ const ComplaintsPolicy = () => {
                   <h4 className="font-semibold mb-1 text-sm sm:text-base">In Writing</h4>
                   <address className="text-muted-foreground not-italic text-xs sm:text-sm leading-relaxed">
                     The Complaints Officer<br />
-                    The Insolvency Guidance Group<br />
+                    Peak Insolvency<br />
                     Suite 138, Peel House<br />
                     30 The Downs<br />
                     Altrincham, Cheshire<br />
@@ -166,7 +166,7 @@ const ComplaintsPolicy = () => {
                 'Your full name',
                 'Your address and contact telephone number',
                 'Full details of your complaint',
-                'Your reference number with The Insolvency Guidance Group',
+                'Your reference number with Peak Insolvency',
                 'Other details of what you would like us to investigate',
                 'Any further evidence that you feel is relevant'
               ].map((item, index) => (
@@ -190,7 +190,7 @@ const ComplaintsPolicy = () => {
           <CardContent className="text-muted-foreground leading-relaxed">
             <p>
               The Insolvency Practitioners Association (IPA) is the regulatory body for all the Insolvency Practitioners 
-              at The Insolvency Guidance Group. The IPA promote and maintain high standards throughout the insolvency 
+              at Peak Insolvency. The IPA promote and maintain high standards throughout the insolvency 
               industry and undertake regular monitoring visits to each member to ensure that all Insolvency Practitioners 
               act in line with the insolvency rules, relevant legislation, the code of ethics and best practice guidelines.
             </p>

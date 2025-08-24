@@ -39,7 +39,7 @@ const DisclaimerSection = () => {
               <h3 className="text-lg font-semibold text-foreground">Fee Structure</h3>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              The Insolvency Guidance Group will not charge you a fee for initial information and signposting. If you proceed with a recommended debt solution where fees are applicable, full details will be provided before setting up.
+              Peak Insolvency will not charge you a fee for initial information and signposting. If you proceed with a recommended debt solution where fees are applicable, full details will be provided before setting up.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ const DisclaimerSection = () => {
               <h3 className="text-lg font-semibold text-foreground">Our Services</h3>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              The Insolvency Guidance Group proposes and administers Individual Voluntary Arrangements (IVAs). Advice is provided on the basis of reasonable contemplation of an insolvency appointment when an IVA is likely to be the most appropriate debt solution.
+              Peak Insolvency proposes and administers Individual Voluntary Arrangements (IVAs). Advice is provided on the basis of reasonable contemplation of an insolvency appointment when an IVA is likely to be the most appropriate debt solution.
             </p>
           </div>
 

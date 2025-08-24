@@ -36,13 +36,13 @@ const PrivacyPolicy = () => {
           </CardHeader>
           <CardContent className="space-y-4 text-muted-foreground leading-relaxed text-sm sm:text-base">
             <p>
-              The Insolvency Guidance Group is committed to preserving and respecting your privacy.
+              Peak Insolvency is committed to preserving and respecting your privacy.
             </p>
             <p>
               The following policy to understand how we use and protect the information that you provide to us.
             </p>
             <p>
-              This privacy policy will apply to you if you provide your personal information to us, even if you subsequently decide not to proceed. It is also used by all companies within The Insolvency Guidance Group group and our affiliate companies with whom we may share information (see below for further details). This privacy policy sets out how we will use your personal data to provide our services to you.
+              This privacy policy will apply to you if you provide your personal information to us, even if you subsequently decide not to proceed. It is also used by all companies within Peak Insolvency group and our affiliate companies with whom we may share information (see below for further details). This privacy policy sets out how we will use your personal data to provide our services to you.
             </p>
             <p>
               On the basis that you been advised that we have a privacy and data policy and that you have the option not to proceed with our services, you consent to the collection, use and transfer of your information under the terms of this policy.
@@ -255,7 +255,7 @@ const PrivacyPolicy = () => {
             <div className="p-6 rounded-lg bg-muted/30 border border-border/50">
               <h4 className="font-semibold mb-4 text-sm sm:text-base">Compliance Department</h4>
               <div className="space-y-2 text-xs sm:text-sm text-muted-foreground">
-                <div>The Insolvency Guidance Group</div>
+                <div>Peak Insolvency</div>
                 <div>Suite 138 Peel House</div>
                 <div>30 The Downs</div>
                 <div>Altrincham</div>

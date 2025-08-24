@@ -6,7 +6,7 @@ const SupportSection = () => {
           Here to support you at every step.
         </h2>
         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-          At The Insolvency Guidance Group, we believe it should be simple and affordable for you to become debt free. That's why we're here to support you at every step of your journey.
+          At Peak Insolvency, we believe it should be simple and affordable for you to become debt free. That's why we're here to support you at every step of your journey.
         </p>
       </div>
     </section>
