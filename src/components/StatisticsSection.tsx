@@ -1,6 +1,13 @@
 import { Users, TrendingDown, Heart } from 'lucide-react';
+import { useCounter } from '@/hooks/use-counter';
 
 const StatisticsSection = () => {
+  const { count: millionCount, elementRef } = useCounter({
+    end: 8.2,
+    duration: 3000,
+    decimals: 1,
+    suffix: ' million'
+  });
   return (
     <section className="py-24 bg-gradient-primary relative overflow-hidden">
       {/* Background Effects */}
@@ -55,8 +62,11 @@ const StatisticsSection = () => {
             <div className="glass-card p-12 rounded-3xl shadow-premium">
               <div className="text-center">
                 <div className="mb-8">
-                  <div className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-accent to-gold bg-clip-text text-transparent mb-4 animate-pulse-glow">
-                    8.2 million
+                  <div 
+                    ref={elementRef}
+                    className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-accent to-gold bg-clip-text text-transparent mb-4 animate-pulse-glow"
+                  >
+                    {millionCount}
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6 leading-tight text-white/90">
                     people struggling with debt in the UK
