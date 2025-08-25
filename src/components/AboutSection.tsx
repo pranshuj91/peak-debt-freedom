@@ -1,7 +1,37 @@
 const AboutSection = () => {
   return (
-    <section className="py-24 bg-gradient-subtle" id="about">
-      <div className="max-w-6xl mx-auto px-6 lg:px-8">
+    <section className="py-24 bg-gradient-subtle relative overflow-hidden" id="about">
+      {/* Subtle Peak-themed Background Elements */}
+      <div className="absolute inset-0 pointer-events-none opacity-40">
+        {/* Floating Triangle Elements */}
+        <div className="absolute top-1/4 left-1/6 opacity-10">
+          <svg className="w-24 h-24 text-accent animate-triangle-pulse" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L2 22h20L12 2z" opacity="0.3"/>
+          </svg>
+        </div>
+        <div className="absolute bottom-1/3 right-1/5 opacity-8">
+          <svg className="w-16 h-16 text-gold animate-triangle-pulse" viewBox="0 0 24 24" fill="currentColor" style={{ animationDelay: '1s' }}>
+            <path d="M12 2L2 22h20L12 2z" opacity="0.4"/>
+          </svg>
+        </div>
+        
+        {/* Financial Elements */}
+        <div className="absolute top-16 right-1/4 text-foreground/5 text-4xl font-bold animate-float-slow">£</div>
+        <div className="absolute bottom-20 left-1/3 text-foreground/5 text-3xl font-bold animate-float-slower" style={{ animationDelay: '2s' }}>%</div>
+        
+        {/* Subtle Geometric Shapes */}
+        <div className="absolute top-1/3 right-12 w-8 h-8 bg-accent/8 rounded-full animate-float-slow"></div>
+        <div className="absolute bottom-1/4 left-16 w-6 h-6 bg-gold/8 rotate-45 animate-float-slower"></div>
+        
+        {/* Peak Pattern */}
+        <div className="absolute top-20 left-1/4 transform rotate-12 opacity-5">
+          <svg className="w-12 h-12 text-primary animate-triangle-pulse" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L2 22h20L12 2z"/>
+          </svg>
+        </div>
+      </div>
+      
+      <div className="max-w-6xl mx-auto px-6 lg:px-8 relative">
         <div className="text-center mb-16">
           <h2 className="text-display text-primary mb-6 font-display text-[48px]">
             The debt advice that puts <span className="text-accent">you first</span>

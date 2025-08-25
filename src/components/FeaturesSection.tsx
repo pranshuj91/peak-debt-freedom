@@ -25,7 +25,46 @@ const FeaturesSection = () => {
 
   return (
     <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-subtle relative overflow-hidden">
-      {/* Background decorative elements */}
+      {/* Enhanced Peak-themed Background Elements */}
+      <div className="absolute inset-0 pointer-events-none opacity-30">
+        {/* Main Triangle Elements */}
+        <div className="absolute top-1/4 left-1/5 opacity-8">
+          <svg className="w-32 h-32 text-accent animate-triangle-pulse" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L2 22h20L12 2z" opacity="0.3"/>
+          </svg>
+        </div>
+        <div className="absolute bottom-1/3 right-1/4 opacity-6">
+          <svg className="w-20 h-20 text-gold animate-triangle-pulse" viewBox="0 0 24 24" fill="currentColor" style={{ animationDelay: '1.5s' }}>
+            <path d="M12 2L2 22h20L12 2z" opacity="0.4"/>
+          </svg>
+        </div>
+        
+        {/* Financial Success Elements */}
+        <div className="absolute top-12 right-1/3 text-foreground/6 text-5xl font-bold animate-float-slow">✓</div>
+        <div className="absolute bottom-16 left-1/4 text-foreground/6 text-3xl font-bold animate-float-slower" style={{ animationDelay: '3s' }}>💡</div>
+        
+        {/* Credit Score Elements */}
+        <div className="absolute top-1/3 left-12 text-foreground/5 text-2xl font-mono animate-float-slow">750</div>
+        <div className="absolute bottom-1/4 right-16 text-foreground/5 text-xl font-mono animate-float-slower" style={{ animationDelay: '2s' }}>A+</div>
+        
+        {/* Abstract Shapes */}
+        <div className="absolute top-20 right-12 w-10 h-10 bg-accent/6 rounded-full animate-float-slow"></div>
+        <div className="absolute bottom-20 left-20 w-8 h-8 bg-gold/6 rotate-45 animate-float-slower"></div>
+        
+        {/* Peak Patterns */}
+        <div className="absolute top-1/2 left-8 transform rotate-45 opacity-4">
+          <svg className="w-8 h-8 text-primary animate-triangle-pulse" viewBox="0 0 24 24" fill="currentColor" style={{ animationDelay: '4s' }}>
+            <path d="M12 2L2 22h20L12 2z"/>
+          </svg>
+        </div>
+        <div className="absolute top-16 left-1/2 transform -rotate-12 opacity-4">
+          <svg className="w-6 h-6 text-accent animate-triangle-pulse" viewBox="0 0 24 24" fill="currentColor" style={{ animationDelay: '2.5s' }}>
+            <path d="M12 2L2 22h20L12 2z"/>
+          </svg>
+        </div>
+      </div>
+      
+      {/* Background decorative elements - keeping existing */}
       <div className="absolute top-0 left-1/4 w-32 h-32 bg-accent/10 rounded-full blur-3xl animate-float-slow"></div>
       <div className="absolute bottom-0 right-1/4 w-48 h-48 bg-gold/10 rounded-full blur-3xl animate-float-slower"></div>
       
