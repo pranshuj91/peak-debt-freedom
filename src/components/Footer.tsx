@@ -14,9 +14,20 @@ const Footer = () => {
             {/* Company Info */}
             <div className="group">
               <div className="mb-8">
-                <h3 className="text-2xl font-bold text-gold mb-4 animate-pulse-glow">
-                  Peak Insolvency
-                </h3>
+                <div className="flex items-center space-x-3 mb-6">
+                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center">
+                    {/* Mountain Peak Icon */}
+                    <svg className="w-7 h-7 text-gold" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2L2 22h20L12 2z"/>
+                      <path d="M12 6L6 18h12L12 6z" fill="currentColor" opacity="0.8"/>
+                      <path d="M12 10L10 18h4L12 10z" fill="currentColor" opacity="0.6"/>
+                    </svg>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-xl font-bold text-gold font-display">PEAK</span>
+                    <span className="text-sm font-medium text-primary-foreground">INSOLVENCY</span>
+                  </div>
+                </div>
                 <p className="text-primary-foreground/90 leading-relaxed text-sm mb-6">
                   Data Protection Act Registration Number – ZA774616.
                   To find out more about managing your money and getting free advice, visit Money Helper, 
