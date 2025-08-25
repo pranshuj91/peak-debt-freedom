@@ -47,7 +47,7 @@ const Navigation = () => {
                 Home
               </a>
               <a 
-                href="#about" 
+                href="/about" 
                 className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
               >
                 About
@@ -97,7 +97,7 @@ const Navigation = () => {
                 Home
               </a>
               <a 
-                href="#about" 
+                href="/about" 
                 className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
                 onClick={closeMobileMenu}
               >
