@@ -41,7 +41,6 @@ const FeaturesSection = () => {
         
         {/* Financial Success Elements */}
         <div className="absolute top-12 right-1/3 text-foreground/6 text-5xl font-bold animate-float-slow">✓</div>
-        <div className="absolute bottom-16 left-1/4 text-foreground/6 text-3xl font-bold animate-float-slower" style={{ animationDelay: '3s' }}>💡</div>
         
         {/* Credit Score Elements */}
         <div className="absolute top-1/3 left-12 text-foreground/5 text-2xl font-mono animate-float-slow">750</div>
