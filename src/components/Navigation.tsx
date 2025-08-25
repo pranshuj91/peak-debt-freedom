@@ -53,7 +53,7 @@ const Navigation = () => {
                 About
               </a>
               <a 
-                href="#contact" 
+                href="/contact" 
                 className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
               >
                 Contact Us
@@ -104,7 +104,7 @@ const Navigation = () => {
                 About
               </a>
               <a 
-                href="#contact" 
+                href="/contact" 
                 className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
                 onClick={closeMobileMenu}
               >
