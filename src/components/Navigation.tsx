@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-import peakLogo from '@/assets/peak-insolvency-logo.png';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,16 +30,12 @@ const Navigation = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
-            <div className="flex items-center space-x-3">
-              <Link to="/" className="flex items-center space-x-3 group">
-                <img 
-                  src={peakLogo} 
-                  alt="Peak Insolvency Logo" 
-                  className="w-10 h-10 md:w-12 md:h-12 object-contain transition-transform duration-300 group-hover:scale-105"
-                />
-                <span className="text-xl md:text-2xl font-bold font-display text-primary group-hover:text-accent transition-colors duration-300">
-                  Peak Insolvency
-                </span>
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
+                <span className="text-primary-foreground font-bold text-lg md:text-xl font-display">P</span>
+              </div>
+              <Link to="/" className="text-xl md:text-2xl font-bold font-display text-primary">
+                Peak Insolvency
               </Link>
             </div>
 
