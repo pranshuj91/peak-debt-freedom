@@ -179,8 +179,8 @@ const About = () => {
             </div>
 
             <div className="bg-muted/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center mx-4 md:mx-0 md:col-span-2 lg:col-span-1">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-secondary rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                <TrendingDown className="w-5 h-5 sm:w-6 sm:h-6 text-secondary-foreground" />
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <TrendingDown className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" />
               </div>
               <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2 sm:mb-3">Debt Arrangement Scheme</h3>
               <p className="text-sm text-muted-foreground">
