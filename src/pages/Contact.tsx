@@ -74,7 +74,7 @@ const Contact = () => {
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
             <Button variant="hero" size="lg" className="hero-animate w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 opacity-0 transform translate-y-8">
-              Call Now: 0800 123 4567
+              Call Now: 0300 678 0015
             </Button>
             <Button variant="outline-hero" size="lg" className="hero-animate w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 opacity-0 transform translate-y-8">
               Free Online Assessment
@@ -104,7 +104,7 @@ const Contact = () => {
               <p className="text-sm sm:text-base text-muted-foreground mb-4">
                 Speak directly with our debt advisors
               </p>
-              <div className="font-semibold text-primary">0800 123 4567</div>
+              <div className="font-semibold text-primary">0300 678 0015</div>
               <div className="text-sm text-muted-foreground">Freephone</div>
             </div>
 
@@ -128,8 +128,8 @@ const Contact = () => {
               <p className="text-sm sm:text-base text-muted-foreground mb-4">
                 We're here when you need us
               </p>
-              <div className="font-semibold text-primary">Mon-Fri: 8am-8pm</div>
-              <div className="text-sm text-muted-foreground">Sat: 9am-5pm</div>
+              <div className="font-semibold text-primary">Mon-Fri: 9am-5pm</div>
+            
             </div>
 
             <div className="text-center p-6 bg-background rounded-2xl shadow-sm border border-border/50 hover:shadow-lg transition-all duration-300">
@@ -140,7 +140,7 @@ const Contact = () => {
               <p className="text-sm sm:text-base text-muted-foreground mb-4">
                 Visit us in person
               </p>
-              <div className="font-semibold text-primary">Manchester</div>
+              <div className="font-semibold text-primary">Suite 138, Peel House 30 The Downs Altrincham, Cheshire WA14 2PX</div>
               <div className="text-sm text-muted-foreground">By appointment</div>
             </div>
           </div>
@@ -279,7 +279,7 @@ const Contact = () => {
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
             <Button variant="hero" size="lg" className="w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
-              Call Now: 0800 123 4567
+              Call Now: 0300 678 0015
             </Button>
             <Button variant="outline-hero" size="lg" className="w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
               Start Online Assessment

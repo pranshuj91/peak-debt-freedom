@@ -52,7 +52,7 @@ const Footer = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <span className="text-primary-foreground/90 text-sm font-medium">Mon-Fri, 9am-6pm</span>
+                  <span className="text-primary-foreground/90 text-sm font-medium">Mon-Fri, 9am-5pm</span>
                 </div>
               </div>
             </div>
