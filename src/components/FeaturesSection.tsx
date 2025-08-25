@@ -54,8 +54,8 @@ const FeaturesSection = () => {
                 {/* Content */}
                 <div className="relative p-6 sm:p-8 md:p-10">
                   {/* Icon */}
-                  <div className={`w-14 h-14 sm:w-16 sm:h-16 ${feature.iconBg} rounded-2xl flex items-center justify-center mb-6 sm:mb-8 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                    <IconComponent className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
+                  <div className="w-14 h-14 sm:w-16 sm:h-16 bg-primary rounded-2xl flex items-center justify-center mb-6 sm:mb-8 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <IconComponent className="w-7 h-7 sm:w-8 sm:h-8 text-primary-foreground" />
                   </div>
                   
                   {/* Title */}
@@ -70,7 +70,8 @@ const FeaturesSection = () => {
                   
                   {/* Button */}
                   <Button 
-                    className="w-full sm:w-auto group/btn bg-foreground text-background hover:bg-primary hover:text-primary-foreground transition-all duration-300 font-semibold px-6 py-3 rounded-xl shadow-md hover:shadow-lg"
+                    variant="default"
+                    className="w-full sm:w-auto group/btn font-semibold px-6 py-3 rounded-xl shadow-md hover:shadow-lg"
                   >
                     {feature.action}
                     <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
@@ -92,15 +93,16 @@ const FeaturesSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
+                variant="premium"
                 size="lg" 
-                className="bg-gradient-primary text-primary-foreground hover:shadow-lg transition-all duration-300 px-8 py-4 rounded-xl font-semibold"
+                className="px-8 py-4 rounded-xl font-semibold"
               >
                 Get Your Free Assessment
               </Button>
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 px-8 py-4 rounded-xl font-semibold"
+                className="px-8 py-4 rounded-xl font-semibold"
               >
                 Speak to an Expert
               </Button>

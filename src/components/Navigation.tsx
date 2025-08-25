@@ -70,7 +70,7 @@ const Navigation = () => {
                 variant="ghost" 
                 size="sm" 
                 onClick={toggleMobileMenu}
-                className="p-2"
+                className="p-2 text-foreground hover:text-primary"
               >
                 {isMobileMenuOpen ? (
                   <X className="w-6 h-6" />
