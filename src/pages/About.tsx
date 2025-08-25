@@ -64,7 +64,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-3 sm:mb-4 px-4">
-              Why Choose Peak Insolvency?
+              Why Choose <span className="text-accent">Peak Insolvency?</span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto px-4">
               We're not here to judge your past financial decisions. We're here to help you build a better financial future.
@@ -120,7 +120,7 @@ const About = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4 sm:mb-6 px-4">
-              Our Mission
+              Our <span className="text-accent">Mission</span>
           </h2>
             <div className="w-16 sm:w-24 h-1 bg-gradient-primary mx-auto rounded-full mb-6 sm:mb-8"></div>
           </div>
@@ -163,7 +163,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-3 sm:mb-4 px-4">
-              What We Offer
+              What We <span className="text-accent">Offer</span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground px-4">
               Free debt advice tailored to your circumstances
@@ -208,7 +208,7 @@ const About = () => {
       <section className="py-12 sm:py-16 lg:py-20 bg-gradient-primary">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-primary-foreground mb-4 sm:mb-6 px-4">
-            Ready to Take Control of Your Debt?
+            Ready to Take Control of <span className="text-gold"> Your Debt?</span>
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-primary-foreground/90 mb-6 sm:mb-8 max-w-3xl mx-auto px-4">
             Don't let debt control your life. Take the first step towards financial freedom today.

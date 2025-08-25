@@ -88,7 +88,7 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-3 sm:mb-4 px-4">
-              Multiple Ways to Get Help
+              Multiple Ways to <span className="text-accent"> Get Help</span>            
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto px-4">
               Choose the method that works best for you. All consultations are completely free and confidential.
@@ -270,8 +270,8 @@ const Contact = () => {
       {/* Final CTA */}
       <section className="py-12 sm:py-16 lg:py-20 bg-gradient-primary">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-display text-primary-foreground mb-4 sm:mb-6 px-4">
-            Don't Let Debt Control Your Life
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-primary-foreground mb-4 sm:mb-6 px-4">
+            Don't Let Debt Control <span className="text-gold">Your Life</span>
           </h2>
           <p className="text-base sm:text-lg text-primary-foreground/90 mb-6 sm:mb-8 max-w-3xl mx-auto px-4">
             Take the first step towards financial freedom today. Our expert advisors are here to help you find the best solution for your situation.
