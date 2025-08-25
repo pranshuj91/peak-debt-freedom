@@ -31,7 +31,7 @@ const FeaturesSection = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16 md:mb-20 animate-fade-in">
-          <h2 className="text-display text-foreground mb-4 sm:mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-foreground mb-4 sm:mb-6">
             Take Control of Your Finances Today
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -88,7 +88,7 @@ const FeaturesSection = () => {
         {/* Additional CTA Section */}
         <div className="text-center mt-12 sm:mt-16 md:mt-20 animate-fade-in">
           <div className="max-w-2xl mx-auto">
-            <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8">
+            <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 text-[48px]">
               Ready to take the first step towards financial freedom?
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
