@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import { FileText, Shield, Scale, AlertCircle, Users, Mail, ArrowLeft } from 'lucide-react'
@@ -5,6 +6,24 @@ import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 
 const TermsOfUse = () => {
+  useEffect(() => {
+    // Scroll to top when component mounts
+    window.scrollTo(0, 0);
+    
+    // Add slide-up animation to hero elements
+    const animateHeroElements = () => {
+      const elements = document.querySelectorAll('.hero-animate');
+      elements.forEach((el, index) => {
+        setTimeout(() => {
+          el.classList.add('animate-slide-up');
+        }, index * 200);
+      });
+    };
+
+    // Small delay to ensure DOM is ready
+    setTimeout(animateHeroElements, 100);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -14,10 +33,10 @@ const TermsOfUse = () => {
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-4xl mx-auto text-center">
           
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-foreground mb-4 leading-tight mt-20 text-display">
+          <h1 className="hero-animate text-3xl sm:text-4xl md:text-5xl font-bold text-primary-foreground mb-4 leading-tight mt-20 text-display opacity-0 transform translate-y-8">
             Terms of Use
           </h1>
-          <p className="text-lg sm:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
+          <p className="hero-animate text-lg sm:text-xl text-primary-foreground/90 max-w-2xl mx-auto opacity-0 transform translate-y-8">
             Please read these terms and conditions carefully before using our website and services
           </p>
         </div>

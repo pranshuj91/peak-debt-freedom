@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { ArrowLeft, Shield, Lock, Eye, Users, FileText, Database, Globe, Phone, Mail, MapPin } from 'lucide-react';
@@ -6,6 +7,24 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const PrivacyPolicy = () => {
+  useEffect(() => {
+    // Scroll to top when component mounts
+    window.scrollTo(0, 0);
+    
+    // Add slide-up animation to hero elements
+    const animateHeroElements = () => {
+      const elements = document.querySelectorAll('.hero-animate');
+      elements.forEach((el, index) => {
+        setTimeout(() => {
+          el.classList.add('animate-slide-up');
+        }, index * 200);
+      });
+    };
+
+    // Small delay to ensure DOM is ready
+    setTimeout(animateHeroElements, 100);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -14,10 +33,10 @@ const PrivacyPolicy = () => {
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-4xl mx-auto text-center">
           
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-foreground mb-4 leading-tight mt-20 font-display text-display">
+          <h1 className="hero-animate text-3xl sm:text-4xl md:text-5xl font-bold text-primary-foreground mb-4 leading-tight mt-20 font-display text-display opacity-0 transform translate-y-8">
             Privacy Policy
           </h1>
-          <p className="text-lg sm:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
+          <p className="hero-animate text-lg sm:text-xl text-primary-foreground/90 max-w-2xl mx-auto opacity-0 transform translate-y-8">
             Understanding how we protect and use your personal information
           </p>
         </div>

@@ -8,6 +8,19 @@ const About = () => {
   useEffect(() => {
     // Scroll to top when component mounts
     window.scrollTo(0, 0);
+    
+    // Add slide-up animation to hero elements
+    const animateHeroElements = () => {
+      const elements = document.querySelectorAll('.hero-animate');
+      elements.forEach((el, index) => {
+        setTimeout(() => {
+          el.classList.add('animate-slide-up');
+        }, index * 200);
+      });
+    };
+
+    // Small delay to ensure DOM is ready
+    setTimeout(animateHeroElements, 100);
   }, []);
 
   return (
@@ -21,25 +34,25 @@ const About = () => {
         <div className="absolute bottom-0 right-0 w-64 h-64 md:w-96 md:h-96 bg-gold/10 rounded-full blur-3xl translate-x-32 translate-y-32 md:translate-x-48 md:translate-y-48"></div>
         
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-6">
-          <div className="inline-flex items-center space-x-2 sm:space-x-3 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:mb-8">
+          <div className="hero-animate inline-flex items-center space-x-2 sm:space-x-3 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:mb-8 opacity-0 transform translate-y-8">
             <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-gold" />
             <span className="text-primary-foreground/90 font-medium text-sm sm:text-base">About Peak Insolvency</span>
           </div>
           
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-display text-primary-foreground mb-4 sm:mb-6 leading-tight px-2">
+          <h1 className="hero-animate text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-display text-primary-foreground mb-4 sm:mb-6 leading-tight px-2 opacity-0 transform translate-y-8">
             The debt advice that puts <span className="text-gold">you first</span>
           </h1>
           
-          <p className="text-lg sm:text-xl text-primary-foreground/90 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
+          <p className="hero-animate text-lg sm:text-xl text-primary-foreground/90 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4 opacity-0 transform translate-y-8">
             Most debt companies treat you like a number. We treat you like a person. 
             When debt feels overwhelming, you need someone who listens, understands, and fights in your corner.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
-            <Button variant="hero" size="lg" className="w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
+            <Button variant="hero" size="lg" className="hero-animate w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 opacity-0 transform translate-y-8">
               Start Your Journey
             </Button>
-            <Button variant="outline-hero" size="lg" className="w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
+            <Button variant="outline-hero" size="lg" className="hero-animate w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 opacity-0 transform translate-y-8">
               Free Consultation
             </Button>
           </div>
@@ -179,8 +192,8 @@ const About = () => {
             </div>
 
             <div className="bg-muted/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center mx-4 md:mx-0 md:col-span-2 lg:col-span-1">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-secondary rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                <TrendingDown className="w-5 h-5 sm:w-6 sm:h-6 text-secondary-foreground" />
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <TrendingDown className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" />
               </div>
               <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2 sm:mb-3">Debt Arrangement Scheme</h3>
               <p className="text-sm text-muted-foreground">

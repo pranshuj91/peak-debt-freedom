@@ -19,6 +19,19 @@ const Contact = () => {
   useEffect(() => {
     // Scroll to top when component mounts
     window.scrollTo(0, 0);
+    
+    // Add slide-up animation to hero elements
+    const animateHeroElements = () => {
+      const elements = document.querySelectorAll('.hero-animate');
+      elements.forEach((el, index) => {
+        setTimeout(() => {
+          el.classList.add('animate-slide-up');
+        }, index * 200);
+      });
+    };
+
+    // Small delay to ensure DOM is ready
+    setTimeout(animateHeroElements, 100);
   }, []);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -46,24 +59,24 @@ const Contact = () => {
         <div className="absolute bottom-0 right-0 w-64 h-64 md:w-96 md:h-96 bg-gold/10 rounded-full blur-3xl translate-x-32 translate-y-32 md:translate-x-48 md:translate-y-48"></div>
         
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-6">
-          <div className="inline-flex items-center space-x-2 sm:space-x-3 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:mb-8">
+          <div className="hero-animate inline-flex items-center space-x-2 sm:space-x-3 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:mb-8 opacity-0 transform translate-y-8">
             <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 text-gold" />
             <span className="text-primary-foreground/90 font-medium text-sm sm:text-base">Get In Touch</span>
           </div>
           
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-display text-primary-foreground mb-4 sm:mb-6 leading-tight px-2">
+          <h1 className="hero-animate text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-display text-primary-foreground mb-4 sm:mb-6 leading-tight px-2 opacity-0 transform translate-y-8">
             Ready to Take Control of Your <span className="text-gold">Financial Future?</span>
           </h1>
           
-          <p className="text-lg sm:text-xl text-primary-foreground/90 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
+          <p className="hero-animate text-lg sm:text-xl text-primary-foreground/90 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4 opacity-0 transform translate-y-8">
             Our expert debt advisors are here to help. Get your free, confidential consultation today and discover how we can help you become debt-free.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
-            <Button variant="hero" size="lg" className="w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
+            <Button variant="hero" size="lg" className="hero-animate w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 opacity-0 transform translate-y-8">
               Call Now: 0800 123 4567
             </Button>
-            <Button variant="outline-hero" size="lg" className="w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
+            <Button variant="outline-hero" size="lg" className="hero-animate w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 opacity-0 transform translate-y-8">
               Free Online Assessment
             </Button>
           </div>
