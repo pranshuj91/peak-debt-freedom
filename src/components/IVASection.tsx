@@ -17,7 +17,7 @@ const IVASection = () => {
           <div className="inline-flex items-center bg-gold/20 backdrop-blur-sm rounded-full px-6 py-2 mb-6">
             <span className="text-gold font-semibold">IVA Benefits</span>
           </div>
-          <h2 className="text-5xl md:text-6xl font-bold text-primary-foreground mb-6 font-display text-[48px]">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-foreground mb-4 sm:mb-6">
             Could an IVA cut your debt by up to{' '}
             <span className="text-gold animate-pulse-glow">80%?</span>
           </h2>
