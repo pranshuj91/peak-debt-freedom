@@ -107,8 +107,8 @@ const About = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4 sm:mb-6 px-4">
-              Our <span className=text-accent>Mission</span>
-            </h2>
+              Our Mission
+          </h2>
             <div className="w-16 sm:w-24 h-1 bg-gradient-primary mx-auto rounded-full mb-6 sm:mb-8"></div>
           </div>
 
@@ -150,7 +150,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-3 sm:mb-4 px-4">
-              What We <span className="text-accent">Offer</span>
+              What We Offer
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground px-4">
               Free debt advice tailored to your circumstances
