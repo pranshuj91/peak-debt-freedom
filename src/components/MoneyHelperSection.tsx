@@ -26,8 +26,8 @@ const MoneyHelperSection = () => {
               {/* Content section */}
               <div className="flex-1 text-center lg:text-left">
                 <div className="mb-6">
-                  <div className="inline-flex items-center gap-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium mb-4">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                  <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
+                    <div className="w-2 h-2 bg-primary rounded-full"></div>
                     Free Financial Guidance
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold font-display text-foreground mb-4 leading-tight">
@@ -45,13 +45,13 @@ const MoneyHelperSection = () => {
                     href="https://www.moneyhelper.org.uk"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 group"
+                    className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 group"
                   >
                     Visit MoneyHelper
                     <ExternalLink className="w-4 h-4 group-hover:rotate-12 transition-transform duration-300" />
                   </a>
                   <div className="inline-flex items-center gap-2 text-sm text-muted-foreground px-4 py-3">
-                    <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                    <div className="w-2 h-2 bg-accent rounded-full animate-pulse"></div>
                     Independent & Free Service
                   </div>
                 </div>
