@@ -51,7 +51,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-3 sm:mb-4 px-4">
-              Why Choose Peak Insolvency?
+              Why Choose <span className="text-accent">Peak Insolvency?</span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto px-4">
               We're not here to judge your past financial decisions. We're here to help you build a better financial future.
