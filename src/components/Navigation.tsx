@@ -50,12 +50,6 @@ const Navigation = () => {
                 <span className="text-lg md:text-xl font-bold text-gold font-display tracking-wider">PEAK</span>
                 <span className="text-xs md:text-sm font-medium text-primary tracking-wide">INSOLVENCY</span>
               </div>
-              {/* Subtle triangle accent */}
-              <div className="hidden md:block ml-2 opacity-20">
-                <svg className="w-3 h-3 text-gold animate-float" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2L2 22h20L12 2z"/>
-                </svg>
-              </div>
             </div>
 
             {/* Navigation Links - Center */}
