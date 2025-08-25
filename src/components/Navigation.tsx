@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 
@@ -33,31 +34,31 @@ const Navigation = () => {
               <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg md:text-xl font-display">P</span>
               </div>
-              <span className="text-xl md:text-2xl font-bold font-display text-primary">
+              <Link to="/" className="text-xl md:text-2xl font-bold font-display text-primary">
                 Peak Insolvency
-              </span>
+              </Link>
             </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              <a 
-                href="#home" 
+              <Link 
+                to="/" 
                 className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
               >
                 Home
-              </a>
-              <a 
-                href="/about" 
+              </Link>
+              <Link 
+                to="/about" 
                 className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
               >
                 About
-              </a>
-              <a 
-                href="/contact" 
+              </Link>
+              <Link 
+                to="/contact" 
                 className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
               >
                 Contact Us
-              </a>
+              </Link>
               
               <Button variant="premium" size="lg" className="ml-4">
                 Free Consultation
@@ -89,48 +90,48 @@ const Navigation = () => {
           <div className="fixed inset-0 bg-background/80 backdrop-blur-sm" onClick={closeMobileMenu}></div>
           <div className="fixed top-16 left-0 right-0 bg-background border-b border-border/50 shadow-lg">
             <div className="px-4 py-6 space-y-4">
-              <a 
-                href="#home" 
+              <Link 
+                to="/" 
                 className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
                 onClick={closeMobileMenu}
               >
                 Home
-              </a>
-              <a 
-                href="/about" 
+              </Link>
+              <Link 
+                to="/about" 
                 className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
                 onClick={closeMobileMenu}
               >
                 About
-              </a>
-              <a 
-                href="/contact" 
+              </Link>
+              <Link 
+                to="/contact" 
                 className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
                 onClick={closeMobileMenu}
               >
                 Contact Us
-              </a>
-              <a 
-                href="/privacy-policy" 
+              </Link>
+              <Link 
+                to="/privacy-policy" 
                 className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
                 onClick={closeMobileMenu}
               >
                 Privacy Policy
-              </a>
-              <a 
-                href="/terms-of-use" 
+              </Link>
+              <Link 
+                to="/terms-of-use" 
                 className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
                 onClick={closeMobileMenu}
               >
                 Terms of Use
-              </a>
-              <a 
-                href="/complaints-policy" 
+              </Link>
+              <Link 
+                to="/complaints-policy" 
                 className="block text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
                 onClick={closeMobileMenu}
               >
                 Complaints Policy
-              </a>
+              </Link>
               <div className="pt-4">
                 <Button variant="premium" size="lg" className="w-full" onClick={closeMobileMenu}>
                   Free Consultation

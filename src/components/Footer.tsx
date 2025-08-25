@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Separator } from '@/components/ui/separator';
 
 const Footer = () => {
@@ -127,7 +128,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a href="https://www.gov.uk/guidance/guidance-on-personal-debt-relief-options-company-liquidation-investigation-and-enforcement#debt-relief-options" target="_blank" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
+                  <a href="https://www.gov.uk/guidance/guidance-on-personal-debt-relief-options-company-liquidation-investment-and-enforcement#debt-relief-options" target="_blank" className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed">
                     <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300 flex-shrink-0 mt-1"></div>
                     Guidance on Personal Debt Relief Options, Company Liquidations, Investigation & Enforcement
                   </a>
@@ -162,18 +163,18 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center space-x-8">
-              <a href="/privacy-policy" className="text-primary-foreground/80 hover:text-gold text-sm font-medium transition-all duration-300 relative group">
+              <Link to="/privacy-policy" className="text-primary-foreground/80 hover:text-gold text-sm font-medium transition-all duration-300 relative group">
                 Privacy Policy
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold transition-all duration-300 group-hover:w-full"></div>
-              </a>
-              <a href="/terms-of-use" className="text-primary-foreground/80 hover:text-gold text-sm font-medium transition-all duration-300 relative group">
+              </Link>
+              <Link to="/terms-of-use" className="text-primary-foreground/80 hover:text-gold text-sm font-medium transition-all duration-300 relative group">
                 Terms of Use
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold transition-all duration-300 group-hover:w-full"></div>
-              </a>
-              <a href="/complaints-policy" className="text-primary-foreground/80 hover:text-gold text-sm font-medium transition-all duration-300 relative group">
+              </Link>
+              <Link to="/complaints-policy" className="text-primary-foreground/80 hover:text-gold text-sm font-medium transition-all duration-300 relative group">
                 Complaints Policy
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold transition-all duration-300 group-hover:w-full"></div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
