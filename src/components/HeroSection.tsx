@@ -54,8 +54,8 @@ const HeroSection = () => {
       <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-accent/10 rounded-full blur-3xl animate-float" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gold/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
       
-      {/* Floating Triangle Elements */}
-      <div className="absolute top-1/3 left-1/5 opacity-5">
+      {/* Floating Triangle Elements - Repositioned to avoid text interference */}
+      <div className="absolute top-16 left-8 opacity-5">
         <svg className="w-32 h-32 text-gold animate-float-slow" viewBox="0 0 24 24" fill="currentColor">
           <path d="M12 2L2 22h20L12 2z" opacity="0.3"/>
         </svg>
@@ -65,7 +65,7 @@ const HeroSection = () => {
           <path d="M12 2L2 22h20L12 2z" opacity="0.4"/>
         </svg>
       </div>
-      <div className="absolute top-1/2 left-1/6 opacity-3">
+      <div className="absolute bottom-16 left-12 opacity-3">
         <svg className="w-16 h-16 text-gold animate-float" viewBox="0 0 24 24" fill="currentColor">
           <path d="M12 2L2 22h20L12 2z" opacity="0.6"/>
         </svg>
