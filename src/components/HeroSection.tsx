@@ -50,9 +50,45 @@ const HeroSection = () => {
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-hero opacity-90" />
       
-      {/* Floating Financial Elements */}
+      {/* Peak-themed Background Elements */}
       <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-accent/10 rounded-full blur-3xl animate-float" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gold/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
+      
+      {/* Floating Triangle Elements */}
+      <div className="absolute top-1/3 left-1/5 opacity-5">
+        <svg className="w-32 h-32 text-gold animate-float-slow" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2L2 22h20L12 2z" opacity="0.3"/>
+        </svg>
+      </div>
+      <div className="absolute bottom-1/3 right-1/5 opacity-5">
+        <svg className="w-24 h-24 text-accent animate-float-slower" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2L2 22h20L12 2z" opacity="0.4"/>
+        </svg>
+      </div>
+      <div className="absolute top-1/2 left-1/6 opacity-3">
+        <svg className="w-16 h-16 text-gold animate-float" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2L2 22h20L12 2z" opacity="0.6"/>
+        </svg>
+      </div>
+      
+      {/* Peak Pattern Background */}
+      <div className="absolute inset-0 opacity-5 pointer-events-none">
+        <div className="absolute top-10 left-1/3 transform rotate-12">
+          <svg className="w-8 h-8 text-gold animate-triangle-pulse" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L2 22h20L12 2z"/>
+          </svg>
+        </div>
+        <div className="absolute bottom-20 right-1/3 transform -rotate-12">
+          <svg className="w-6 h-6 text-accent animate-triangle-pulse" viewBox="0 0 24 24" fill="currentColor" style={{ animationDelay: '1s' }}>
+            <path d="M12 2L2 22h20L12 2z"/>
+          </svg>
+        </div>
+        <div className="absolute top-2/3 right-1/4 transform rotate-45">
+          <svg className="w-4 h-4 text-gold animate-triangle-pulse" viewBox="0 0 24 24" fill="currentColor" style={{ animationDelay: '2s' }}>
+            <path d="M12 2L2 22h20L12 2z"/>
+          </svg>
+        </div>
+      </div>
       
       {/* Debt-related Background Animations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

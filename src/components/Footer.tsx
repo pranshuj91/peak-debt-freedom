@@ -14,18 +14,35 @@ const Footer = () => {
             {/* Company Info */}
             <div className="group">
               <div className="mb-8">
-                <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center">
-                    {/* Mountain Peak Icon */}
-                    <svg className="w-7 h-7 text-gold" viewBox="0 0 24 24" fill="currentColor">
+                <div className="flex items-center space-x-3 mb-6 group">
+                  <div className="relative w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center overflow-hidden animate-peak-glow">
+                    {/* Background triangle patterns */}
+                    <div className="absolute inset-0 opacity-10">
+                      <div className="absolute top-1 left-1 w-2 h-2 bg-gold transform rotate-45 animate-float"></div>
+                      <div className="absolute bottom-1 right-1 w-1 h-1 bg-gold transform rotate-45 animate-float-slow"></div>
+                      <div className="absolute top-2 right-2 w-1 h-1 bg-gold transform rotate-12 animate-float-slower"></div>
+                    </div>
+                    {/* Main Peak Icon */}
+                    <svg className="w-7 h-7 text-gold relative z-10 animate-triangle-pulse group-hover:scale-110 transition-transform duration-300" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M12 2L2 22h20L12 2z"/>
                       <path d="M12 6L6 18h12L12 6z" fill="currentColor" opacity="0.8"/>
                       <path d="M12 10L10 18h4L12 10z" fill="currentColor" opacity="0.6"/>
                     </svg>
+                    {/* Subtle glow effect */}
+                    <div className="absolute inset-0 bg-gold/5 rounded-lg animate-peak-breathe"></div>
                   </div>
-                  <div className="flex flex-col">
-                    <span className="text-xl font-bold text-gold font-display">PEAK</span>
-                    <span className="text-sm font-medium text-primary-foreground">INSOLVENCY</span>
+                  <div className="flex flex-col group-hover:translate-x-1 transition-transform duration-300">
+                    <span className="text-xl font-bold text-gold font-display tracking-wider">PEAK</span>
+                    <span className="text-sm font-medium text-primary-foreground tracking-wide">INSOLVENCY</span>
+                  </div>
+                  {/* Triangle accent elements */}
+                  <div className="flex flex-col space-y-1 opacity-20 ml-2">
+                    <svg className="w-2 h-2 text-gold animate-float" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2L2 22h20L12 2z"/>
+                    </svg>
+                    <svg className="w-1 h-1 text-gold animate-float-slow" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2L2 22h20L12 2z"/>
+                    </svg>
                   </div>
                 </div>
                 <p className="text-primary-foreground/90 leading-relaxed text-sm mb-6">
