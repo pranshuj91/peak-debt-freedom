@@ -17,8 +17,8 @@ const DisclaimerSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl mb-6 shadow-lg">
-            <Shield className="w-8 h-8 text-white" />
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-2xl mb-6 shadow-lg">
+            <Shield className="w-8 h-8 text-primary-foreground" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold font-display text-foreground mb-4">
             Important Information
@@ -33,8 +33,8 @@ const DisclaimerSection = () => {
           {/* Fee Information */}
           <div className="bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm border border-white/20 dark:border-slate-700/50 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-green-100 dark:bg-green-900/30 rounded-xl flex items-center justify-center mr-3">
-                <FileText className="w-5 h-5 text-green-600 dark:text-green-400" />
+              <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center mr-3">
+                <FileText className="w-5 h-5 text-primary" />
               </div>
               <h3 className="text-lg font-semibold text-foreground">Fee Structure</h3>
             </div>
@@ -46,8 +46,8 @@ const DisclaimerSection = () => {
           {/* Service Information */}
           <div className="bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm border border-white/20 dark:border-slate-700/50 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-xl flex items-center justify-center mr-3">
-                <Shield className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+              <div className="w-10 h-10 bg-accent/10 rounded-xl flex items-center justify-center mr-3">
+                <Shield className="w-5 h-5 text-accent" />
               </div>
               <h3 className="text-lg font-semibold text-foreground">Our Services</h3>
             </div>
@@ -59,8 +59,8 @@ const DisclaimerSection = () => {
           {/* Qualification Requirements */}
           <div className="bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm border border-white/20 dark:border-slate-700/50 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900/30 rounded-xl flex items-center justify-center mr-3">
-                <AlertTriangle className="w-5 h-5 text-purple-600 dark:text-purple-400" />
+              <div className="w-10 h-10 bg-secondary/10 rounded-xl flex items-center justify-center mr-3">
+                <AlertTriangle className="w-5 h-5 text-secondary-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-foreground">Qualification</h3>
             </div>
@@ -71,10 +71,10 @@ const DisclaimerSection = () => {
         </div>
 
         {/* Important Notice */}
-        <div className="bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 border border-amber-200 dark:border-amber-800/50 rounded-2xl p-8 shadow-lg">
+        <div className="bg-muted/50 border border-border/50 rounded-2xl p-8 shadow-lg">
           <div className="flex items-start">
-            <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/30 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
-              <AlertTriangle className="w-6 h-6 text-amber-600 dark:text-amber-400" />
+            <div className="w-12 h-12 bg-destructive/10 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+              <AlertTriangle className="w-6 h-6 text-destructive" />
             </div>
             <div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
