@@ -20,7 +20,7 @@ const About = () => {
         <div className="absolute top-0 left-0 w-64 h-64 md:w-96 md:h-96 bg-accent/5 rounded-full blur-3xl -translate-x-32 -translate-y-32 md:-translate-x-48 md:-translate-y-48"></div>
         <div className="absolute bottom-0 right-0 w-64 h-64 md:w-96 md:h-96 bg-gold/10 rounded-full blur-3xl translate-x-32 translate-y-32 md:translate-x-48 md:translate-y-48"></div>
         
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-6">
           <div className="inline-flex items-center space-x-2 sm:space-x-3 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:mb-8">
             <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-gold" />
             <span className="text-primary-foreground/90 font-medium text-sm sm:text-base">About Peak Insolvency</span>
