@@ -145,7 +145,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-8 text-center">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="animate-on-load text-primary-foreground mb-4 font-display text-center max-w-6xl text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
+          <h1 className="animate-on-load text-primary-foreground mb-4 text-center max-w-6xl text-hero">
             Welcome to the <br /><span className="text-gold break-word">Peak Insolvency</span>
           </h1>
           

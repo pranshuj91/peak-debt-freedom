@@ -24,7 +24,7 @@ const StatisticsSection = () => {
               <span className="text-primary-foreground/90 font-medium">You're not alone</span>
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-bold font-display text-primary-foreground mb-8 leading-tight">
+            <h2 className="text-display text-primary-foreground mb-8 leading-tight">
               We understand your 
               <span className="text-gold animate-pulse-glow"> struggle</span>
             </h2>
