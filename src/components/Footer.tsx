@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Separator } from '@/components/ui/separator';
+import peakInsolvencyLogo from '@/assets/peak-insolvency-logo.png';
 
 const Footer = () => {
   return (
@@ -14,9 +15,11 @@ const Footer = () => {
             {/* Company Info */}
             <div className="group">
               <div className="mb-8">
-                <h3 className="text-2xl font-bold text-gold mb-4 animate-pulse-glow">
-                  Peak Insolvency
-                </h3>
+                <img 
+                  src={peakInsolvencyLogo} 
+                  alt="Peak Insolvency" 
+                  className="h-12 w-auto mb-4"
+                />
                 <p className="text-primary-foreground/90 leading-relaxed text-sm mb-6">
                   Data Protection Act Registration Number – ZA774616.
                   To find out more about managing your money and getting free advice, visit Money Helper, 
