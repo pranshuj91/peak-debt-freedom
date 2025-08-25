@@ -16,7 +16,7 @@ const MoneyHelperSection = () => {
               <div className="flex-shrink-0">
                 <div className="bg-white dark:bg-background rounded-2xl p-6 shadow-md border border-border/30 hover:shadow-lg transition-all duration-300 group">
                   <img
-                    src={moneyhelperLogo}
+                    src="/images/money-helper-scaled-1920w.webp"
                     alt="MoneyHelper logo"
                     className="h-16 md:h-20 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
                   />

@@ -7,19 +7,19 @@ const PartnersSection = () => {
   const partners = [
     {
       name: "MoneyHelper",
-      logo: moneyhelperLogo,
+      logo: "/images/money-helper-scaled-1920w.webp",
     },
     {
       name: "Trustpilot",
-      logo: trustpilotLogo,
+      logo: "/images/trustpilot.png",
     },
     {
       name: "Mind",
-      logo: mindLogo,
+      logo: "/images/mind.webp",
     },
     {
       name: "CheckMyFile",
-      logo: checkmyfileLogo,
+      logo: "/images/checkmyfile.png",
     }
   ];
 
