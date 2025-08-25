@@ -58,14 +58,14 @@ const StatisticsSection = () => {
                   <div className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-accent to-gold bg-clip-text text-transparent mb-4 animate-pulse-glow">
                     8.2 million
                   </div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6 leading-tight tracking-tight">
+                  <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6 leading-tight text-white/90">
                     people struggling with debt in the UK
                   </h3>
                 </div>
                 
                 <div className="border-t border-gray-200 pt-8">
                   <div className="text-4xl text-gold animate-pulse-glow">£14,540</div>
-                  <p className="text-muted-foreground text-lg tracking-tight">
+                  <p className="text-muted-foreground text-lg text-white/90">
                     Each owing on average
                   </p>
                 </div>
