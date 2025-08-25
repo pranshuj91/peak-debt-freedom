@@ -36,7 +36,7 @@ const PartnersSection = () => {
             <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
             Trusted by Industry Leaders
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text font-display">
             Our Trusted Partners
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full mb-6"></div>
