@@ -3,7 +3,7 @@ const AboutSection = () => {
     <section className="py-24 bg-gradient-subtle" id="about">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-display text-primary mb-6 font-display text-2xl">
+          <h2 className="text-display text-primary mb-6 font-display">
             The debt advice that puts <span className="text-accent">you first</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-accent mx-auto rounded-full"></div>
