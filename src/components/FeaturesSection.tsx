@@ -54,7 +54,7 @@ const FeaturesSection = () => {
                 {/* Content */}
                 <div className="relative p-6 sm:p-8 md:p-10">
                   {/* Icon */}
-                  <div className="w-14 h-14 sm:w-16 sm:h-16 bg-primary rounded-2xl flex items-center justify-center mb-6 sm:mb-8 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                  <div className="w-14 h-14 sm:w-16 sm:h-16 bg-accent rounded-2xl flex items-center justify-center mb-6 sm:mb-8 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                     <IconComponent className="w-7 h-7 sm:w-8 sm:h-8 text-primary-foreground" />
                   </div>
                   
