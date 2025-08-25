@@ -145,12 +145,12 @@ All colors MUST be HSL.
 
   /* Premium Typography Styles */
   .text-hero {
-    font-size: 60px;
+    font-size: 68px;
     @apply font-bold leading-tight tracking-tight font-display;
   }
   
   .text-display {
-    font-size: 40px;
+    font-size: 48px;
     @apply font-bold leading-tight font-display;
   }
   
