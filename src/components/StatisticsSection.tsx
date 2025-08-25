@@ -64,7 +64,7 @@ const StatisticsSection = () => {
                 </div>
                 
                 <div className="border-t border-gray-200 pt-8">
-                  <div className="text-gold animate-pulse-glow">£14,540</div>
+                  <div className="text-5xl text-gold animate-pulse-glow">£14,540</div>
                   <p className="text-muted-foreground text-lg">
                     Each owing on average
                   </p>
