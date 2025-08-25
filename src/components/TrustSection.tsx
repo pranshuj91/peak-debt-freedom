@@ -16,9 +16,6 @@ const TrustSection = () => {
         </div>
         
         {/* Trust Values Elements */}
-        <div className="absolute top-16 right-1/4 text-foreground/6 text-4xl animate-float-slow">💎</div>
-        <div className="absolute bottom-20 left-1/3 text-foreground/6 text-3xl animate-float-slower" style={{ animationDelay: '3s' }}>🤝</div>
-        <div className="absolute top-1/2 right-12 text-foreground/6 text-2xl animate-float-slow" style={{ animationDelay: '1s' }}>❤️</div>
         
         {/* Success Numbers */}
         <div className="absolute top-1/3 left-16 text-foreground/5 text-xl font-bold animate-float-slower">12k+</div>
