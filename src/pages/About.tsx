@@ -51,7 +51,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-3 sm:mb-4 px-4">
-              Why Choose <span className="text-accent">Peak Insolvency?</span>
+              Why Choose Peak Insolvency?
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto px-4">
               We're not here to judge your past financial decisions. We're here to help you build a better financial future.
@@ -107,7 +107,7 @@ const About = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4 sm:mb-6 px-4">
-              Our Mission
+              Our <span className=text-accent>Mission</span>
             </h2>
             <div className="w-16 sm:w-24 h-1 bg-gradient-primary mx-auto rounded-full mb-6 sm:mb-8"></div>
           </div>
@@ -150,7 +150,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-3 sm:mb-4 px-4">
-              What We Offer
+              What We <span className="text-accent">Offer</span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground px-4">
               Free debt advice tailored to your circumstances
@@ -179,8 +179,8 @@ const About = () => {
             </div>
 
             <div className="bg-muted/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center mx-4 md:mx-0 md:col-span-2 lg:col-span-1">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                <TrendingDown className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" />
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-secondary rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <TrendingDown className="w-5 h-5 sm:w-6 sm:h-6 text-secondary-foreground" />
               </div>
               <h3 className="text-base sm:text-lg font-semibold text-foreground mb-2 sm:mb-3">Debt Arrangement Scheme</h3>
               <p className="text-sm text-muted-foreground">
