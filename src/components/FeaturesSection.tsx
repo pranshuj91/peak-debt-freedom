@@ -32,7 +32,7 @@ const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16 md:mb-20 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-foreground mb-4 sm:mb-6">
-            Take Control of Your Finances Today
+            Take Control of Your <span className="text-accent">Finances Today</span>
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Our comprehensive tools and services help you manage your debt effectively and rebuild your financial future.
@@ -54,7 +54,7 @@ const FeaturesSection = () => {
                 {/* Content */}
                 <div className="relative p-6 sm:p-8 md:p-10">
                   {/* Icon */}
-                  <div className="w-14 h-14 sm:w-16 sm:h-16 bg-accent rounded-2xl flex items-center justify-center mb-6 sm:mb-8 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                  <div className="w-14 h-14 sm:w-16 sm:h-16 bg-primary rounded-2xl flex items-center justify-center mb-6 sm:mb-8 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                     <IconComponent className="w-7 h-7 sm:w-8 sm:h-8 text-primary-foreground" />
                   </div>
                   
