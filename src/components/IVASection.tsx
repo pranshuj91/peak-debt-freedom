@@ -22,7 +22,7 @@ const IVASection = () => {
             <span className="text-gold font-semibold">IVA Benefits</span>
           </div>
           <h2 className="text-[48px] leading-tight font-bold text-primary-foreground mb-6 font-display text-white">
-            Could an IVA cut your debt by up to <span className="text-gold animate-pulse-glow">80%?</span>
+            Could an IVA help reduce your debt?
           </h2>
           <p className="text-xl text-primary-foreground/80 max-w-3xl mx-auto">
             An Individual Voluntary Arrangement (IVA) might be the debt relief you&apos;ve been looking for. But
