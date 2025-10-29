@@ -156,7 +156,7 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-display text-foreground mb-4 px-4">
-              Get Your Free Debt Assessment
+              Get in contact today
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground px-4">
               Fill out the below form and one of our friendly staff will contact you
