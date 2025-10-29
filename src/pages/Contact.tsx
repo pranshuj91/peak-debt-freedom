@@ -69,8 +69,8 @@ const Contact = () => {
           </h1>
 
           <p className="hero-animate text-lg sm:text-xl text-primary-foreground/90 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4 opacity-0 transform translate-y-8">
-            Our expert debt advisors are here to help. Get your free, confidential consultation today and discover how
-            we can help you become debt-free.
+            Our friendly staff are here to help. Get your confidential consultation today and discover how we can help
+            you on your journey.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
@@ -86,7 +86,7 @@ const Contact = () => {
               size="lg"
               className="hero-animate w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 opacity-0 transform translate-y-8"
             >
-              Free Online Assessment
+              Get in contact today
             </Button>
           </div>
         </div>
@@ -110,7 +110,9 @@ const Contact = () => {
                 <Phone className="w-6 h-6 sm:w-8 sm:h-8 text-primary-foreground" />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">Call Us</h3>
-              <p className="text-sm sm:text-base text-muted-foreground mb-4">Speak directly with our debt advisors</p>
+              <p className="text-sm sm:text-base text-muted-foreground mb-4">
+                Speak directly with our experienced staff
+              </p>
               <div className="font-semibold text-primary">0300 678 0015</div>
               <div className="text-sm text-muted-foreground">Freephone</div>
             </div>
@@ -120,8 +122,8 @@ const Contact = () => {
                 <Mail className="w-6 h-6 sm:w-8 sm:h-8 text-accent-foreground" />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">Email Us</h3>
-              <p className="text-sm sm:text-base text-muted-foreground mb-4">Get expert advice via email</p>
-              <div className="font-semibold text-primary">advice@peakinsolvency.co.uk</div>
+              <p className="text-sm sm:text-base text-muted-foreground mb-4">Speak with us via email</p>
+              <div className="font-semibold text-primary text-sm sm:text-base break-all px-2">Customersupport@peakinsolvency.co.uk</div>
               <div className="text-sm text-muted-foreground">24/7 response</div>
             </div>
 
@@ -139,11 +141,11 @@ const Contact = () => {
                 <MapPin className="w-6 h-6 sm:w-8 sm:h-8 text-accent-foreground" />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">Our Office</h3>
-              <p className="text-sm sm:text-base text-muted-foreground mb-4">Correspondence Address</p>
+              <p className="text-sm sm:text-base text-muted-foreground mb-4">Visit us in person</p>
               <div className="font-semibold text-primary">
                 Suite 138, Peel House 30 The Downs Altrincham, Cheshire WA14 2PX
               </div>
-              <div className="text-sm text-muted-foreground">Please use phone or email</div>
+              <div className="text-sm text-muted-foreground">By appointment</div>
             </div>
           </div>
         </div>
@@ -157,7 +159,7 @@ const Contact = () => {
               Get Your Free Debt Assessment
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground px-4">
-              Fill out the form below and one of our expert advisors will contact you within 24 hours
+              Fill out the below form and one of our friendly staff will contact you
             </p>
           </div>
 
@@ -258,7 +260,7 @@ const Contact = () => {
                 size="lg"
                 className="w-full sm:w-auto px-8 py-4 text-lg font-semibold"
               >
-                Get My Free Assessment
+                Get in contact today
               </Button>
 
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm text-muted-foreground">
@@ -304,13 +306,12 @@ const Contact = () => {
               size="lg"
               className="w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4"
             >
-              Start Online Assessment
+              Get in contact today
             </Button>
           </div>
 
           <p className="text-sm text-primary-foreground/80 mt-6 px-4">
-            <strong>Remember:</strong> All consultations are completely free and confidential. No obligation, no
-            judgment.
+            <strong>Remember:</strong>All consultations are completely confidential. No obligation, no judgment.
           </p>
         </div>
       </section>
