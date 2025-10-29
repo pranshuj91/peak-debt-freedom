@@ -196,11 +196,11 @@ const HeroSection = () => {
           
           <div className="animate-on-load flex flex-col sm:flex-row gap-4 mb-8 justify-center">
             <Button variant="hero" size="xl" className="text-lg px-8 py-4">
-              Get in contact today
+              Get Your Free Debt Assessment
             </Button>
-            <Button variant="outline-hero" size="xl" className="text-lg px-8 py-4">
+             {/* <Button variant="outline-hero" size="xl" className="text-lg px-8 py-4">
               Calculate What You Could Save
-            </Button>
+             </Button> */}
           </div>
           
           <div className="animate-on-load flex flex-col sm:flex-row items-center justify-center space-y-3 sm:space-y-0 sm:space-x-8 text-primary-foreground/80">
