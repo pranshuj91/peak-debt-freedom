@@ -50,15 +50,9 @@ const Footer = () => {
                   </div>
                 </div>
                 <p className="text-primary-foreground/90 leading-relaxed text-sm mb-6">
-                  Peak Insolvency Limited are registered in England, registered company address: Unit 21 Chorley North
-                  Industrial Park, Chorley, England, PR6 7BX Company registration number 11586328, Information
-                  Commissioner’s Office registration number ZB618281 Peak Insolvency Limited is an Insolvency Practice.
-                  Dylan Quail is licensed as an insolvency practitioner in the UK by the Insolvency Practitioners
-                  Association. In the instance that you meet the criteria for an Insolvency Practitioner we will act in
-                  reasonable contemplation of an appointment. In the instance that we are unable to offer a solution in
-                  house we will refer you to one of our trusted third parties to facilitate this for you. Fees may be
-                  charged in some solutions however these will be discussed in full with you. Should we refer you to a
-                  third party we may receive a fee for this.
+                  Data Protection Act Registration Number – ZA774616. To find out more about managing your money and
+                  getting free advice, visit Money Helper, an independent service set up to help people manage their
+                  money.
                 </p>
               </div>
 
@@ -80,7 +74,9 @@ const Footer = () => {
                       />
                     </svg>
                   </div>
-                  <span className="text-primary-foreground/90 text-sm font-medium">Call for free advice</span>
+                  <span className="text-primary-foreground/90 text-sm font-medium">
+                    Call to speak with one of our friendly staff
+                  </span>
                 </div>
 
                 <div className="flex items-center space-x-3 p-3 rounded-lg glass hover:bg-gold/5 transition-all duration-300 group/contact">
