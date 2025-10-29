@@ -64,12 +64,16 @@ const AboutSection = () => {
             
             <div className="animate-on-load flex flex-col sm:flex-row gap-4">
               <button className="bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold hover:bg-primary-light transform hover:scale-[1.02] transition-all duration-300 shadow-elegant">
-                Start Your Journey
+                Get in contact today
               </button>
               <button className="border-2 border-accent text-accent px-8 py-4 rounded-lg font-semibold hover:bg-accent hover:text-accent-foreground transform hover:scale-[1.02] transition-all duration-300">
                 Learn Our Process
               </button>
             </div>
+            
+            <p className="text-xs text-foreground/70 max-w-md">
+              May not be suitable in all circumstances. Fees apply. Your credit rating may be affected
+            </p>
           </div>
           
           {/* Right Column - Values/Features */}
