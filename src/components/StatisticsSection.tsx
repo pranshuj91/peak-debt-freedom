@@ -1,12 +1,12 @@
-import { Users, TrendingDown, Heart } from 'lucide-react';
-import { useCounter } from '@/hooks/use-counter';
+import { Users, TrendingDown, Heart } from "lucide-react";
+import { useCounter } from "@/hooks/use-counter";
 
 const StatisticsSection = () => {
   const { count: millionCount, elementRef } = useCounter({
     end: 8.2,
     duration: 3000,
     decimals: 1,
-    suffix: ' million'
+    suffix: " million",
   });
   return (
     <section className="py-24 bg-gradient-primary relative overflow-hidden">
@@ -23,17 +23,18 @@ const StatisticsSection = () => {
               <Heart className="w-5 h-5 text-gold" />
               <span className="text-primary-foreground/90 font-medium">You're not alone</span>
             </div>
-            
+
             <h2 className="text-4xl md:text-5xl font-bold font-display text-primary-foreground mb-8 leading-tight text-[48px]">
-              We understand your 
+              We understand your
               <span className="text-gold animate-pulse-glow"> struggle</span>
             </h2>
-            
-            <p className="text-primary-foreground/90 text-lg leading-relaxed mb-12"> 
-              Try our budget calculator to work out what you can afford to pay, or read what our customers have to say about us below.
+
+            <p className="text-primary-foreground/90 text-lg leading-relaxed mb-12">
+              Try our budget calculator to work out what you can afford to pay, or read what our customers have to say
+              about us below.
             </p>
-            
-            {/*<div className="flex items-center space-x-6">
+
+            {/* <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center">
                   <Users className="w-6 h-6 text-gold" />
@@ -53,15 +54,15 @@ const StatisticsSection = () => {
                   <div className="text-primary-foreground/80 text-sm">Successful year</div>
                 </div>
               </div>
-            </div>
-          </div>*/}
+            </div>*/}
+          </div>
 
           {/* Right Side - Statistics */}
           <div className="animate-scale-in">
             <div className="glass-card p-12 rounded-3xl shadow-premium">
               <div className="text-center">
                 <div className="mb-8">
-                  <div 
+                  <div
                     ref={elementRef}
                     className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-accent to-gold bg-clip-text text-transparent mb-4 animate-pulse-glow"
                   >
@@ -71,18 +72,16 @@ const StatisticsSection = () => {
                     people struggling with debt in the UK
                   </h3>
                 </div>
-                
+
                 <div className="border-t border-gray-200 pt-8">
                   <div className="text-4xl text-gold animate-pulse-glow">£14,540</div>
-                  <p className="text-muted-foreground text-lg text-white/90">
-                    Each owing on average
-                  </p>
+                  <p className="text-muted-foreground text-lg text-white/90">Each owing on average</p>
                 </div>
-                
+
                 <div className="mt-8 p-6 bg-gradient-subtle rounded-2xl">
                   <p className="text-muted-foreground text-sm italic">
-                    "These statistics represent real people facing real challenges. 
-                    We're here to help you become part of the success stories."
+                    "These statistics represent real people facing real challenges. We're here to help you become part
+                    of the success stories."
                   </p>
                 </div>
               </div>
