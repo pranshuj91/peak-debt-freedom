@@ -156,8 +156,11 @@ const TrustSection = () => {
               Ready to experience the difference a personal approach makes?
             </p>
             <button className="bg-gradient-primary text-primary-foreground px-10 py-4 rounded-lg font-semibold hover:shadow-premium hover:scale-[1.02] transform transition-all duration-300 shadow-elegant">
-              Get Your Free Assessment Today
+              Get in contact today
             </button>
+            <p className="text-xs text-foreground/70 mt-4 max-w-md mx-auto">
+              May not be suitable in all circumstances. Fees apply. Your credit rating may be affected
+            </p>
           </div>
         </div>
       </div>

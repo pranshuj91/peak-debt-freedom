@@ -134,7 +134,7 @@ const FeaturesSection = () => {
                 size="lg" 
                 className="px-8 py-4 rounded-xl font-semibold"
               >
-                Get Your Free Assessment
+                Get in contact today
               </Button>
               <Button 
                 variant="outline" 
