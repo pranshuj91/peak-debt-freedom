@@ -142,7 +142,7 @@ const Footer = () => {
               <ul className="space-y-4">
                 <li className="transform transition-all duration-300 hover:translate-x-2">
                   <a
-                    href="https://irp.cdn-website.com/5564f8d3/files/uploaded/creditors-guide-to-fees.pdf"
+                    href="https://www.r3.org.uk/technical-library/england-wales/technical-guidance/fees/more/29116/page/1/voluntary-arrangement-a-guide-for-creditors-on-insolvency-practitioner-fees/"
                     target="_blank"
                     className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed"
                   >
@@ -167,7 +167,7 @@ const Footer = () => {
                     className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link text-sm leading-relaxed"
                   >
                     <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300 flex-shrink-0 mt-1"></div>
-                    IVA Protocol 2021
+                    IVA Protocol 2025
                   </a>
                 </li>
                 <li className="transform transition-all duration-300 hover:translate-x-2">
