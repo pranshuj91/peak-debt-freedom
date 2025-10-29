@@ -59,8 +59,8 @@ const StatisticsSection = () => {
                     <CheckCircle className="w-5 h-5 text-gold" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-1">Free Consultation</h4>
-                    <p className="text-white/70 text-sm">No obligation assessment of your situation</p>
+                    <h4 className="font-semibold text-white mb-1">Debt Solutions</h4>
+                    <p className="text-white/70 text-sm">IVAs, Trust Deeds, and DAS options available</p>
                   </div>
                 </div>
 
@@ -95,8 +95,8 @@ const StatisticsSection = () => {
                 </div>
               </div>
 
-              <div className="mt-8 p-6 bg-gradient-subtle rounded-2xl">
-                <p className="text-white/80 text-sm italic text-center">
+              <div className="mt-8 p-6 bg-white rounded-2xl">
+                <p className="text-foreground text-sm italic text-center">
                   "We're here to help you become part of the success stories."
                 </p>
               </div>
