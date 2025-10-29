@@ -275,11 +275,9 @@ const PrivacyPolicy = () => {
               <h4 className="font-semibold mb-4 text-sm sm:text-base">Compliance Department</h4>
               <div className="space-y-2 text-xs sm:text-sm text-muted-foreground">
                 <div>Peak Insolvency</div>
-                <div>Suite 138 Peel House</div>
-                <div>30 The Downs</div>
-                <div>Altrincham</div>
-                <div>Cheshire</div>
-                <div className="font-semibold">WA14 2PX</div>
+                <div>Unit 21 Chorley North Industrial Park</div>
+                <div>Chorley, England</div>
+                <div className="font-semibold">PR6 7BX</div>
               </div>
             </div>
           </CardContent>
