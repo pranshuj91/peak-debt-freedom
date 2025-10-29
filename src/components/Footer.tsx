@@ -95,30 +95,6 @@ const Footer = () => {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                      />
-                    </svg>
-                  </div>
-                  <a 
-                    href="mailto:complaints@peakinsolvency.co.uk"
-                    className="text-primary-foreground/90 hover:text-gold text-sm font-medium transition-colors duration-300"
-                  >
-                    complaints@peakinsolvency.co.uk
-                  </a>
-                </div>
-
-                <div className="flex items-center space-x-3 p-3 rounded-lg glass hover:bg-gold/5 transition-all duration-300 group/contact">
-                  <div className="w-6 h-6 rounded-full bg-gold/20 flex items-center justify-center group-hover/contact:bg-gold/30 transition-colors duration-300">
-                    <svg
-                      className="w-3 h-3 text-gold group-hover/contact:scale-110 transition-transform duration-300"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
                         d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
@@ -150,10 +126,11 @@ const Footer = () => {
                     </svg>
                   </div>
                   <div className="text-primary-foreground/90 leading-relaxed space-y-1 text-sm">
-                    <div className="font-medium">Unit 21 Chorley North Industrial Park</div>
-                    <div>Chorley</div>
-                    <div>England</div>
-                    <div className="font-semibold text-gold">PR6 7BX</div>
+                    <div className="font-medium">Suite 138 Peel House</div>
+                    <div>30 The Downs</div>
+                    <div>Altrincham</div>
+                    <div>Cheshire</div>
+                    <div className="font-semibold text-gold">WA14 2PX</div>
                   </div>
                 </div>
               </div>
