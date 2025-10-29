@@ -29,12 +29,11 @@ const StatisticsSection = () => {
               <span className="text-gold animate-pulse-glow"> struggle</span>
             </h2>
             
-            <p className="text-primary-foreground/90 text-lg leading-relaxed mb-12">
-              On average, every month in 2023, we helped over 1,000 customers like you set up affordable payment plans. 
+            <p className="text-primary-foreground/90 text-lg leading-relaxed mb-12"> 
               Try our budget calculator to work out what you can afford to pay, or read what our customers have to say about us below.
             </p>
             
-            <div className="flex items-center space-x-6">
+            {/*<div className="flex items-center space-x-6">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center">
                   <Users className="w-6 h-6 text-gold" />
@@ -55,7 +54,7 @@ const StatisticsSection = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
 
           {/* Right Side - Statistics */}
           <div className="animate-scale-in">
