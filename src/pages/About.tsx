@@ -130,29 +130,6 @@ const About = () => {
               we're here to support you at every step of your journey with our core values of
               <strong className="text-primary"> HONESTY - EMPATHY - UNDERSTANDING</strong>.
             </p>
-
-            <div className="bg-background rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-sm border border-border/50 mx-4 sm:mx-0">
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8 mb-6">
-                <div className="text-center">
-                  <div className="text-2xl sm:text-3xl font-bold text-primary">1,000+</div>
-                  <div className="text-xs sm:text-sm text-muted-foreground">Monthly customers helped</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl sm:text-3xl font-bold text-primary">2023</div>
-                  <div className="text-xs sm:text-sm text-muted-foreground">Successful year</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl sm:text-3xl font-bold text-primary">£2.4M</div>
-                  <div className="text-xs sm:text-sm text-muted-foreground">Debt written off</div>
-                </div>
-              </div>
-
-              <blockquote className="text-sm sm:text-base lg:text-lg italic text-muted-foreground border-l-4 border-primary pl-4 sm:pl-6 text-left">
-                "We understand that 8.2 million people are struggling with debt in the UK. Each person owing on average
-                £14,540. These statistics represent real people facing real challenges. We're here to help you become
-                part of the success stories."
-              </blockquote>
-            </div>
           </div>
         </div>
       </section>
