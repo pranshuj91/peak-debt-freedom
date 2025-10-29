@@ -77,7 +77,7 @@ const Navigation = () => {
             {/* Call-to-Action Button - Right Side */}
             <div className="hidden md:block">
               <Button variant="premium" size="lg">
-                Free Consultation
+                Contact us today
               </Button>
             </div>
 
@@ -150,7 +150,7 @@ const Navigation = () => {
               </Link>
               <div className="pt-4">
                 <Button variant="premium" size="lg" className="w-full" onClick={closeMobileMenu}>
-                  Free Consultation
+                  Contact us today
                 </Button>
               </div>
             </div>
