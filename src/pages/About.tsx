@@ -126,7 +126,7 @@ const About = () => {
 
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-base sm:text-lg lg:text-xl text-muted-foreground leading-relaxed mb-6 sm:mb-8 px-4">
-              At Peak Insolvency, we believe it should be simple and affordable for you to become debt free. That's why
+              At Peak Insolvency, we believe it should be simple and affordable for you to get back on track. That's why
               we're here to support you at every step of your journey with our core values of
               <strong className="text-primary"> HONESTY - EMPATHY - UNDERSTANDING</strong>.
             </p>
