@@ -14,8 +14,8 @@ const FeaturesSection = () => {
     },
     {
       icon: CreditCard,
-      title: "Access your free credit score",
-      description: "We partner with CheckMyFile, the credit reference agency, to give you access to your personal credit score through our app.",
+      title: "Access your CheckMyFile free trial",
+      description: "We partner with CheckMyFile, the credit reference agency, to give you access to your personal credit report through our app via a free trial.",
       gradient: "from-gold to-gold-light",
       bgColor: "bg-gold/5",
       iconBg: "bg-gold",
