@@ -47,7 +47,7 @@ const TrustSection = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
         <div className="text-center mb-16">
           <h2 className="text-display text-primary mb-6 font-display text-[48px]">
-            Why thousands trust us with their <span className="text-accent">financial future</span>
+            Why choose <span className="text-accent">us?</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-accent mx-auto rounded-full"></div>
         </div>
