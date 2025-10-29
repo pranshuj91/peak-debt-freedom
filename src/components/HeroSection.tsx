@@ -198,9 +198,9 @@ const HeroSection = () => {
             <Button variant="hero" size="xl" className="text-lg px-8 py-4">
               Get Your Free Debt Assessment
             </Button>
-             {/* <Button variant="outline-hero" size="xl" className="text-lg px-8 py-4">
+            <Button variant="outline-hero" size="xl" className="text-lg px-8 py-4">
               Calculate What You Could Save
-             </Button> */}
+            </Button>
           </div>
           
           <div className="animate-on-load flex flex-col sm:flex-row items-center justify-center space-y-3 sm:space-y-0 sm:space-x-8 text-primary-foreground/80">
@@ -208,19 +208,19 @@ const HeroSection = () => {
               <svg className="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              <span className="font-medium">Contact us today</span>
+              <span className="font-medium">Here to help</span>
             </div>
             <div className="flex items-center space-x-2">
               <svg className="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              <span className="font-medium">No upfront costs</span>
+              <span className="font-medium">Experienced Staff</span>
             </div>
             <div className="flex items-center space-x-2">
               <svg className="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              <span className="font-medium">Real results</span>
+              <span className="font-medium">Get back on track</span>
             </div>
           </div>
         </div>
