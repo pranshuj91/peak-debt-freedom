@@ -139,13 +139,11 @@ const IVASection = () => {
           </div>
         </div>
 
-        {/* Enhanced Qualification Section */}
-        <div className="relative">
-          {/* Background Glow Effect */}
+        {/* Enhanced Qualification Section - Hidden */}
+        {/* <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-gold/5 via-transparent to-accent/5 rounded-3xl blur-xl"></div>
 
           <div className="glass-card p-12 rounded-3xl text-center mb-16 relative overflow-hidden">
-            {/* Decorative Elements */}
             <div className="absolute top-0 left-0 w-32 h-32 bg-gold/10 rounded-full blur-2xl animate-pulse"></div>
             <div
               className="absolute bottom-0 right-0 w-24 h-24 bg-accent/10 rounded-full blur-2xl animate-pulse"
@@ -203,7 +201,6 @@ const IVASection = () => {
             </div>
           </div>
 
-          {/* Enhanced Visual Debt Transformation */}
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 via-transparent to-green-500/10 rounded-3xl blur-2xl"></div>
 
@@ -216,7 +213,6 @@ const IVASection = () => {
               </div>
 
               <div className="grid md:grid-cols-3 gap-8 items-center">
-                {/* Current Debt */}
                 <div className="text-center group">
                   <div className="relative mb-6">
                     <div className="w-32 h-32 mx-auto bg-gradient-to-br from-red-500/20 to-red-600/30 rounded-full flex items-center justify-center backdrop-blur-sm border border-red-500/20 group-hover:scale-110 transition-transform duration-300">
@@ -230,7 +226,6 @@ const IVASection = () => {
                   <div className="text-sm text-primary-foreground/60">Full amount owed</div>
                 </div>
 
-                {/* Arrow */}
                 <div className="flex justify-center">
                   <div className="relative">
                     <svg
@@ -245,7 +240,6 @@ const IVASection = () => {
                   </div>
                 </div>
 
-                {/* After IVA */}
                 <div className="text-center group">
                   <div className="relative mb-6">
                     <div className="w-32 h-32 mx-auto bg-gradient-to-br from-green-500/20 to-emerald-600/30 rounded-full flex items-center justify-center backdrop-blur-sm border border-green-500/20 group-hover:scale-110 transition-transform duration-300">
@@ -260,7 +254,6 @@ const IVASection = () => {
                 </div>
               </div>
 
-              {/* Savings Highlight */}
               <div className="mt-10 text-center">
                 <div className="inline-flex items-center bg-gradient-to-r from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-2xl px-8 py-4 border border-green-500/20">
                   <div className="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
@@ -269,7 +262,7 @@ const IVASection = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
