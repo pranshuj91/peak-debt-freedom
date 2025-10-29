@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-20">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 animate-fade-in">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 animate-fade-in">
             {/* Company Info */}
             <div className="group">
               <div className="mb-8">
@@ -134,59 +134,6 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-            </div>
-
-            {/* Services */}
-            <div className="group animate-slide-up">
-              <h4 className="text-xl font-semibold text-gold mb-8 border-b border-gold/20 pb-3">Our Services</h4>
-              <ul className="space-y-4">
-                <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a
-                    href="#"
-                    className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link"
-                  >
-                    <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300"></div>
-                    Individual Voluntary Arrangements (IVA)
-                  </a>
-                </li>
-                <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a
-                    href="#"
-                    className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link"
-                  >
-                    <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300"></div>
-                    Debt Management Plans
-                  </a>
-                </li>
-                <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a
-                    href="#"
-                    className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link"
-                  >
-                    <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300"></div>
-                    Debt Consolidation
-                  </a>
-                </li>
-                <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a
-                    href="#"
-                    className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link"
-                  >
-                    <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300"></div>
-                    Free Debt Advice
-                  </a>
-                </li>
-                <li className="transform transition-all duration-300 hover:translate-x-2">
-                  <a
-                    href="#"
-                    target="_blank"
-                    className="text-primary-foreground/90 hover:text-gold transition-colors duration-300 flex items-center group/link"
-                  >
-                    <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300"></div>
-                    Bankruptcy Guidance
-                  </a>
-                </li>
-              </ul>
             </div>
 
             {/* Resources */}
