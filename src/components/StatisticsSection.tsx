@@ -1,13 +1,8 @@
-import { Users, TrendingDown, Heart } from "lucide-react";
-import { useCounter } from "@/hooks/use-counter";
+import { Heart, Calculator, Phone, CheckCircle } from "lucide-react";
+import AffordabilityCalculator from "./AffordabilityCalculator";
+import { Button } from "./ui/button";
 
 const StatisticsSection = () => {
-  const { count: millionCount, elementRef } = useCounter({
-    end: 8.2,
-    duration: 3000,
-    decimals: 1,
-    suffix: " million",
-  });
   return (
     <section className="py-24 bg-gradient-primary relative overflow-hidden">
       {/* Background Effects */}
@@ -29,61 +24,81 @@ const StatisticsSection = () => {
               <span className="text-gold animate-pulse-glow"> struggle</span>
             </h2>
 
-            <p className="text-primary-foreground/90 text-lg leading-relaxed mb-12">
+            <p className="text-primary-foreground/90 text-lg leading-relaxed mb-8">
               Try our budget calculator to work out what you can afford to pay, or read what our customers have to say
               about us below.
             </p>
 
-            {/* <div className="flex items-center space-x-6">
-              <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center">
-                  <Users className="w-6 h-6 text-gold" />
-                </div>
-                <div>
-                  <div className="text-gold font-bold text-lg">1,000+</div>
-                  <div className="text-primary-foreground/80 text-sm">Monthly customers helped</div>
-                </div>
-              </div>
-              
-              <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center">
-                  <TrendingDown className="w-6 h-6 text-gold" />
-                </div>
-                <div>
-                  <div className="text-gold font-bold text-lg">2023</div>
-                  <div className="text-primary-foreground/80 text-sm">Successful year</div>
-                </div>
-              </div>
-            </div>*/}
+            <div className="flex flex-col sm:flex-row gap-4 mb-6">
+              <Button
+                variant="hero"
+                size="lg"
+                className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4"
+              >
+                <Phone className="w-4 h-4 mr-2" />
+                Call Now: 0300 678 0015
+              </Button>
+              <AffordabilityCalculator />
+            </div>
+
+            <p className="text-xs sm:text-sm text-primary-foreground/70 max-w-lg">
+              May not be suitable in all circumstances. Fees apply. Your credit rating may be affected
+            </p>
           </div>
 
-          {/* Right Side - Statistics */}
+          {/* Right Side - Benefits */}
           <div className="animate-scale-in">
-            <div className="glass-card p-12 rounded-3xl shadow-premium">
-              <div className="text-center">
-                <div className="mb-8">
-                  <div
-                    ref={elementRef}
-                    className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-accent to-gold bg-clip-text text-transparent mb-4 animate-pulse-glow"
-                  >
-                    {millionCount}
+            <div className="glass-card p-8 sm:p-12 rounded-3xl shadow-premium">
+              <h3 className="text-2xl sm:text-3xl font-bold text-white/90 mb-8 text-center">
+                Take Control Today
+              </h3>
+
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4 p-4 bg-white/5 rounded-xl">
+                  <div className="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center flex-shrink-0">
+                    <CheckCircle className="w-5 h-5 text-gold" />
                   </div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6 leading-tight text-white/90">
-                    people struggling with debt in the UK
-                  </h3>
+                  <div>
+                    <h4 className="font-semibold text-white mb-1">Free Consultation</h4>
+                    <p className="text-white/70 text-sm">No obligation assessment of your situation</p>
+                  </div>
                 </div>
 
-                <div className="border-t border-gray-200 pt-8">
-                  <div className="text-4xl text-gold animate-pulse-glow">£14,540</div>
-                  <p className="text-muted-foreground text-lg text-white/90">Each owing on average</p>
+                <div className="flex items-start space-x-4 p-4 bg-white/5 rounded-xl">
+                  <div className="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center flex-shrink-0">
+                    <CheckCircle className="w-5 h-5 text-gold" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-white mb-1">Tailored Solutions</h4>
+                    <p className="text-white/70 text-sm">Personalized plans that work for your situation</p>
+                  </div>
                 </div>
 
-                <div className="mt-8 p-6 bg-gradient-subtle rounded-2xl">
-                  <p className="text-muted-foreground text-sm italic">
-                    "These statistics represent real people facing real challenges. We're here to help you become part
-                    of the success stories."
-                  </p>
+                <div className="flex items-start space-x-4 p-4 bg-white/5 rounded-xl">
+                  <div className="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center flex-shrink-0">
+                    <CheckCircle className="w-5 h-5 text-gold" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-white mb-1">Expert Support</h4>
+                    <p className="text-white/70 text-sm">Experienced staff guiding you every step</p>
+                  </div>
                 </div>
+
+                <div className="flex items-start space-x-4 p-4 bg-white/5 rounded-xl">
+                  <div className="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center flex-shrink-0">
+                    <CheckCircle className="w-5 h-5 text-gold" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-white mb-1">Clear Communication</h4>
+                    <p className="text-white/70 text-sm">Transparent process with no hidden surprises</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8 p-6 bg-gradient-subtle rounded-2xl">
+                <p className="text-white/80 text-sm italic text-center">
+                  "We're here to help you become part of the success stories."
+                </p>
               </div>
             </div>
           </div>
