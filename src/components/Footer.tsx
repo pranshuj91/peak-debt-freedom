@@ -80,7 +80,7 @@ const Footer = () => {
                       />
                     </svg>
                   </div>
-                  <span className="text-primary-foreground/90 text-sm font-medium">Call for free advice</span>
+                  <span className="text-primary-foreground/90 text-sm font-medium">Call to speak with one of our friendly staff</span>
                 </div>
 
                 <div className="flex items-center space-x-3 p-3 rounded-lg glass hover:bg-gold/5 transition-all duration-300 group/contact">
