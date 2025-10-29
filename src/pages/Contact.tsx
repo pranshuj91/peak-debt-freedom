@@ -14,6 +14,7 @@ const Contact = () => {
     phone: "",
     debtAmount: "",
     message: "",
+    acceptPrivacy: false,
   });
 
   useEffect(() => {
@@ -35,15 +36,20 @@ const Contact = () => {
   }, []);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
+    const { name, value, type } = e.target;
+    const checked = (e.target as HTMLInputElement).checked;
     setFormData((prev) => ({
       ...prev,
-      [name]: value,
+      [name]: type === "checkbox" ? checked : value,
     }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!formData.acceptPrivacy) {
+      alert("Please accept the privacy policy to continue");
+      return;
+    }
     // Handle form submission logic here
     console.log("Form submitted:", formData);
   };
@@ -256,6 +262,25 @@ const Contact = () => {
                     consent.
                   </div>
                 </div>
+              </div>
+
+              <div className="flex items-start space-x-3 p-4 bg-muted/30 rounded-xl">
+                <input
+                  type="checkbox"
+                  id="acceptPrivacy"
+                  name="acceptPrivacy"
+                  checked={formData.acceptPrivacy}
+                  onChange={handleInputChange}
+                  required
+                  className="mt-1 w-4 h-4 rounded border-border text-primary focus:ring-primary"
+                />
+                <Label htmlFor="acceptPrivacy" className="text-sm text-foreground cursor-pointer">
+                  I accept the{" "}
+                  <a href="/privacy-policy" target="_blank" className="text-primary underline hover:text-primary/80">
+                    Privacy Policy
+                  </a>{" "}
+                  and consent to my data being used as described *
+                </Label>
               </div>
 
               <Button
