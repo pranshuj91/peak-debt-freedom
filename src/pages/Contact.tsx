@@ -141,11 +141,11 @@ const Contact = () => {
                 <MapPin className="w-6 h-6 sm:w-8 sm:h-8 text-accent-foreground" />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">Our Office</h3>
-              <p className="text-sm sm:text-base text-muted-foreground mb-4">Visit us in person</p>
+              <p className="text-sm sm:text-base text-muted-foreground mb-4">Correspondence Address</p>
               <div className="font-semibold text-primary">
                 Suite 138, Peel House 30 The Downs Altrincham, Cheshire WA14 2PX
               </div>
-              <div className="text-sm text-muted-foreground">By appointment</div>
+              <div className="text-sm text-muted-foreground">Please use phone or email</div>
             </div>
           </div>
         </div>
