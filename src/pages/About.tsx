@@ -61,7 +61,7 @@ const About = () => {
               size="lg"
               className="hero-animate w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 opacity-0 transform translate-y-8"
             >
-              Free Consultation
+              Contact Us today
             </Button>
           </div>
           
