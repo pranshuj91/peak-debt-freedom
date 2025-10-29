@@ -39,7 +39,7 @@ const DisclaimerSection = () => {
               <h3 className="text-lg font-semibold text-foreground">Fee Structure</h3>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Peak Insolvency will not charge you a fee for initial information and signposting. If you proceed with a recommended debt solution where fees are applicable, full details will be provided before setting up.
+              Peak Insolvency will not charge you a fee for initial information and signposting. If you proceed to enter into an IVA the fees will be discussed with you in full prior to set up.
             </p>
           </div>
 
@@ -65,7 +65,7 @@ const DisclaimerSection = () => {
               <h3 className="text-lg font-semibold text-foreground">Qualification</h3>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              To qualify for an IVA, you must have a minimum of £6,000 of qualifying unsecured debt owed to two or more creditors. Services only apply to residents of England and Wales.
+              To qualify for an IVA, you must be able to afford something towards your creditors each month and have a debt level of roughly £7.000 or more. Services only apply to residents of England and Wales
             </p>
           </div>
         </div>
