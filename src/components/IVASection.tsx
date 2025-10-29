@@ -59,10 +59,6 @@ const IVASection = () => {
                   title: "Allows you to keep your home and other assets",
                   desc: "Protect your property while getting debt relief",
                 },
-                {
-                  title: "Helps you avoid bankruptcy",
-                  desc: "Alternative solution that prevents bankruptcy proceedings",
-                },
               ].map((benefit, index) => (
                 <div
                   key={index}
