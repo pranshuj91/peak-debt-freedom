@@ -142,7 +142,7 @@ const About = () => {
               What We <span className="text-accent">Offer</span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground px-4">
-              Free debt advice tailored to your circumstances
+              A service tailored to your circumstances
             </p>
           </div>
 
