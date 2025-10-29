@@ -126,11 +126,10 @@ const Footer = () => {
                     </svg>
                   </div>
                   <div className="text-primary-foreground/90 leading-relaxed space-y-1 text-sm">
-                    <div className="font-medium">Suite 138 Peel House</div>
-                    <div>30 The Downs</div>
-                    <div>Altrincham</div>
-                    <div>Cheshire</div>
-                    <div className="font-semibold text-gold">WA14 2PX</div>
+                    <div className="font-medium">Unit 21 Chorley North Industrial Park</div>
+                    <div>Chorley</div>
+                    <div>England</div>
+                    <div className="font-semibold text-gold">PR6 7BX</div>
                   </div>
                 </div>
               </div>

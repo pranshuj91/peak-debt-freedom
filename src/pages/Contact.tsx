@@ -116,7 +116,7 @@ const Contact = () => {
               <p className="text-sm sm:text-base text-muted-foreground mb-4">
                 Get expert advice via email
               </p>
-              <div className="font-semibold text-primary">advice@peakinsolvency.co.uk</div>
+              <div className="font-semibold text-primary">complaints@peakinsolvency.co.uk</div>
               <div className="text-sm text-muted-foreground">24/7 response</div>
             </div>
 
@@ -140,7 +140,7 @@ const Contact = () => {
               <p className="text-sm sm:text-base text-muted-foreground mb-4">
                 Visit us in person
               </p>
-              <div className="font-semibold text-primary">Suite 138, Peel House 30 The Downs Altrincham, Cheshire WA14 2PX</div>
+              <div className="font-semibold text-primary">Unit 21 Chorley North Industrial Park, Chorley, England, PR6 7BX</div>
               <div className="text-sm text-muted-foreground">By appointment</div>
             </div>
           </div>

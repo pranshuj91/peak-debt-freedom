@@ -85,10 +85,10 @@ const ComplaintsPolicy = () => {
                 <div>
                   <h4 className="font-semibold mb-1 text-sm sm:text-base">By Email</h4>
                   <a 
-                    href="mailto:info@theinsolvencyguidancegroup.co.uk" 
+                    href="mailto:complaints@peakinsolvency.co.uk"
                     className="text-primary hover:text-primary-glow transition-colors text-sm sm:text-base break-all"
                   >
-                    info@theinsolvencyguidancegroup.co.uk
+                    complaints@peakinsolvency.co.uk
                   </a>
                 </div>
               </div>
@@ -100,10 +100,9 @@ const ComplaintsPolicy = () => {
                   <address className="text-muted-foreground not-italic text-xs sm:text-sm leading-relaxed">
                     The Complaints Officer<br />
                     Peak Insolvency<br />
-                    Suite 138, Peel House<br />
-                    30 The Downs<br />
-                    Altrincham, Cheshire<br />
-                    WA14 2PX
+                    Unit 21 Chorley North Industrial Park<br />
+                    Chorley, England<br />
+                    PR6 7BX
                   </address>
                 </div>
               </div>
