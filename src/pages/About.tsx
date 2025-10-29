@@ -214,15 +214,15 @@ const About = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-6 lg:space-x-8 text-primary-foreground/80 px-4">
             <div className="flex items-center space-x-2">
               <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" />
-              <span className="font-medium text-sm sm:text-base">Free consultation</span>
+              <span className="font-medium text-sm sm:text-base">Here to help</span>
             </div>
             <div className="flex items-center space-x-2">
               <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" />
-              <span className="font-medium text-sm sm:text-base">No upfront costs</span>
+              <span className="font-medium text-sm sm:text-base">Experienced Staff</span>
             </div>
             <div className="flex items-center space-x-2">
               <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" />
-              <span className="font-medium text-sm sm:text-base">Real results</span>
+              <span className="font-medium text-sm sm:text-base">Get back on track</span>
             </div>
           </div>
         </div>
