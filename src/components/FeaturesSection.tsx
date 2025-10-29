@@ -1,16 +1,18 @@
-import { Calendar, CreditCard, ArrowRight } from 'lucide-react';
+import { Calculator, CreditCard, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import AffordabilityCalculator from './AffordabilityCalculator';
 
 const FeaturesSection = () => {
   const features = [
     {
-      icon: Calendar,
-      title: "Set up a plan",
-      description: "Set up a personalised payment plan, so that it works for you. It's up to you to decide how much, when & how you want to pay.",
+      icon: Calculator,
+      title: "Budgeting Tool",
+      description: "Use our interactive affordability calculator to work out your monthly disposable income and see what you can realistically afford to pay.",
       gradient: "from-accent to-accent-light",
       bgColor: "bg-accent/5",
       iconBg: "bg-accent",
-      action: "Create Your Plan"
+      action: "Calculate Affordability",
+      isCalculator: true
     },
     {
       icon: CreditCard,
@@ -19,7 +21,8 @@ const FeaturesSection = () => {
       gradient: "from-gold to-gold-light",
       bgColor: "bg-gold/5",
       iconBg: "bg-gold",
-      action: "Check Credit Score"
+      action: "Check Credit Score",
+      isCalculator: false
     }
   ];
 
@@ -106,13 +109,17 @@ const FeaturesSection = () => {
                   </p>
                   
                   {/* Button */}
-                  <Button 
-                    variant="default"
-                    className="w-full sm:w-auto group/btn font-semibold px-6 py-3 rounded-xl shadow-md hover:shadow-lg"
-                  >
-                    {feature.action}
-                    <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
-                  </Button>
+                  {feature.isCalculator ? (
+                    <AffordabilityCalculator />
+                  ) : (
+                    <Button 
+                      variant="default"
+                      className="w-full sm:w-auto group/btn font-semibold px-6 py-3 rounded-xl shadow-md hover:shadow-lg"
+                    >
+                      {feature.action}
+                      <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                    </Button>
+                  )}
                 </div>
                 
                 {/* Hover Effect Overlay */}
