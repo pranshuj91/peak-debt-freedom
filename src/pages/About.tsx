@@ -80,7 +80,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <div className="text-center p-4 sm:p-6">
               <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 text-primary-foreground" />
@@ -98,16 +98,6 @@ const About = () => {
               <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">No Judgment Zone</h3>
               <p className="text-sm sm:text-base text-muted-foreground">
                 We understand financial struggles happen to good people. Zero judgment, maximum support.
-              </p>
-            </div>
-
-            <div className="text-center p-4 sm:p-6">
-              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
-                <TrendingDown className="w-6 h-6 sm:w-8 sm:h-8 text-primary-foreground" />
-              </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">Proven Results</h3>
-              <p className="text-sm sm:text-base text-muted-foreground">
-                12,000+ people helped with £2.4M in debt written off. Your success is our mission.
               </p>
             </div>
 
