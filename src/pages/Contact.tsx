@@ -123,7 +123,7 @@ const Contact = () => {
               </div>
               <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">Email Us</h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-4">Speak with us via email</p>
-              <div className="font-semibold text-primary">Customersupport@peakinsolvency.co.uk</div>
+              <div className="font-semibold text-primary text-sm sm:text-base break-all px-2">Customersupport@peakinsolvency.co.uk</div>
               <div className="text-sm text-muted-foreground">24/7 response</div>
             </div>
 
