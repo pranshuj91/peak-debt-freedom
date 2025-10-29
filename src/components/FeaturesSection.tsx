@@ -144,6 +144,9 @@ const FeaturesSection = () => {
                 Speak to an Expert
               </Button>
             </div>
+            <p className="text-xs sm:text-sm text-muted-foreground mt-4 max-w-2xl mx-auto">
+              May not be suitable in all circumstances. Fees apply. Your credit rating may be affected
+            </p>
           </div>
         </div>
       </div>

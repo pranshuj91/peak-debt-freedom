@@ -64,6 +64,10 @@ const About = () => {
               Free Consultation
             </Button>
           </div>
+          
+          <p className="hero-animate text-xs sm:text-sm text-primary-foreground/70 mt-4 max-w-2xl mx-auto px-4 opacity-0 transform translate-y-8">
+            May not be suitable in all circumstances. Fees apply. Your credit rating may be affected
+          </p>
         </div>
       </section>
 
@@ -194,7 +198,7 @@ const About = () => {
             Don't let debt control your life. Take the first step towards financial freedom today.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 sm:mb-8 px-4">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-4 px-4">
             <Button
               variant="hero"
               size="lg"
@@ -210,6 +214,10 @@ const About = () => {
               Call Us Today
             </Button>
           </div>
+          
+          <p className="text-xs sm:text-sm text-primary-foreground/70 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
+            May not be suitable in all circumstances. Fees apply. Your credit rating may be affected
+          </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-6 lg:space-x-8 text-primary-foreground/80 px-4">
             <div className="flex items-center space-x-2">

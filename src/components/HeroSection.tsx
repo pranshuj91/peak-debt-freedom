@@ -193,7 +193,7 @@ const HeroSection = () => {
           <p className="animate-on-load text-body text-primary-foreground/90 mb-8 max-w-3xl text-center">
             At Peak Insolvency, we believe it should be simple and affordable for you to deal with your finances. That's why we're here to support you at every step of your journey.</p>
           
-          <div className="animate-on-load flex flex-col sm:flex-row gap-4 mb-8 justify-center">
+          <div className="animate-on-load flex flex-col sm:flex-row gap-4 mb-4 justify-center">
             <Button variant="hero" size="xl" className="text-lg px-8 py-4">
               Get in contact today
             </Button>
@@ -201,6 +201,10 @@ const HeroSection = () => {
               Calculate What You Could Save
             </Button>*/}
           </div>
+          
+          <p className="animate-on-load text-xs sm:text-sm text-primary-foreground/70 mb-8 max-w-2xl mx-auto px-4">
+            May not be suitable in all circumstances. Fees apply. Your credit rating may be affected
+          </p>
           
           <div className="animate-on-load flex flex-col sm:flex-row items-center justify-center space-y-3 sm:space-y-0 sm:space-x-8 text-primary-foreground/80">
             <div className="flex items-center space-x-2">
