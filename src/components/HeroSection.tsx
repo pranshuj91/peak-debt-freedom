@@ -191,8 +191,7 @@ const HeroSection = () => {
           </div>
           
           <p className="animate-on-load text-body text-primary-foreground/90 mb-8 max-w-3xl text-center">
-            At Peak Insolvency, we believe it should be simple and affordable for you to become debt free. That's why we're here to support you at every step of your journey.
-          </p>
+            At Peak Insolvency, we believe it should be simple and affordable for you to deal with your finances. That's why we're here to support you at every step of your journey.</p>
           
           <div className="animate-on-load flex flex-col sm:flex-row gap-4 mb-8 justify-center">
             <Button variant="hero" size="xl" className="text-lg px-8 py-4">
