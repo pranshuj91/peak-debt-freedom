@@ -7,9 +7,6 @@ const IVASection = () => {
         <div className="absolute bottom-10 right-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl animate-float-slower"></div>
 
         {/* Floating Debt Reduction Elements */}
-        <div className="absolute top-20 right-1/4 text-primary-foreground/10 text-8xl font-bold animate-float-slow">
-          80%
-        </div>
         <div className="absolute bottom-20 left-1/4 text-primary-foreground/8 text-6xl font-bold animate-float-slower">
           £0
         </div>
