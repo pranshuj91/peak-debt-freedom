@@ -6,7 +6,7 @@ import AboutSection from '@/components/AboutSection';
 import TrustSection from '@/components/TrustSection';
 import PartnersSection from '@/components/PartnersSection';
 import IVASection from '@/components/IVASection';
-import FeaturesSection from '@/components/FeaturesSection';
+
 import StatisticsSection from '@/components/StatisticsSection';
 import FAQSection from '@/components/FAQSection';
 import DisclaimerSection from '@/components/DisclaimerSection';
@@ -22,7 +22,7 @@ const Index = () => {
       <TrustSection />
       {/* <PartnersSection /> */}
       <IVASection />
-      <FeaturesSection />
+      
       <StatisticsSection />
       <FAQSection />
       <DisclaimerSection />
