@@ -1,5 +1,5 @@
 import { Heart, Calculator, Phone, CheckCircle } from "lucide-react";
-import AffordabilityCalculator from "./AffordabilityCalculator";
+
 import { Button } from "./ui/button";
 
 const StatisticsSection = () => {
@@ -38,7 +38,7 @@ const StatisticsSection = () => {
                 <Phone className="w-4 h-4 mr-2" />
                 Call Now: 0300 678 0015
               </Button>
-              <AffordabilityCalculator />
+              
             </div>
 
             <p className="text-xs sm:text-sm text-primary-foreground/70 max-w-lg">
