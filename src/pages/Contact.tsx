@@ -5,7 +5,16 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Phone, Mail, MapPin, Clock, MessageCircle, Shield, Users, CheckCircle } from "lucide-react";
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Clock,
+  MessageCircle,
+  Shield,
+  Users,
+  CheckCircle,
+} from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -35,7 +44,9 @@ const Contact = () => {
     setTimeout(animateHeroElements, 100);
   }, []);
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value, type } = e.target;
     const checked = (e.target as HTMLInputElement).checked;
     setFormData((prev) => ({
@@ -67,16 +78,19 @@ const Contact = () => {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-6">
           <div className="hero-animate inline-flex items-center space-x-2 sm:space-x-3 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:mb-8 opacity-0 transform translate-y-8">
             <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 text-gold" />
-            <span className="text-primary-foreground/90 font-medium text-sm sm:text-base">Get In Touch</span>
+            <span className="text-primary-foreground/90 font-medium text-sm sm:text-base">
+              Get In Touch
+            </span>
           </div>
 
           <h1 className="hero-animate text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-display text-primary-foreground mb-4 sm:mb-6 leading-tight px-2 opacity-0 transform translate-y-8">
-            Ready to Take Control of Your <span className="text-gold">Financial Future?</span>
+            Ready to Take Control of Your{" "}
+            <span className="text-gold">Financial Future?</span>
           </h1>
 
           <p className="hero-animate text-lg sm:text-xl text-primary-foreground/90 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4 opacity-0 transform translate-y-8">
-            Our friendly staff are here to help. Get your confidential consultation today and discover how we can help
-            you on your journey.
+            Our friendly staff are here to help. Get your confidential
+            consultation today and discover how we can help you on your journey.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
@@ -85,7 +99,7 @@ const Contact = () => {
               size="lg"
               className="hero-animate w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 opacity-0 transform translate-y-8"
             >
-              Call Now: 0300 678 0015
+              Call Now: 0161 660 0970
             </Button>
             <Button
               variant="outline-hero"
@@ -95,9 +109,10 @@ const Contact = () => {
               Get in contact today
             </Button>
           </div>
-          
+
           <p className="hero-animate text-xs sm:text-sm text-primary-foreground/70 mt-4 max-w-2xl mx-auto px-4 opacity-0 transform translate-y-8">
-            May not be suitable in all circumstances. Fees apply. Your credit rating may be affected
+            May not be suitable in all circumstances. Fees apply. Your credit
+            rating may be affected
           </p>
         </div>
       </section>
@@ -110,7 +125,8 @@ const Contact = () => {
               Multiple Ways to <span className="text-accent"> Get Help</span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto px-4">
-              Choose the method that works best for you. All consultations are completely free and confidential.
+              Choose the method that works best for you. All consultations are
+              completely free and confidential.
             </p>
           </div>
 
@@ -119,11 +135,13 @@ const Contact = () => {
               <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <Phone className="w-6 h-6 sm:w-8 sm:h-8 text-primary-foreground" />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">Call Us</h3>
+              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">
+                Call Us
+              </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-4">
                 Speak directly with our experienced staff
               </p>
-              <div className="font-semibold text-primary">0300 678 0015</div>
+              <div className="font-semibold text-primary">0161 660 0970</div>
               <div className="text-sm text-muted-foreground">Freephone</div>
             </div>
 
@@ -131,9 +149,15 @@ const Contact = () => {
               <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <Mail className="w-6 h-6 sm:w-8 sm:h-8 text-accent-foreground" />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">Email Us</h3>
-              <p className="text-sm sm:text-base text-muted-foreground mb-4">Speak with us via email</p>
-              <div className="font-semibold text-primary text-sm sm:text-base break-all px-2">Customersupport@peakinsolvency.co.uk</div>
+              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">
+                Email Us
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-4">
+                Speak with us via email
+              </p>
+              <div className="font-semibold text-primary text-sm sm:text-base break-all px-2">
+                Customersupport@peakinsolvency.co.uk
+              </div>
               <div className="text-sm text-muted-foreground">24/7 response</div>
             </div>
 
@@ -141,8 +165,12 @@ const Contact = () => {
               <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <Clock className="w-6 h-6 sm:w-8 sm:h-8 text-primary-foreground" />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">Opening Hours</h3>
-              <p className="text-sm sm:text-base text-muted-foreground mb-4">We're here when you need us</p>
+              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">
+                Opening Hours
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-4">
+                We're here when you need us
+              </p>
               <div className="font-semibold text-primary">Mon-Fri: 9am-5pm</div>
             </div>
 
@@ -150,12 +178,19 @@ const Contact = () => {
               <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <MapPin className="w-6 h-6 sm:w-8 sm:h-8 text-accent-foreground" />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">Our Office</h3>
-              <p className="text-sm sm:text-base text-muted-foreground mb-4">Correspondence Address</p>
+              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3">
+                Our Office
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-4">
+                Correspondence Address
+              </p>
               <div className="font-semibold text-primary">
-                Suite 138, Peel House 30 The Downs Altrincham, Cheshire WA14 2PX
+                Unit 21, Chorley North Industrial Park, Chorley, England, PR6
+                7BX
               </div>
-              <div className="text-sm text-muted-foreground">Please use phone or email</div>
+              <div className="text-sm text-muted-foreground">
+                Please use phone or email
+              </div>
             </div>
           </div>
         </div>
@@ -169,7 +204,8 @@ const Contact = () => {
               Get in contact today
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground px-4">
-              Fill out the below form and one of our friendly staff will contact you
+              Fill out the below form and one of our friendly staff will contact
+              you
             </p>
           </div>
 
@@ -177,7 +213,10 @@ const Contact = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <Label htmlFor="name" className="text-sm font-medium text-foreground">
+                  <Label
+                    htmlFor="name"
+                    className="text-sm font-medium text-foreground"
+                  >
                     Full Name *
                   </Label>
                   <Input
@@ -191,7 +230,10 @@ const Contact = () => {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="email" className="text-sm font-medium text-foreground">
+                  <Label
+                    htmlFor="email"
+                    className="text-sm font-medium text-foreground"
+                  >
                     Email Address *
                   </Label>
                   <Input
@@ -209,7 +251,10 @@ const Contact = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <Label htmlFor="phone" className="text-sm font-medium text-foreground">
+                  <Label
+                    htmlFor="phone"
+                    className="text-sm font-medium text-foreground"
+                  >
                     Phone Number *
                   </Label>
                   <Input
@@ -224,7 +269,10 @@ const Contact = () => {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="debtAmount" className="text-sm font-medium text-foreground">
+                  <Label
+                    htmlFor="debtAmount"
+                    className="text-sm font-medium text-foreground"
+                  >
                     Total Debt Amount
                   </Label>
                   <Input
@@ -239,7 +287,10 @@ const Contact = () => {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="message" className="text-sm font-medium text-foreground">
+                <Label
+                  htmlFor="message"
+                  className="text-sm font-medium text-foreground"
+                >
                   Tell us about your situation
                 </Label>
                 <Textarea
@@ -257,9 +308,11 @@ const Contact = () => {
                 <div className="flex items-start space-x-3">
                   <Shield className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <div className="text-sm text-muted-foreground">
-                    <strong className="text-foreground">Your information is completely secure.</strong> We use
-                    industry-standard encryption and never share your personal details with third parties without your
-                    consent.
+                    <strong className="text-foreground">
+                      Your information is completely secure.
+                    </strong>{" "}
+                    We use industry-standard encryption and never share your
+                    personal details with third parties without your consent.
                   </div>
                 </div>
               </div>
@@ -274,9 +327,16 @@ const Contact = () => {
                   required
                   className="mt-1 w-4 h-4 rounded border-border text-primary focus:ring-primary"
                 />
-                <Label htmlFor="acceptPrivacy" className="text-sm text-foreground cursor-pointer">
+                <Label
+                  htmlFor="acceptPrivacy"
+                  className="text-sm text-foreground cursor-pointer"
+                >
                   I accept the{" "}
-                  <a href="/privacy-policy" target="_blank" className="text-primary underline hover:text-primary/80">
+                  <a
+                    href="/privacy-policy"
+                    target="_blank"
+                    className="text-primary underline hover:text-primary/80"
+                  >
                     Privacy Policy
                   </a>{" "}
                   and consent to my data being used as described *
@@ -291,9 +351,10 @@ const Contact = () => {
               >
                 Get in contact today
               </Button>
-              
+
               <p className="text-xs text-muted-foreground max-w-2xl mx-auto">
-                May not be suitable in all circumstances. Fees apply. Your credit rating may be affected
+                May not be suitable in all circumstances. Fees apply. Your
+                credit rating may be affected
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm text-muted-foreground">
@@ -322,8 +383,9 @@ const Contact = () => {
             Don't Let Debt Control <span className="text-gold">Your Life</span>
           </h2>
           <p className="text-base sm:text-lg text-primary-foreground/90 mb-6 sm:mb-8 max-w-3xl mx-auto px-4">
-            Take the first step towards financial freedom today. Our expert advisors are here to help you find the best
-            solution for your situation.
+            Take the first step towards financial freedom today. Our expert
+            advisors are here to help you find the best solution for your
+            situation.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
@@ -332,7 +394,7 @@ const Contact = () => {
               size="lg"
               className="w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4"
             >
-              Call Now: 0300 678 0015
+              Call Now: 0161 660 0970
             </Button>
             <Button
               variant="outline-hero"
@@ -342,13 +404,15 @@ const Contact = () => {
               Get in contact today
             </Button>
           </div>
-          
+
           <p className="text-xs sm:text-sm text-primary-foreground/70 mt-4 max-w-2xl mx-auto px-4">
-            May not be suitable in all circumstances. Fees apply. Your credit rating may be affected
+            May not be suitable in all circumstances. Fees apply. Your credit
+            rating may be affected
           </p>
 
           <p className="text-sm text-primary-foreground/80 mt-6 px-4">
-            <strong>Remember:</strong>All consultations are completely confidential. No obligation, no judgment.
+            <strong>Remember:</strong>All consultations are completely
+            confidential. No obligation, no judgment.
           </p>
         </div>
       </section>

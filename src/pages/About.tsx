@@ -150,7 +150,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8">
             <div className="bg-muted/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center mx-4 md:mx-0">
               <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
                 <Users className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" />
@@ -173,7 +173,7 @@ const About = () => {
               </p>
             </div>
 
-            <div className="bg-muted/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center mx-4 md:mx-0 md:col-span-2 lg:col-span-1">
+            {/* <div className="bg-muted/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center mx-4 md:mx-0 md:col-span-2 lg:col-span-1">
               <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
                 <TrendingDown className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" />
               </div>
@@ -183,7 +183,7 @@ const About = () => {
               <p className="text-sm text-muted-foreground">
                 DAS provides a way to pay back debts in a manageable way without the pressure from creditors.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

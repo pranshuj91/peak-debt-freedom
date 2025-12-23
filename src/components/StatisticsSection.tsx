@@ -24,10 +24,10 @@ const StatisticsSection = () => {
               <span className="text-gold animate-pulse-glow"> struggle</span>
             </h2>
 
-            <p className="text-primary-foreground/90 text-lg leading-relaxed mb-8">
+            {/* <p className="text-primary-foreground/90 text-lg leading-relaxed mb-8">
               Try our budget calculator to work out what you can afford to pay, or read what our customers have to say
               about us below.
-            </p>
+            </p> */}
 
             <div className="flex flex-col sm:flex-row gap-4 mb-6">
               <Button
@@ -36,7 +36,7 @@ const StatisticsSection = () => {
                 className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4"
               >
                 <Phone className="w-4 h-4 mr-2" />
-                Call Now: 0300 678 0015
+                Call Now: 0161 660 0970
               </Button>
               
             </div>

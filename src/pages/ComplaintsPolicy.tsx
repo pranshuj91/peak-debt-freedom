@@ -236,7 +236,7 @@ const ComplaintsPolicy = () => {
                 <div>
                   <h4 className="font-semibold mb-1">Telephone</h4>
                   <p className="text-sm text-muted-foreground">
-                    Call the Insolvency Service Enquiry Line on <strong>0300 678 0015</strong><br />
+                    Call the Insolvency Service Enquiry Line on <strong>0161 660 0970</strong><br />
                     (Monday to Friday 9 am – 5 pm)
                   </p>
                 </div>

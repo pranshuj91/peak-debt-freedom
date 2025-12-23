@@ -126,11 +126,10 @@ const Footer = () => {
                     </svg>
                   </div>
                   <div className="text-primary-foreground/90 leading-relaxed space-y-1 text-sm">
-                    <div className="font-medium">Suite 138 Peel House</div>
-                    <div>30 The Downs</div>
-                    <div>Altrincham</div>
-                    <div>Cheshire</div>
-                    <div className="font-semibold text-gold">WA14 2PX</div>
+                    <div className="font-medium">Unit 21 Chorley North</div>
+                    <div>Industrial Park,</div>
+                    <div>Chorley, England,</div>
+                    <div>PR6 7BX</div>
                   </div>
                 </div>
               </div>
@@ -170,7 +169,7 @@ const Footer = () => {
                     IVA Protocol 2025
                   </a>
                 </li>
-                <li className="transform transition-all duration-300 hover:translate-x-2">
+                {/* <li className="transform transition-all duration-300 hover:translate-x-2">
                   <a
                     href="https://www.gov.uk/guidance/guidance-on-personal-debt-relief-options-company-liquidation-investment-and-enforcement#debt-relief-options"
                     target="_blank"
@@ -179,7 +178,7 @@ const Footer = () => {
                     <div className="w-2 h-2 bg-gold/40 rounded-full mr-3 group-hover/link:bg-gold group-hover/link:scale-125 transition-all duration-300 flex-shrink-0 mt-1"></div>
                     Guidance on Personal Debt Relief Options, Company Liquidations, Investigation & Enforcement
                   </a>
-                </li>
+                </li> */}
                 <li className="transform transition-all duration-300 hover:translate-x-2">
                   <a
                     href="https://www.gov.uk/government/publications/individual-voluntary-arrangement-iva-protocol/iva-protocol-2021-annex-1-standard-terms-and-conditions"
