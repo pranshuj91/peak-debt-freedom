@@ -37,9 +37,9 @@ All colors MUST be HSL.
     --accent-foreground: 0 0% 98%;
     --accent-light: 160 25% 45%;
 
-    /* Brand Green */
-    --gold: 95 70% 45%;
-    --gold-light: 95 60% 55%;
+    /* Brand Green - #86bf40 */
+    --gold: 87 50% 50%;
+    --gold-light: 87 45% 60%;
 
     /* Professional Grays */
     --gray-50: 220 15% 98%;
