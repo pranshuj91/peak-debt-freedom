@@ -29,36 +29,62 @@ const Footer = () => {
                       fill="currentColor"
                     >
                       <path d="M12 2L2 22h20L12 2z" />
-                      <path d="M12 6L6 18h12L12 6z" fill="currentColor" opacity="0.8" />
-                      <path d="M12 10L10 18h4L12 10z" fill="currentColor" opacity="0.6" />
+                      <path
+                        d="M12 6L6 18h12L12 6z"
+                        fill="currentColor"
+                        opacity="0.8"
+                      />
+                      <path
+                        d="M12 10L10 18h4L12 10z"
+                        fill="currentColor"
+                        opacity="0.6"
+                      />
                     </svg>
                     {/* Subtle glow effect */}
                     <div className="absolute inset-0 bg-gold/5 rounded-lg animate-peak-breathe"></div>
                   </div>
                   <div className="flex flex-col group-hover:translate-x-1 transition-transform duration-300">
-                    <span className="text-xl font-bold text-gold font-display tracking-wider">PEAK</span>
-                    <span className="text-sm font-medium text-primary-foreground tracking-wide">INSOLVENCY</span>
+                    <span className="text-xl font-bold text-gold font-display tracking-wider">
+                      PEAK
+                    </span>
+                    <span className="text-sm font-medium text-primary-foreground tracking-wide">
+                      INSOLVENCY
+                    </span>
                   </div>
                   {/* Triangle accent elements */}
                   <div className="flex flex-col space-y-1 opacity-20 ml-2">
-                    <svg className="w-2 h-2 text-gold animate-float" viewBox="0 0 24 24" fill="currentColor">
+                    <svg
+                      className="w-2 h-2 text-gold animate-float"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
                       <path d="M12 2L2 22h20L12 2z" />
                     </svg>
-                    <svg className="w-1 h-1 text-gold animate-float-slow" viewBox="0 0 24 24" fill="currentColor">
+                    <svg
+                      className="w-1 h-1 text-gold animate-float-slow"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
                       <path d="M12 2L2 22h20L12 2z" />
                     </svg>
                   </div>
                 </div>
                 <p className="text-primary-foreground/90 leading-relaxed text-sm mb-6">
-                  Peak Insolvency Limited are registered in England, registered company address: Unit 21 Chorley North
-                  Industrial Park, Chorley, England, PR6 7BX Company registration number 11586328, Information
-                  Commissioner’s Office registration number ZB618281 Peak Insolvency Limited is an Insolvency Practice.
-                  Dylan Quail is licensed as an insolvency practitioner in the UK by the Insolvency Practitioners
-                  Association. In the instance that you meet the criteria for an Insolvency Practitioner we will act in
-                  reasonable contemplation of an appointment. In the instance that we are unable to offer a solution in
-                  house we will refer you to one of our trusted third parties to facilitate this for you. Fees may be
-                  charged in some solutions however these will be discussed in full with you. Should we refer you to a
-                  third party we may receive a fee for this.
+                  Peak Insolvency Limited are registered in England, registered
+                  company address: Unit 21 Chorley North Industrial Park,
+                  Chorley, England, PR6 7BX Company registration number
+                  11586328, Information Commissioner’s Office registration
+                  number ZB618281 Peak Insolvency Limited is an Insolvency
+                  Practice. Dylan Quail is licensed as an insolvency
+                  practitioner in the UK by the Insolvency Practitioners
+                  Association. In the instance that you meet the criteria for an
+                  Insolvency Practitioner we will act in reasonable
+                  contemplation of an appointment. In the instance that we are
+                  unable to offer a solution in house we will refer you to one
+                  of our trusted third parties to facilitate this for you. Fees
+                  may be charged in some solutions however these will be
+                  discussed in full with you. Should we refer you to a third
+                  party we may receive a fee for this.
                 </p>
               </div>
 
@@ -80,7 +106,9 @@ const Footer = () => {
                       />
                     </svg>
                   </div>
-                  <span className="text-primary-foreground/90 text-sm font-medium">Call to speak with one of our friendly staff</span>
+                  <span className="text-primary-foreground/90 text-sm font-medium">
+                    Call to speak with one of our friendly staff
+                  </span>
                 </div>
 
                 <div className="flex items-center space-x-3 p-3 rounded-lg glass hover:bg-gold/5 transition-all duration-300 group/contact">
@@ -99,18 +127,27 @@ const Footer = () => {
                       />
                     </svg>
                   </div>
-                  <span className="text-primary-foreground/90 text-sm font-medium">Mon-Fri, 9am-5pm</span>
+                  <span className="text-primary-foreground/90 text-sm font-medium">
+                    Mon-Fri, 9am-5pm
+                  </span>
                 </div>
               </div>
             </div>
 
             {/* Our Office */}
             <div className="group animate-slide-up">
-              <h4 className="text-lg font-semibold text-gold mb-6 border-b border-gold/20 pb-2">Our Office</h4>
+              <h4 className="text-lg font-semibold text-gold mb-6 border-b border-gold/20 pb-2">
+                Our Office
+              </h4>
               <div className="glass-card p-4 rounded-lg shadow-elegant hover:shadow-premium transition-all duration-500">
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 rounded-full bg-gold/20 flex items-center justify-center mt-1 group-hover:bg-gold/30 transition-colors duration-300">
-                    <svg className="w-3 h-3 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="w-3 h-3 text-gold"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -137,7 +174,9 @@ const Footer = () => {
 
             {/* Resources */}
             <div className="group animate-slide-up">
-              <h4 className="text-xl font-semibold text-gold mb-8 border-b border-gold/20 pb-3">Resources</h4>
+              <h4 className="text-xl font-semibold text-gold mb-8 border-b border-gold/20 pb-3">
+                Resources
+              </h4>
               <ul className="space-y-4">
                 <li className="transform transition-all duration-300 hover:translate-x-2">
                   <a

@@ -156,7 +156,7 @@ const Contact = () => {
                 Speak with us via email
               </p>
               <div className="font-semibold text-primary text-sm sm:text-base break-all px-2">
-                Customersupport@peakinsolvency.co.uk
+                Customersupport@peakinsolvency.com
               </div>
               <div className="text-sm text-muted-foreground">24/7 response</div>
             </div>
