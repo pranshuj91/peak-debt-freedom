@@ -37,9 +37,9 @@ All colors MUST be HSL.
     --accent-foreground: 0 0% 98%;
     --accent-light: 160 25% 45%;
 
-    /* Trust Gold */
-    --gold: 45 80% 55%;
-    --gold-light: 45 70% 65%;
+    /* Brand Green */
+    --gold: 95 70% 45%;
+    --gold-light: 95 60% 55%;
 
     /* Professional Grays */
     --gray-50: 220 15% 98%;
@@ -301,20 +301,20 @@ All colors MUST be HSL.
 @keyframes trianglePulse {
   0%, 100% { 
     transform: scale(1) rotate(0deg);
-    filter: drop-shadow(0 0 10px hsla(var(--gold), 0.3));
+    filter: drop-shadow(0 0 10px hsl(var(--gold) / 0.3));
   }
   50% { 
     transform: scale(1.1) rotate(5deg);
-    filter: drop-shadow(0 0 20px hsla(var(--gold), 0.6));
+    filter: drop-shadow(0 0 20px hsl(var(--gold) / 0.6));
   }
 }
 
 @keyframes peakGlow {
   0%, 100% { 
-    box-shadow: 0 0 20px hsla(var(--gold), 0.2), inset 0 0 20px hsla(var(--gold), 0.1);
+    box-shadow: 0 0 20px hsl(var(--gold) / 0.2), inset 0 0 20px hsl(var(--gold) / 0.1);
   }
   50% { 
-    box-shadow: 0 0 40px hsla(var(--gold), 0.4), inset 0 0 30px hsla(var(--gold), 0.2);
+    box-shadow: 0 0 40px hsl(var(--gold) / 0.4), inset 0 0 30px hsl(var(--gold) / 0.2);
   }
 }
 
