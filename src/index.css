@@ -32,10 +32,10 @@ All colors MUST be HSL.
     --muted: 220 15% 95%;
     --muted-foreground: 220 10% 50%;
 
-    /* Premium Accent - Sage Green */
-    --accent: 160 30% 35%;
+    /* Brand Green - #86bf40 (rgb 134, 191, 64) */
+    --accent: 87 50% 50%;
     --accent-foreground: 0 0% 98%;
-    --accent-light: 160 25% 45%;
+    --accent-light: 87 45% 60%;
 
     /* Brand Green - #86bf40 */
     --gold: 87 50% 50%;
