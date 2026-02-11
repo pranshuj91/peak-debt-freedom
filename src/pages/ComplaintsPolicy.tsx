@@ -85,10 +85,10 @@ const ComplaintsPolicy = () => {
                 <div>
                   <h4 className="font-semibold mb-1 text-sm sm:text-base">By Email</h4>
                   <a 
-                    href="mailto:complaints@peakinsolvency.co.uk" 
+                    href="mailto:Info@empoweredenergy.co.uk" 
                     className="text-primary hover:text-primary-glow transition-colors text-sm sm:text-base break-all"
                   >
-                    complaints@peakinsolvency.co.uk
+                    Info@empoweredenergy.co.uk
                   </a>
                 </div>
               </div>
