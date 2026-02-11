@@ -155,9 +155,9 @@ const Contact = () => {
               <p className="text-sm sm:text-base text-muted-foreground mb-4">
                 Speak with us via email
               </p>
-              <a href="mailto:Info@empoweredenergy.co.uk" className="font-semibold text-primary text-sm sm:text-base break-all px-2 hover:text-primary-glow transition-colors">
-                Info@empoweredenergy.co.uk
-              </a>
+              <div className="font-semibold text-primary text-sm sm:text-base break-all px-2">
+                Customersupport@peakinsolvency.com
+              </div>
               <div className="text-sm text-muted-foreground">24/7 response</div>
             </div>
 
