@@ -1,4 +1,4 @@
-# Peak Insolvency - Debt Freedom Website
+# Peak Insolvency Debt Freedom Website
 
 ## Project Overview
 
