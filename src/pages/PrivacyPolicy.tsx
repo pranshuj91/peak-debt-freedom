@@ -199,6 +199,17 @@ const PrivacyPolicy = () => {
                 </div>
               ))}
             </div>
+            <div className="p-4 rounded-lg bg-primary/5 border border-primary/20 mt-4">
+              <h4 className="font-semibold mb-2 text-sm sm:text-base">Valid8 IP Ltd &amp; Credit Reference Agencies</h4>
+              <p className="text-xs sm:text-sm text-muted-foreground">
+                We will disclose personal data to our partner Valid8 IP Ltd for the provision of credit report information which may include Equifax Ltd, Experian Ltd, TransUnion. If you'd like to understand how the credit reference agencies use and share personal data (including the legitimate interests they pursue) please read the Credit Reference Agency Information Notice (CRAIN):{' '}
+                <a href="http://www.transunion.co.uk/crain" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:opacity-80">TransUnion CRAIN</a>
+                {'; '}
+                <a href="https://www.equifax.co.uk/crain/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:opacity-80">Equifax CRAIN</a>
+                {'; '}
+                <a href="https://www.experian.co.uk/legal/crain/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:opacity-80">Experian CRAIN</a>.
+              </p>
+            </div>
           </CardContent>
         </Card>
 
